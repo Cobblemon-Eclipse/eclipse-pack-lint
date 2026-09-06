@@ -1,0 +1,41 @@
+{
+  "_comment": [
+    "Assets the Eclipse network authors and deliberately ships over Cobblemon.",
+    "Anything matched here is exempt from the RESIDUE class (PL-R001/PL-R002/PL-R003).",
+    "It is NEVER exempt from FATAL or CRASH - owning an asset does not make it safe.",
+    "Edit this file when we add a cosmetic line or fork a species; do not edit the code."
+  ],
+
+  "namespaces": [
+    "eclipse-cosmetics",
+    "eclipse-plushies",
+    "eclipse-skins",
+    "eclipse_skins",
+    "minecraft"
+  ],
+
+  "aspects": [
+    "radiant",
+    "gilded",
+    "plushie",
+    "cosmetic",
+    "eclipse",
+    "za_mega",
+    "zamega",
+    "champion",
+    "amethyst"
+  ],
+
+  "path_globs": [
+    "assets/*/textures/gui/**",
+    "assets/*/textures/item/badges/**",
+    "assets/*/models/item/custom/**",
+    "assets/minecraft/**",
+    "pack.png",
+    "pack.mcmeta"
+  ],
+
+  "species": [],
+
+  "keys": []
+}

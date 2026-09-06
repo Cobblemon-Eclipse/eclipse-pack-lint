@@ -1,0 +1,72 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.9", "3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      # stdlib only, so there is nothing to install.
+      - name: Unit tests
+        run: python -m unittest discover -s tests -t . -v
+
+      # The real Cobblemon jar and pack are far too big for CI, so the
+      # regression suite skips here; it is the local gate before a pack ships.
+      # These smoke checks keep the CLI itself from rotting.
+      - name: CLI smoke - rules
+        run: python -m packlint rules
+
+      - name: CLI smoke - explain every rule
+        run: |
+          python - <<'PY'
+          import subprocess, sys
+          from packlint import findings
+          for rule in findings.RULES:
+              out = subprocess.run(
+                  [sys.executable, "-m", "packlint", "validate", "--explain", rule],
+                  capture_output=True, text=True, check=True,
+              )
+              assert rule in out.stdout, rule
+              assert "SOURCE RULE" in out.stdout, rule
+          print(f"{len(findings.RULES)} rules explained")
+          PY
+
+      - name: CLI smoke - a pack with no jar still runs and exits 0
+        run: |
+          python - <<'PY'
+          import os, subprocess, sys, tempfile
+          sys.path.insert(0, ".")
+          from tests import fixtures as fx
+          with tempfile.TemporaryDirectory() as tmp:
+              pack = fx.write_zip(os.path.join(tmp, "p.zip"), {"pack.mcmeta": "{}"})
+              r = subprocess.run(
+                  [sys.executable, "-m", "packlint", "validate", "--pack", pack],
+                  capture_output=True, text=True,
+              )
+              print(r.stdout, r.stderr)
+              assert r.returncode == 0, r.returncode
+          PY
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Byte-compile everything
+        run: python -m compileall -q packlint tests

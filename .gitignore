@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+# Lint output
+report.json
+fix.json
+*.report.json
+# Never commit packs or jars - they are hundreds of MB
+*.zip
+*.jar

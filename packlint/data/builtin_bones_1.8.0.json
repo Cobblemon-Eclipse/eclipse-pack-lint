@@ -1,0 +1,12955 @@
+{
+ "cobblemon_version": "1.8.0",
+ "extracted_from": "C:\\cobblemon\\eclipse\\AI\\RunNBun\\references\\cobblemon-1.8\\common\\src\\main\\kotlin\\com\\cobblemon\\mod\\common",
+ "poser_count": 387,
+ "posers": {
+  "aggron": {
+   "animations": [
+    [
+     "aggron",
+     "cry"
+    ],
+    [
+     "aggron",
+     "ground_idle"
+    ]
+   ],
+   "class": "AggronModel",
+   "parts": [
+    "aggron",
+    "arm_left",
+    "arm_right",
+    "leg_left",
+    "leg_right",
+    "neck"
+   ],
+   "root": "aggron"
+  },
+  "aipom": {
+   "animations": [
+    [
+     "aipom",
+     "blink"
+    ],
+    [
+     "aipom",
+     "cry"
+    ],
+    [
+     "aipom",
+     "ground_idle"
+    ],
+    [
+     "aipom",
+     "ground_walk"
+    ],
+    [
+     "aipom",
+     "sleep"
+    ]
+   ],
+   "class": "AipomModel",
+   "parts": [
+    "aipom",
+    "head",
+    "left_upper_arm",
+    "left_upper_leg",
+    "right_upper_arm",
+    "right_upper_leg"
+   ],
+   "root": "aipom"
+  },
+  "alomomola": {
+   "animations": [
+    [
+     "alomomola",
+     "blink"
+    ],
+    [
+     "alomomola",
+     "water_idle"
+    ]
+   ],
+   "class": "AlomomolaModel",
+   "parts": [
+    "alomomola"
+   ],
+   "root": "alomomola"
+  },
+  "ambipom": {
+   "animations": [
+    [
+     "ambipom",
+     "blink"
+    ],
+    [
+     "ambipom",
+     "cry"
+    ],
+    [
+     "ambipom",
+     "ground_idle"
+    ],
+    [
+     "ambipom",
+     "ground_walk"
+    ],
+    [
+     "ambipom",
+     "sleep"
+    ]
+   ],
+   "class": "AmbipomModel",
+   "parts": [
+    "ambipom",
+    "head",
+    "left_upper_arm",
+    "left_upper_leg",
+    "right_upper_arm",
+    "right_upper_leg"
+   ],
+   "root": "ambipom"
+  },
+  "ampharos": {
+   "animations": [
+    [
+     "ampharos",
+     "battle_faint"
+    ],
+    [
+     "ampharos",
+     "battle_idle"
+    ],
+    [
+     "ampharos",
+     "blink"
+    ],
+    [
+     "ampharos",
+     "cry"
+    ],
+    [
+     "ampharos",
+     "faint"
+    ],
+    [
+     "ampharos",
+     "ground_idle"
+    ],
+    [
+     "ampharos",
+     "ground_walk"
+    ],
+    [
+     "ampharos",
+     "quirk_glow"
+    ],
+    [
+     "ampharos",
+     "quirk_toes"
+    ],
+    [
+     "ampharos",
+     "sleep"
+    ]
+   ],
+   "class": "AmpharosModel",
+   "parts": [
+    "ampharos",
+    "head"
+   ],
+   "root": "ampharos"
+  },
+  "ancient_azure_ball": {
+   "animations": [
+    [
+     "ancient_poke_ball",
+     "open"
+    ],
+    [
+     "ancient_poke_ball",
+     "open_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "AncientPokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "ancient_citrine_ball": {
+   "animations": [
+    [
+     "ancient_poke_ball",
+     "open"
+    ],
+    [
+     "ancient_poke_ball",
+     "open_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "AncientPokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "ancient_feather_ball": {
+   "animations": [
+    [
+     "ancient_poke_ball",
+     "open"
+    ],
+    [
+     "ancient_poke_ball",
+     "open_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "AncientPokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "ancient_gigaton_ball": {
+   "animations": [
+    [
+     "ancient_poke_ball",
+     "open"
+    ],
+    [
+     "ancient_poke_ball",
+     "open_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "AncientPokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "ancient_great_ball": {
+   "animations": [
+    [
+     "ancient_poke_ball",
+     "open"
+    ],
+    [
+     "ancient_poke_ball",
+     "open_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "AncientPokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "ancient_heavy_ball": {
+   "animations": [
+    [
+     "ancient_poke_ball",
+     "open"
+    ],
+    [
+     "ancient_poke_ball",
+     "open_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "AncientPokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "ancient_ivory_ball": {
+   "animations": [
+    [
+     "ancient_poke_ball",
+     "open"
+    ],
+    [
+     "ancient_poke_ball",
+     "open_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "AncientPokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "ancient_jet_ball": {
+   "animations": [
+    [
+     "ancient_poke_ball",
+     "open"
+    ],
+    [
+     "ancient_poke_ball",
+     "open_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "AncientPokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "ancient_leaden_ball": {
+   "animations": [
+    [
+     "ancient_poke_ball",
+     "open"
+    ],
+    [
+     "ancient_poke_ball",
+     "open_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "AncientPokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "ancient_poke_ball": {
+   "animations": [
+    [
+     "ancient_poke_ball",
+     "open"
+    ],
+    [
+     "ancient_poke_ball",
+     "open_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "AncientPokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "ancient_roseate_ball": {
+   "animations": [
+    [
+     "ancient_poke_ball",
+     "open"
+    ],
+    [
+     "ancient_poke_ball",
+     "open_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "AncientPokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "ancient_slate_ball": {
+   "animations": [
+    [
+     "ancient_poke_ball",
+     "open"
+    ],
+    [
+     "ancient_poke_ball",
+     "open_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "AncientPokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "ancient_ultra_ball": {
+   "animations": [
+    [
+     "ancient_poke_ball",
+     "open"
+    ],
+    [
+     "ancient_poke_ball",
+     "open_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "AncientPokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "ancient_verdant_ball": {
+   "animations": [
+    [
+     "ancient_poke_ball",
+     "open"
+    ],
+    [
+     "ancient_poke_ball",
+     "open_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "AncientPokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "ancient_wing_ball": {
+   "animations": [
+    [
+     "ancient_poke_ball",
+     "open"
+    ],
+    [
+     "ancient_poke_ball",
+     "open_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut"
+    ],
+    [
+     "ancient_poke_ball",
+     "shut_idle"
+    ],
+    [
+     "ancient_poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "AncientPokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "anorith": {
+   "animations": [
+    [
+     "anorith",
+     "battle_idle"
+    ],
+    [
+     "anorith",
+     "blink"
+    ],
+    [
+     "anorith",
+     "cry"
+    ],
+    [
+     "anorith",
+     "ground_idle"
+    ],
+    [
+     "anorith",
+     "ground_walk"
+    ],
+    [
+     "anorith",
+     "shoulder_left"
+    ],
+    [
+     "anorith",
+     "shoulder_right"
+    ],
+    [
+     "anorith",
+     "sleep"
+    ],
+    [
+     "anorith",
+     "summary_idle"
+    ],
+    [
+     "anorith",
+     "water_battle_idle"
+    ],
+    [
+     "anorith",
+     "water_idle"
+    ],
+    [
+     "anorith",
+     "water_sleep"
+    ],
+    [
+     "anorith",
+     "water_swim"
+    ]
+   ],
+   "class": "AnorithModel",
+   "parts": [
+    "anorith"
+   ],
+   "root": "anorith"
+  },
+  "archen": {
+   "animations": [
+    [
+     "archen",
+     "battle_cry"
+    ],
+    [
+     "archen",
+     "battle_idle"
+    ],
+    [
+     "archen",
+     "blink"
+    ],
+    [
+     "archen",
+     "chicken_fall"
+    ],
+    [
+     "archen",
+     "cry"
+    ],
+    [
+     "archen",
+     "ground_idle"
+    ],
+    [
+     "archen",
+     "ground_walk"
+    ],
+    [
+     "archen",
+     "idle_quirk"
+    ],
+    [
+     "archen",
+     "quirk"
+    ],
+    [
+     "archen",
+     "shoulder_left"
+    ],
+    [
+     "archen",
+     "shoulder_right"
+    ],
+    [
+     "archen",
+     "sleep"
+    ],
+    [
+     "archen",
+     "surfacewater_idle"
+    ],
+    [
+     "archen",
+     "surfacewater_swim"
+    ]
+   ],
+   "class": "ArchenModel",
+   "parts": [
+    "archen",
+    "head"
+   ],
+   "root": "archen"
+  },
+  "arctovish": {
+   "animations": [
+    [
+     "arctovish",
+     "blink"
+    ],
+    [
+     "arctovish",
+     "cry"
+    ],
+    [
+     "arctovish",
+     "ground_idle"
+    ],
+    [
+     "arctovish",
+     "ground_walk"
+    ],
+    [
+     "arctovish",
+     "sleep"
+    ],
+    [
+     "arctovish",
+     "water_cry"
+    ],
+    [
+     "arctovish",
+     "water_idle"
+    ],
+    [
+     "arctovish",
+     "water_quirk"
+    ],
+    [
+     "arctovish",
+     "water_sleep"
+    ],
+    [
+     "arctovish",
+     "water_swim"
+    ]
+   ],
+   "class": "ArctovishModel",
+   "parts": [
+    "arctovish",
+    "head"
+   ],
+   "root": "arctovish"
+  },
+  "arctozolt": {
+   "animations": [
+    [
+     "arctozolt",
+     "battle_idle"
+    ],
+    [
+     "arctozolt",
+     "blink"
+    ],
+    [
+     "arctozolt",
+     "cry"
+    ],
+    [
+     "arctozolt",
+     "ground_idle"
+    ],
+    [
+     "arctozolt",
+     "ground_walk"
+    ],
+    [
+     "arctozolt",
+     "quirk"
+    ],
+    [
+     "arctozolt",
+     "sleep"
+    ],
+    [
+     "arctozolt",
+     "surfacewater_idle"
+    ],
+    [
+     "arctozolt",
+     "surfacewater_sleep"
+    ],
+    [
+     "arctozolt",
+     "surfacewater_swim"
+    ],
+    [
+     "arctozolt",
+     "water_idle"
+    ],
+    [
+     "arctozolt",
+     "water_swim"
+    ]
+   ],
+   "class": "ArctozoltModel",
+   "parts": [
+    "arctozolt",
+    "head_ai"
+   ],
+   "root": "arctozolt"
+  },
+  "armaldo": {
+   "animations": [
+    [
+     "armaldo",
+     "battle_idle"
+    ],
+    [
+     "armaldo",
+     "blink"
+    ],
+    [
+     "armaldo",
+     "cry"
+    ],
+    [
+     "armaldo",
+     "ground_idle"
+    ],
+    [
+     "armaldo",
+     "ground_walk"
+    ],
+    [
+     "armaldo",
+     "look_quirk"
+    ],
+    [
+     "armaldo",
+     "sleep"
+    ],
+    [
+     "armaldo",
+     "water_battle_idle"
+    ],
+    [
+     "armaldo",
+     "water_idle"
+    ],
+    [
+     "armaldo",
+     "water_sleep"
+    ],
+    [
+     "armaldo",
+     "water_swim"
+    ]
+   ],
+   "class": "ArmaldoModel",
+   "parts": [
+    "arm1_left",
+    "arm1_right",
+    "armaldo",
+    "head",
+    "left_leg",
+    "right_leg"
+   ],
+   "root": "armaldo"
+  },
+  "aron": {
+   "animations": [
+    [
+     "aron",
+     "blink"
+    ],
+    [
+     "aron",
+     "cry"
+    ],
+    [
+     "aron",
+     "ground_idle"
+    ],
+    [
+     "aron",
+     "ground_walk2"
+    ]
+   ],
+   "class": "AronModel",
+   "parts": [
+    "aron",
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right"
+   ],
+   "root": "aron"
+  },
+  "arrokuda": {
+   "animations": [
+    [
+     "arrokuda",
+     "battle_idle"
+    ],
+    [
+     "arrokuda",
+     "blink"
+    ],
+    [
+     "arrokuda",
+     "ground_idle"
+    ],
+    [
+     "arrokuda",
+     "ground_quirk"
+    ],
+    [
+     "arrokuda",
+     "ground_walk"
+    ],
+    [
+     "arrokuda",
+     "sleep"
+    ],
+    [
+     "arrokuda",
+     "water_battle_idle"
+    ],
+    [
+     "arrokuda",
+     "water_idle"
+    ],
+    [
+     "arrokuda",
+     "water_sleep"
+    ],
+    [
+     "arrokuda",
+     "water_swim"
+    ]
+   ],
+   "class": "ArrokudaModel",
+   "parts": [
+    "arrokuda"
+   ],
+   "root": "arrokuda"
+  },
+  "aurorus": {
+   "animations": [
+    [
+     "aurorus",
+     "battle_idle"
+    ],
+    [
+     "aurorus",
+     "blink"
+    ],
+    [
+     "aurorus",
+     "cry"
+    ],
+    [
+     "aurorus",
+     "ground_idle"
+    ],
+    [
+     "aurorus",
+     "ground_walk"
+    ],
+    [
+     "aurorus",
+     "sleep"
+    ]
+   ],
+   "class": "AurorusModel",
+   "parts": [
+    "aurorus",
+    "neck1"
+   ],
+   "root": "aurorus"
+  },
+  "avalugg": {
+   "animations": [
+    [
+     "avalugg",
+     "battle_idle"
+    ],
+    [
+     "avalugg",
+     "blink"
+    ],
+    [
+     "avalugg",
+     "cry"
+    ],
+    [
+     "avalugg",
+     "faint"
+    ],
+    [
+     "avalugg",
+     "ground_idle"
+    ],
+    [
+     "avalugg",
+     "ground_walk"
+    ],
+    [
+     "avalugg",
+     "sleep"
+    ],
+    [
+     "avalugg",
+     "water_idle"
+    ],
+    [
+     "avalugg",
+     "water_swim"
+    ]
+   ],
+   "class": "AvaluggModel",
+   "parts": [
+    "avalugg",
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right"
+   ],
+   "root": "avalugg"
+  },
+  "azure_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "barboach": {
+   "animations": [
+    [
+     "barboach",
+     "battle_idle"
+    ],
+    [
+     "barboach",
+     "blink"
+    ],
+    [
+     "barboach",
+     "cry"
+    ],
+    [
+     "barboach",
+     "ground_idle"
+    ],
+    [
+     "barboach",
+     "water_idle"
+    ],
+    [
+     "barboach",
+     "water_sleep"
+    ],
+    [
+     "barboach",
+     "water_swim"
+    ]
+   ],
+   "class": "BarboachModel",
+   "parts": [
+    "barboach"
+   ],
+   "root": "barboach"
+  },
+  "barraskewda": {
+   "animations": [
+    [
+     "barraskewda",
+     "battle_idle"
+    ],
+    [
+     "barraskewda",
+     "blink"
+    ],
+    [
+     "barraskewda",
+     "ground_idle"
+    ],
+    [
+     "barraskewda",
+     "ground_walk"
+    ],
+    [
+     "barraskewda",
+     "sleep"
+    ],
+    [
+     "barraskewda",
+     "water_battle_idle"
+    ],
+    [
+     "barraskewda",
+     "water_idle"
+    ],
+    [
+     "barraskewda",
+     "water_sleep"
+    ],
+    [
+     "barraskewda",
+     "water_swim"
+    ]
+   ],
+   "class": "BarraskewdaModel",
+   "parts": [
+    "barraskewda"
+   ],
+   "root": "barraskewda"
+  },
+  "bayleef": {
+   "animations": [
+    [
+     "bayleef",
+     "battle_idle"
+    ],
+    [
+     "bayleef",
+     "blink"
+    ],
+    [
+     "bayleef",
+     "cry"
+    ],
+    [
+     "bayleef",
+     "ground_idle"
+    ],
+    [
+     "bayleef",
+     "ground_walk"
+    ],
+    [
+     "bayleef",
+     "sleep"
+    ]
+   ],
+   "class": "BayleefModel",
+   "parts": [
+    "bayleef",
+    "head"
+   ],
+   "root": "bayleef"
+  },
+  "beartic": {
+   "animations": [
+    [
+     "beartic",
+     "blink"
+    ],
+    [
+     "beartic",
+     "ground_idle"
+    ]
+   ],
+   "class": "BearticModel",
+   "parts": [
+    "beartic",
+    "head",
+    "left_arm",
+    "left_leg",
+    "right_arm",
+    "right_leg"
+   ],
+   "root": "beartic"
+  },
+  "beast_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ],
+    [
+     "poke_ball",
+     "throw_beast"
+    ]
+   ],
+   "class": "BeastBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "beedrill": {
+   "animations": [
+    [
+     "beedrill",
+     "air_fly"
+    ],
+    [
+     "beedrill",
+     "air_idle"
+    ],
+    [
+     "beedrill",
+     "cry"
+    ],
+    [
+     "beedrill",
+     "sleep"
+    ]
+   ],
+   "class": "BeedrillModel",
+   "parts": [
+    "beedrill",
+    "head",
+    "wing_left",
+    "wing_right"
+   ],
+   "root": "beedrill"
+  },
+  "bellossom": {
+   "animations": [
+    [
+     "bellossom",
+     "blink"
+    ],
+    [
+     "bellossom",
+     "ground_idle"
+    ],
+    [
+     "bellossom",
+     "ground_walk"
+    ]
+   ],
+   "class": "BellossomModel",
+   "parts": [
+    "bellossom",
+    "head"
+   ],
+   "root": "bellossom"
+  },
+  "bergmite": {
+   "animations": [
+    [
+     "bergmite",
+     "battle_idle"
+    ],
+    [
+     "bergmite",
+     "blink"
+    ],
+    [
+     "bergmite",
+     "cry"
+    ],
+    [
+     "bergmite",
+     "faint"
+    ],
+    [
+     "bergmite",
+     "ground_idle"
+    ],
+    [
+     "bergmite",
+     "ground_walk"
+    ],
+    [
+     "bergmite",
+     "sleep"
+    ]
+   ],
+   "class": "BergmiteModel",
+   "parts": [
+    "bergmite",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right"
+   ],
+   "root": "bergmite"
+  },
+  "bewear": {
+   "animations": [
+    [
+     "bewear",
+     "battle_idle"
+    ],
+    [
+     "bewear",
+     "blink"
+    ],
+    [
+     "bewear",
+     "cry"
+    ],
+    [
+     "bewear",
+     "faint"
+    ],
+    [
+     "bewear",
+     "ground_idle"
+    ],
+    [
+     "bewear",
+     "ground_walk"
+    ],
+    [
+     "bewear",
+     "sleep"
+    ]
+   ],
+   "class": "BewearModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "bewear",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "bewear"
+  },
+  "bibarel": {
+   "animations": [
+    [
+     "bibarel",
+     "blink"
+    ],
+    [
+     "bibarel",
+     "cry"
+    ],
+    [
+     "bibarel",
+     "ground_idle"
+    ]
+   ],
+   "class": "BibarelModel",
+   "parts": [
+    "bibarel",
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right"
+   ],
+   "root": "bibarel"
+  },
+  "boldore": {
+   "animations": [
+    [
+     "boldore",
+     "battle_idle"
+    ],
+    [
+     "boldore",
+     "cry"
+    ],
+    [
+     "boldore",
+     "faint"
+    ],
+    [
+     "boldore",
+     "ground_idle"
+    ],
+    [
+     "boldore",
+     "ground_walk"
+    ],
+    [
+     "boldore",
+     "sleep"
+    ]
+   ],
+   "class": "BoldoreModel",
+   "parts": [
+    "boldore",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "boldore"
+  },
+  "boltund": {
+   "animations": [
+    [
+     "boltund",
+     "battle_idle"
+    ],
+    [
+     "boltund",
+     "blink"
+    ],
+    [
+     "boltund",
+     "cry"
+    ],
+    [
+     "boltund",
+     "faint"
+    ],
+    [
+     "boltund",
+     "ground_idle"
+    ],
+    [
+     "boltund",
+     "ground_walk"
+    ],
+    [
+     "boltund",
+     "sleep"
+    ]
+   ],
+   "class": "BoltundModel",
+   "parts": [
+    "boltund",
+    "head"
+   ],
+   "root": "boltund"
+  },
+  "bonsly": {
+   "animations": [
+    [
+     "bonsly",
+     "battle_idle"
+    ],
+    [
+     "bonsly",
+     "blink"
+    ],
+    [
+     "bonsly",
+     "ground_idle"
+    ],
+    [
+     "bonsly",
+     "ground_walk"
+    ],
+    [
+     "bonsly",
+     "sleep"
+    ],
+    [
+     "bonsly",
+     "sleep_pot"
+    ]
+   ],
+   "class": "BonslyModel",
+   "parts": [
+    "bonsly",
+    "leg_left",
+    "leg_right",
+    "torso"
+   ],
+   "root": "bonsly"
+  },
+  "bounsweet": {
+   "animations": [],
+   "class": "BounsweetModel",
+   "parts": [
+    "bounsweet",
+    "left_foot",
+    "right_foot"
+   ],
+   "root": "bounsweet"
+  },
+  "breloom": {
+   "animations": [
+    [
+     "breloom",
+     "battle_faint"
+    ],
+    [
+     "breloom",
+     "battle_idle"
+    ],
+    [
+     "breloom",
+     "blink"
+    ],
+    [
+     "breloom",
+     "cry"
+    ],
+    [
+     "breloom",
+     "faint"
+    ],
+    [
+     "breloom",
+     "ground_idle"
+    ],
+    [
+     "breloom",
+     "ground_walk"
+    ],
+    [
+     "breloom",
+     "sleep"
+    ]
+   ],
+   "class": "BreloomModel",
+   "parts": [
+    "breloom",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "breloom"
+  },
+  "budew": {
+   "animations": [
+    [
+     "budew",
+     "battle_idle"
+    ],
+    [
+     "budew",
+     "blink"
+    ],
+    [
+     "budew",
+     "cry"
+    ],
+    [
+     "budew",
+     "faint"
+    ],
+    [
+     "budew",
+     "ground_idle"
+    ],
+    [
+     "budew",
+     "ground_walk"
+    ],
+    [
+     "budew",
+     "quirk_idle"
+    ],
+    [
+     "budew",
+     "sleep"
+    ]
+   ],
+   "class": "BudewModel",
+   "parts": [
+    "budew"
+   ],
+   "root": "budew"
+  },
+  "buizel": {
+   "animations": [
+    [
+     "buizel",
+     "blink"
+    ],
+    [
+     "buizel",
+     "cry"
+    ],
+    [
+     "buizel",
+     "ground_idle"
+    ],
+    [
+     "buizel",
+     "ground_walk"
+    ],
+    [
+     "buizel",
+     "sleep"
+    ],
+    [
+     "buizel",
+     "surfacewater_idle"
+    ],
+    [
+     "buizel",
+     "surfacewater_sleep"
+    ],
+    [
+     "buizel",
+     "surfacewater_swim"
+    ],
+    [
+     "buizel",
+     "water_idle"
+    ],
+    [
+     "buizel",
+     "water_sleep"
+    ],
+    [
+     "buizel",
+     "water_swim"
+    ]
+   ],
+   "class": "BuizelModel",
+   "parts": [
+    "buizel",
+    "head"
+   ],
+   "root": "buizel"
+  },
+  "buneary": {
+   "animations": [
+    [
+     "buneary",
+     "blink"
+    ],
+    [
+     "buneary",
+     "cry"
+    ],
+    [
+     "buneary",
+     "ground_idle"
+    ]
+   ],
+   "class": "BunearyModel",
+   "parts": [
+    "buneary",
+    "foot_left",
+    "foot_right",
+    "head"
+   ],
+   "root": "buneary"
+  },
+  "bunnelby": {
+   "animations": [
+    [
+     "bunnelby",
+     "battle_idle"
+    ],
+    [
+     "bunnelby",
+     "blink"
+    ],
+    [
+     "bunnelby",
+     "cry"
+    ],
+    [
+     "bunnelby",
+     "ground_idle"
+    ],
+    [
+     "bunnelby",
+     "ground_walk"
+    ],
+    [
+     "bunnelby",
+     "quirk_sleep"
+    ],
+    [
+     "bunnelby",
+     "quirk_sleep2"
+    ],
+    [
+     "bunnelby",
+     "sleep"
+    ]
+   ],
+   "class": "BunnelbyModel",
+   "parts": [
+    "bunnelby",
+    "head"
+   ],
+   "root": "bunnelby"
+  },
+  "butterfree": {
+   "animations": [
+    [
+     "butterfree",
+     "air_fly"
+    ],
+    [
+     "butterfree",
+     "air_idle"
+    ],
+    [
+     "butterfree",
+     "cry"
+    ],
+    [
+     "butterfree",
+     "sleep"
+    ]
+   ],
+   "class": "ButterfreeModel",
+   "parts": [
+    "butterfree",
+    "head",
+    "wing_left",
+    "wing_right"
+   ],
+   "root": "butterfree"
+  },
+  "carbink": {
+   "animations": [
+    [
+     "carbink",
+     "air_idle"
+    ],
+    [
+     "carbink",
+     "air_walk"
+    ],
+    [
+     "carbink",
+     "blink"
+    ],
+    [
+     "carbink",
+     "cry"
+    ]
+   ],
+   "class": "CarbinkModel",
+   "parts": [
+    "carbink"
+   ],
+   "root": "carbink"
+  },
+  "carnivine": {
+   "animations": [
+    [
+     "carnivine",
+     "air_fly"
+    ],
+    [
+     "carnivine",
+     "air_idle"
+    ],
+    [
+     "carnivine",
+     "battle_idle"
+    ],
+    [
+     "carnivine",
+     "blink"
+    ],
+    [
+     "carnivine",
+     "ground_idle"
+    ],
+    [
+     "carnivine",
+     "ground_walk"
+    ],
+    [
+     "carnivine",
+     "quirk_ground_idle"
+    ]
+   ],
+   "class": "CarnivineModel",
+   "parts": [
+    "carnivine",
+    "head"
+   ],
+   "root": "carnivine"
+  },
+  "caterpie": {
+   "animations": [
+    [
+     "caterpie",
+     "blink"
+    ],
+    [
+     "caterpie",
+     "cry"
+    ],
+    [
+     "caterpie",
+     "faint"
+    ],
+    [
+     "caterpie",
+     "ground_idle"
+    ],
+    [
+     "caterpie",
+     "ground_walk"
+    ],
+    [
+     "caterpie",
+     "sleep"
+    ]
+   ],
+   "class": "CaterpieModel",
+   "parts": [
+    "caterpie",
+    "head"
+   ],
+   "root": "caterpie"
+  },
+  "centiskorch": {
+   "animations": [
+    [
+     "centiskorch",
+     "battle_idle"
+    ],
+    [
+     "centiskorch",
+     "blink"
+    ],
+    [
+     "centiskorch",
+     "ground_idle"
+    ],
+    [
+     "centiskorch",
+     "ground_walk"
+    ],
+    [
+     "centiskorch",
+     "sleep"
+    ]
+   ],
+   "class": "CentiskorchModel",
+   "parts": [
+    "centiskorch",
+    "head"
+   ],
+   "root": "centiskorch"
+  },
+  "cetitan": {
+   "animations": [
+    [
+     "cetitan",
+     "battle_idle"
+    ],
+    [
+     "cetitan",
+     "blink"
+    ],
+    [
+     "cetitan",
+     "cry"
+    ],
+    [
+     "cetitan",
+     "faint"
+    ],
+    [
+     "cetitan",
+     "ground_idle"
+    ],
+    [
+     "cetitan",
+     "ground_walk"
+    ],
+    [
+     "cetitan",
+     "sleep"
+    ]
+   ],
+   "class": "CetitanModel",
+   "parts": [
+    "cetitan"
+   ],
+   "root": "cetitan"
+  },
+  "cetoddle": {
+   "animations": [
+    [
+     "cetoddle",
+     "battle_idle"
+    ],
+    [
+     "cetoddle",
+     "blink"
+    ],
+    [
+     "cetoddle",
+     "cry"
+    ],
+    [
+     "cetoddle",
+     "faint"
+    ],
+    [
+     "cetoddle",
+     "ground_idle"
+    ],
+    [
+     "cetoddle",
+     "ground_walk"
+    ],
+    [
+     "cetoddle",
+     "sleep"
+    ]
+   ],
+   "class": "CetoddleModel",
+   "parts": [
+    "cetoddle"
+   ],
+   "root": "cetoddle"
+  },
+  "charcadet": {
+   "animations": [
+    [
+     "charcadet",
+     "blink"
+    ],
+    [
+     "charcadet",
+     "cry"
+    ],
+    [
+     "charcadet",
+     "eye_flame_overlay"
+    ],
+    [
+     "charcadet",
+     "faint"
+    ],
+    [
+     "charcadet",
+     "ground_idle"
+    ],
+    [
+     "charcadet",
+     "ground_walk"
+    ],
+    [
+     "charcadet",
+     "head_flame_overlay"
+    ],
+    [
+     "charcadet",
+     "shoulder_left"
+    ],
+    [
+     "charcadet",
+     "shoulder_right"
+    ],
+    [
+     "charcadet",
+     "sleep"
+    ]
+   ],
+   "class": "CharcadetModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "charcadet",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "charcadet"
+  },
+  "cherish_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "chesnaught": {
+   "animations": [
+    [
+     "chesnaught",
+     "blink"
+    ],
+    [
+     "chesnaught",
+     "cry"
+    ],
+    [
+     "chesnaught",
+     "ground_idle"
+    ]
+   ],
+   "class": "ChesnaughtModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "chesnaught",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "chesnaught"
+  },
+  "chespin": {
+   "animations": [
+    [
+     "chespin",
+     "blink"
+    ],
+    [
+     "chespin",
+     "cry"
+    ],
+    [
+     "chespin",
+     "ground_idle"
+    ],
+    [
+     "chespin",
+     "ground_walk"
+    ],
+    [
+     "chespin",
+     "sleep"
+    ]
+   ],
+   "class": "ChespinModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "chespin",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "chespin"
+  },
+  "chikorita": {
+   "animations": [
+    [
+     "chikorita",
+     "battle_idle"
+    ],
+    [
+     "chikorita",
+     "blink"
+    ],
+    [
+     "chikorita",
+     "cry"
+    ],
+    [
+     "chikorita",
+     "ground_idle"
+    ],
+    [
+     "chikorita",
+     "ground_walk"
+    ],
+    [
+     "chikorita",
+     "sleep"
+    ]
+   ],
+   "class": "ChikoritaModel",
+   "parts": [
+    "chikorita",
+    "head"
+   ],
+   "root": "chikorita"
+  },
+  "chimchar": {
+   "animations": [
+    [
+     "chimchar",
+     "battle_idle"
+    ],
+    [
+     "chimchar",
+     "blink"
+    ],
+    [
+     "chimchar",
+     "cry"
+    ],
+    [
+     "chimchar",
+     "faint"
+    ],
+    [
+     "chimchar",
+     "ground_idle"
+    ],
+    [
+     "chimchar",
+     "ground_walk"
+    ]
+   ],
+   "class": "ChimcharModel",
+   "parts": [
+    "chimchar",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "chimchar"
+  },
+  "citrine_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "clamperl": {
+   "animations": [
+    [
+     "clamperl",
+     "ground_idle"
+    ],
+    [
+     "clamperl",
+     "ground_walk"
+    ],
+    [
+     "clamperl",
+     "portrait"
+    ],
+    [
+     "clamperl",
+     "water_idle"
+    ],
+    [
+     "clamperl",
+     "water_swim"
+    ]
+   ],
+   "class": "ClamperlModel",
+   "parts": [
+    "clamperl",
+    "head"
+   ],
+   "root": "clamperl"
+  },
+  "clodsire": {
+   "animations": [
+    [
+     "clodsire",
+     "blink"
+    ],
+    [
+     "clodsire",
+     "cry"
+    ],
+    [
+     "clodsire",
+     "ground_idle"
+    ]
+   ],
+   "class": "ClodsireModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "clodsire",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "clodsire"
+  },
+  "combee": {
+   "animations": [
+    [
+     "combee",
+     "air_fly"
+    ],
+    [
+     "combee",
+     "air_idle"
+    ],
+    [
+     "combee",
+     "air_sleep"
+    ],
+    [
+     "combee",
+     "blink_gender"
+    ],
+    [
+     "combee",
+     "blink_left"
+    ],
+    [
+     "combee",
+     "blink_right"
+    ],
+    [
+     "combee",
+     "faint"
+    ]
+   ],
+   "class": "CombeeModel",
+   "parts": [
+    "combee"
+   ],
+   "root": "combee"
+  },
+  "comfey": {
+   "animations": [
+    [
+     "comfey",
+     "blink"
+    ],
+    [
+     "comfey",
+     "ground_idle"
+    ],
+    [
+     "comfey",
+     "ground_walk"
+    ],
+    [
+     "comfey",
+     "shoulder_left"
+    ],
+    [
+     "comfey",
+     "shoulder_right"
+    ],
+    [
+     "comfey",
+     "sleep"
+    ]
+   ],
+   "class": "ComfeyModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "comfey",
+    "spin"
+   ],
+   "root": "comfey"
+  },
+  "conkeldurr": {
+   "animations": [
+    [
+     "conkeldurr",
+     "battle_idle"
+    ],
+    [
+     "conkeldurr",
+     "blink"
+    ],
+    [
+     "conkeldurr",
+     "cry"
+    ],
+    [
+     "conkeldurr",
+     "ground_idle"
+    ],
+    [
+     "conkeldurr",
+     "ground_walk"
+    ],
+    [
+     "conkeldurr",
+     "sleep"
+    ]
+   ],
+   "class": "ConkeldurrModel",
+   "parts": [
+    "conkeldurr",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "conkeldurr"
+  },
+  "copperajah": {
+   "animations": [
+    [
+     "copperajah",
+     "battle_idle"
+    ],
+    [
+     "copperajah",
+     "blink"
+    ],
+    [
+     "copperajah",
+     "ground_idle"
+    ],
+    [
+     "copperajah",
+     "ground_walk"
+    ],
+    [
+     "copperajah",
+     "quirk_idle"
+    ],
+    [
+     "copperajah",
+     "sleep"
+    ]
+   ],
+   "class": "CopperajahModel",
+   "parts": [
+    "copperajah"
+   ],
+   "root": "copperajah"
+  },
+  "crabominable": {
+   "animations": [
+    [
+     "crabominable",
+     "ground_idle"
+    ],
+    [
+     "crabominable",
+     "ground_walk"
+    ]
+   ],
+   "class": "CrabominableModel",
+   "parts": [
+    "crabominable",
+    "head"
+   ],
+   "root": "crabominable"
+  },
+  "crabrawler": {
+   "animations": [
+    [
+     "crabrawler",
+     "ground_idle"
+    ],
+    [
+     "crabrawler",
+     "ground_walk"
+    ],
+    [
+     "crabrawler",
+     "portrait"
+    ]
+   ],
+   "class": "CrabrawlerModel",
+   "parts": [
+    "crabrawler",
+    "head"
+   ],
+   "root": "crabrawler"
+  },
+  "cradily": {
+   "animations": [
+    [
+     "cradily",
+     "blink"
+    ],
+    [
+     "cradily",
+     "cry"
+    ],
+    [
+     "cradily",
+     "ground_idle"
+    ],
+    [
+     "cradily",
+     "ground_walk"
+    ],
+    [
+     "cradily",
+     "sleep"
+    ]
+   ],
+   "class": "CradilyModel",
+   "parts": [
+    "cradily",
+    "head"
+   ],
+   "root": "cradily"
+  },
+  "crocalor": {
+   "animations": [
+    [
+     "crocalor",
+     "battle_idle"
+    ],
+    [
+     "crocalor",
+     "blink"
+    ],
+    [
+     "crocalor",
+     "cry"
+    ],
+    [
+     "crocalor",
+     "ground_idle"
+    ],
+    [
+     "crocalor",
+     "ground_walk"
+    ],
+    [
+     "crocalor",
+     "sleep"
+    ]
+   ],
+   "class": "CrocalorModel",
+   "parts": [
+    "crocalor",
+    "head"
+   ],
+   "root": "crocalor"
+  },
+  "croconaw": {
+   "animations": [
+    [
+     "croconaw",
+     "battle_idle"
+    ],
+    [
+     "croconaw",
+     "blink"
+    ],
+    [
+     "croconaw",
+     "cry"
+    ],
+    [
+     "croconaw",
+     "faint"
+    ],
+    [
+     "croconaw",
+     "ground_idle"
+    ],
+    [
+     "croconaw",
+     "ground_walk"
+    ],
+    [
+     "croconaw",
+     "sleep"
+    ],
+    [
+     "croconaw",
+     "surfacewater_idle"
+    ],
+    [
+     "croconaw",
+     "surfacewater_swim"
+    ],
+    [
+     "croconaw",
+     "water_idle"
+    ],
+    [
+     "croconaw",
+     "water_sleep"
+    ],
+    [
+     "croconaw",
+     "water_swim"
+    ]
+   ],
+   "class": "CroconawModel",
+   "parts": [
+    "croconaw",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "croconaw"
+  },
+  "cryogonal": {
+   "animations": [
+    [
+     "cryogonal",
+     "blink"
+    ],
+    [
+     "cryogonal",
+     "faint"
+    ],
+    [
+     "cryogonal",
+     "ground_idle"
+    ],
+    [
+     "cryogonal",
+     "ground_walk"
+    ],
+    [
+     "cryogonal",
+     "sleep"
+    ]
+   ],
+   "class": "CryogonalModel",
+   "parts": [
+    "body",
+    "cryogonal"
+   ],
+   "root": "cryogonal"
+  },
+  "cubchoo": {
+   "animations": [
+    [
+     "cubchoo",
+     "blink"
+    ],
+    [
+     "cubchoo",
+     "ground_idle"
+    ]
+   ],
+   "class": "CubchooModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "cubchoo",
+    "head",
+    "left_leg",
+    "right_leg"
+   ],
+   "root": "cubchoo"
+  },
+  "cubone": {
+   "animations": [
+    [
+     "cubone",
+     "blink"
+    ],
+    [
+     "cubone",
+     "cry"
+    ],
+    [
+     "cubone",
+     "idle"
+    ]
+   ],
+   "class": "CuboneModel",
+   "parts": [
+    "cubone",
+    "head",
+    "left_leg",
+    "right_leg"
+   ],
+   "root": "cubone"
+  },
+  "cufant": {
+   "animations": [
+    [
+     "cufant",
+     "battle_idle"
+    ],
+    [
+     "cufant",
+     "blink"
+    ],
+    [
+     "cufant",
+     "ground_idle"
+    ],
+    [
+     "cufant",
+     "ground_walk"
+    ],
+    [
+     "cufant",
+     "sleep"
+    ]
+   ],
+   "class": "CufantModel",
+   "parts": [
+    "cufant"
+   ],
+   "root": "cufant"
+  },
+  "cyndaquil": {
+   "animations": [
+    [
+     "cyndaquil",
+     "battle_cry"
+    ],
+    [
+     "cyndaquil",
+     "battle_idle"
+    ],
+    [
+     "cyndaquil",
+     "cry"
+    ],
+    [
+     "cyndaquil",
+     "ground_idle"
+    ],
+    [
+     "cyndaquil",
+     "ground_walk"
+    ],
+    [
+     "cyndaquil",
+     "sleep"
+    ]
+   ],
+   "class": "CyndaquilModel",
+   "parts": [
+    "cyndaquil",
+    "head"
+   ],
+   "root": "cyndaquil"
+  },
+  "cyndaquil_hisui_bias": {
+   "animations": [
+    [
+     "cyndaquil_hisui_bias",
+     "battle_cry"
+    ],
+    [
+     "cyndaquil_hisui_bias",
+     "battle_idle"
+    ],
+    [
+     "cyndaquil_hisui_bias",
+     "cry"
+    ],
+    [
+     "cyndaquil_hisui_bias",
+     "ground_idle"
+    ],
+    [
+     "cyndaquil_hisui_bias",
+     "ground_walk"
+    ],
+    [
+     "cyndaquil_hisui_bias",
+     "sleep"
+    ]
+   ],
+   "class": "CyndaquilHisuiBiasModel",
+   "parts": [
+    "cyndaquil_hisui_bias",
+    "head"
+   ],
+   "root": "cyndaquil_hisui_bias"
+  },
+  "dachsbun": {
+   "animations": [
+    [
+     "dachsbun",
+     "blink"
+    ],
+    [
+     "dachsbun",
+     "cry"
+    ],
+    [
+     "dachsbun",
+     "ground_idle"
+    ],
+    [
+     "dachsbun",
+     "ground_walk"
+    ],
+    [
+     "dachsbun",
+     "sleep"
+    ]
+   ],
+   "class": "DachsbunModel",
+   "parts": [
+    "dachsbun",
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right"
+   ],
+   "root": "dachsbun"
+  },
+  "dartrix": {
+   "animations": [
+    [
+     "dartrix",
+     "cry"
+    ],
+    [
+     "dartrix",
+     "ground_idle"
+    ]
+   ],
+   "class": "DartrixModel",
+   "parts": [
+    "dartrix",
+    "leg_left",
+    "leg_right",
+    "wing_left_open",
+    "wing_right_open",
+    "wings_closed",
+    "wings_open"
+   ],
+   "root": "dartrix"
+  },
+  "dartrix_hisui_bias": {
+   "animations": [
+    [
+     "dartrix_hisui_bias",
+     "cry"
+    ],
+    [
+     "dartrix_hisui_bias",
+     "ground_idle"
+    ]
+   ],
+   "class": "DartrixHisuiBiasModel",
+   "parts": [
+    "dartrix_hisui_bias",
+    "leg_left",
+    "leg_right",
+    "wing_left_open",
+    "wing_right_open",
+    "wings_closed",
+    "wings_open"
+   ],
+   "root": "dartrix_hisui_bias"
+  },
+  "decidueye": {
+   "animations": [
+    [
+     "decidueye",
+     "air_fly"
+    ],
+    [
+     "decidueye",
+     "air_idle"
+    ],
+    [
+     "decidueye",
+     "blink"
+    ],
+    [
+     "decidueye",
+     "cry"
+    ],
+    [
+     "decidueye",
+     "ground_idle"
+    ]
+   ],
+   "class": "DecidueyeModel",
+   "parts": [
+    "arrow",
+    "decidueye",
+    "head",
+    "thigh_left",
+    "thigh_right",
+    "wing_closed_left1",
+    "wing_closed_right1",
+    "wing_open_left1",
+    "wing_open_right1"
+   ],
+   "root": "decidueye"
+  },
+  "decidueye_hisuian": {
+   "animations": [
+    [
+     "decidueye",
+     "air_fly"
+    ],
+    [
+     "decidueye",
+     "air_idle"
+    ],
+    [
+     "decidueye",
+     "blink"
+    ],
+    [
+     "decidueye",
+     "ground_idle"
+    ],
+    [
+     "decidueye",
+     "hisuian_cry"
+    ]
+   ],
+   "class": "DecidueyeHisuianModel",
+   "parts": [
+    "arrow",
+    "decidueye_hisui",
+    "head",
+    "thigh_left",
+    "thigh_right",
+    "wing_closed_left1",
+    "wing_closed_right1",
+    "wing_open_left1",
+    "wing_open_right1"
+   ],
+   "root": "decidueye_hisui"
+  },
+  "deerling": {
+   "animations": [],
+   "class": "DeerlingModel",
+   "parts": [
+    "deerling",
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right"
+   ],
+   "root": "deerling"
+  },
+  "dewott_hisui_bias": {
+   "animations": [
+    [
+     "dewott_hisui_bias",
+     "blink"
+    ],
+    [
+     "dewott_hisui_bias",
+     "cry"
+    ],
+    [
+     "dewott_hisui_bias",
+     "ground_idle"
+    ],
+    [
+     "dewott_hisui_bias",
+     "ground_walk"
+    ],
+    [
+     "dewott_hisui_bias",
+     "sleep"
+    ]
+   ],
+   "class": "DewottHisuiBiasModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "dewott_hisui_bias",
+    "head",
+    "leg_left",
+    "leg_right",
+    "scalchop_hand_left",
+    "scalchop_hand_right",
+    "scalchop_skirt_left",
+    "scalchop_skirt_right"
+   ],
+   "root": "dewott_hisui_bias"
+  },
+  "dive_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "dodrio": {
+   "animations": [
+    [
+     "dodrio",
+     "battle_idle"
+    ],
+    [
+     "dodrio",
+     "bite_quirk1"
+    ],
+    [
+     "dodrio",
+     "bite_quirk2"
+    ],
+    [
+     "dodrio",
+     "bite_quirk3"
+    ],
+    [
+     "dodrio",
+     "blink1"
+    ],
+    [
+     "dodrio",
+     "blink2"
+    ],
+    [
+     "dodrio",
+     "blink3"
+    ],
+    [
+     "dodrio",
+     "cry"
+    ],
+    [
+     "dodrio",
+     "ground_idle"
+    ],
+    [
+     "dodrio",
+     "ground_walk"
+    ],
+    [
+     "dodrio",
+     "sleep"
+    ]
+   ],
+   "class": "DodrioModel",
+   "parts": [
+    "dodrio",
+    "head2",
+    "head3",
+    "head4"
+   ],
+   "root": "dodrio"
+  },
+  "doduo": {
+   "animations": [
+    [
+     "doduo",
+     "battle_idle"
+    ],
+    [
+     "doduo",
+     "bite_quirk1"
+    ],
+    [
+     "doduo",
+     "bite_quirk2"
+    ],
+    [
+     "doduo",
+     "blink1"
+    ],
+    [
+     "doduo",
+     "blink2"
+    ],
+    [
+     "doduo",
+     "cry"
+    ],
+    [
+     "doduo",
+     "ground_idle"
+    ],
+    [
+     "doduo",
+     "ground_walk"
+    ],
+    [
+     "doduo",
+     "sleep"
+    ]
+   ],
+   "class": "DoduoModel",
+   "parts": [
+    "doduo"
+   ],
+   "root": "doduo"
+  },
+  "donphan": {
+   "animations": [
+    [
+     "donphan",
+     "battle_idle"
+    ],
+    [
+     "donphan",
+     "blink"
+    ],
+    [
+     "donphan",
+     "ground_idle"
+    ],
+    [
+     "donphan",
+     "ground_walk"
+    ],
+    [
+     "donphan",
+     "sleep"
+    ]
+   ],
+   "class": "DonphanModel",
+   "parts": [
+    "donphan",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right"
+   ],
+   "root": "donphan"
+  },
+  "dracovish": {
+   "animations": [
+    [
+     "dracovish",
+     "battle_idle"
+    ],
+    [
+     "dracovish",
+     "blink"
+    ],
+    [
+     "dracovish",
+     "cry"
+    ],
+    [
+     "dracovish",
+     "ground_idle"
+    ],
+    [
+     "dracovish",
+     "ground_walk"
+    ],
+    [
+     "dracovish",
+     "sleep"
+    ],
+    [
+     "dracovish",
+     "water_battle_idle"
+    ],
+    [
+     "dracovish",
+     "water_cry"
+    ],
+    [
+     "dracovish",
+     "water_idle"
+    ],
+    [
+     "dracovish",
+     "water_swim"
+    ],
+    [
+     "dracovish",
+     "watersleep"
+    ]
+   ],
+   "class": "DracovishModel",
+   "parts": [
+    "dracovish",
+    "head_ai"
+   ],
+   "root": "dracovish"
+  },
+  "dracozolt": {
+   "animations": [
+    [
+     "dracozolt",
+     "battle_idle"
+    ],
+    [
+     "dracozolt",
+     "blink"
+    ],
+    [
+     "dracozolt",
+     "cry"
+    ],
+    [
+     "dracozolt",
+     "ground_idle"
+    ],
+    [
+     "dracozolt",
+     "ground_walk"
+    ],
+    [
+     "dracozolt",
+     "sleep"
+    ]
+   ],
+   "class": "DracozoltModel",
+   "parts": [
+    "dracozolt",
+    "head_ai"
+   ],
+   "root": "dracozolt"
+  },
+  "dragalge": {
+   "animations": [
+    [
+     "dragalge",
+     "blink"
+    ],
+    [
+     "dragalge",
+     "cry"
+    ],
+    [
+     "dragalge",
+     "water_idle"
+    ]
+   ],
+   "class": "DragalgeModel",
+   "parts": [
+    "dragalge",
+    "head"
+   ],
+   "root": "dragalge"
+  },
+  "drakloak": {
+   "animations": [
+    [
+     "drakloak",
+     "blink"
+    ],
+    [
+     "drakloak",
+     "cry"
+    ],
+    [
+     "drakloak",
+     "ground_idle"
+    ]
+   ],
+   "class": "DrakloakModel",
+   "parts": [
+    "drakloak",
+    "head"
+   ],
+   "root": "drakloak"
+  },
+  "dream_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "dreepy": {
+   "animations": [
+    [
+     "dreepy",
+     "blink"
+    ],
+    [
+     "dreepy",
+     "cry"
+    ],
+    [
+     "dreepy",
+     "ground_idle"
+    ]
+   ],
+   "class": "DreepyModel",
+   "parts": [
+    "dreepy",
+    "head"
+   ],
+   "root": "dreepy"
+  },
+  "drifloon": {
+   "animations": [
+    [
+     "drifloon",
+     "air_fly"
+    ],
+    [
+     "drifloon",
+     "air_idle"
+    ],
+    [
+     "drifloon",
+     "blink"
+    ],
+    [
+     "drifloon",
+     "cry"
+    ],
+    [
+     "drifloon",
+     "faint"
+    ],
+    [
+     "drifloon",
+     "ground_idle"
+    ],
+    [
+     "drifloon",
+     "ground_walk"
+    ],
+    [
+     "drifloon",
+     "sleep"
+    ]
+   ],
+   "class": "DrifloonModel",
+   "parts": [
+    "drifloon"
+   ],
+   "root": "drifloon"
+  },
+  "dubwool": {
+   "animations": [
+    [
+     "dubwool",
+     "blink"
+    ],
+    [
+     "dubwool",
+     "cry"
+    ],
+    [
+     "dubwool",
+     "faint"
+    ],
+    [
+     "dubwool",
+     "ground_idle"
+    ],
+    [
+     "dubwool",
+     "ground_walk"
+    ],
+    [
+     "dubwool",
+     "sleep"
+    ]
+   ],
+   "class": "DubwoolModel",
+   "parts": [
+    "dubwool",
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "neck_wool_shearable",
+    "wool_shearable"
+   ],
+   "root": "dubwool"
+  },
+  "durant": {
+   "animations": [
+    [
+     "durant",
+     "blink"
+    ],
+    [
+     "durant",
+     "ground_walk"
+    ]
+   ],
+   "class": "DurantModel",
+   "parts": [
+    "durant",
+    "head"
+   ],
+   "root": "durant"
+  },
+  "dusclops": {
+   "animations": [
+    [
+     "dusclops",
+     "air_fly"
+    ],
+    [
+     "dusclops",
+     "air_idle"
+    ],
+    [
+     "dusclops",
+     "battle_idle"
+    ],
+    [
+     "dusclops",
+     "blink"
+    ],
+    [
+     "dusclops",
+     "faint"
+    ],
+    [
+     "dusclops",
+     "ground_idle"
+    ],
+    [
+     "dusclops",
+     "ground_walk"
+    ],
+    [
+     "dusclops",
+     "sleep"
+    ]
+   ],
+   "class": "DusclopsModel",
+   "parts": [
+    "dusclops"
+   ],
+   "root": "dusclops"
+  },
+  "dusk_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "duskull": {
+   "animations": [
+    [
+     "duskull",
+     "air_fly"
+    ],
+    [
+     "duskull",
+     "air_idle"
+    ],
+    [
+     "duskull",
+     "battle_idle"
+    ],
+    [
+     "duskull",
+     "faint"
+    ],
+    [
+     "duskull",
+     "ground_idle"
+    ],
+    [
+     "duskull",
+     "ground_walk"
+    ],
+    [
+     "duskull",
+     "sleep"
+    ]
+   ],
+   "class": "DuskullModel",
+   "parts": [
+    "duskull"
+   ],
+   "root": "duskull"
+  },
+  "eiscue": {
+   "animations": [
+    [
+     "eiscue_ice",
+     "blink"
+    ],
+    [
+     "eiscue_ice",
+     "cry"
+    ],
+    [
+     "eiscue_ice",
+     "faint"
+    ],
+    [
+     "eiscue_ice",
+     "ground_idle"
+    ],
+    [
+     "eiscue_ice",
+     "ground_walk"
+    ],
+    [
+     "eiscue_ice",
+     "sleep"
+    ]
+   ],
+   "class": "EiscueModel",
+   "parts": [
+    "eiscue",
+    "head"
+   ],
+   "root": "eiscue"
+  },
+  "ekans": {
+   "animations": [
+    [
+     "ekans",
+     "blink"
+    ],
+    [
+     "ekans",
+     "cry"
+    ],
+    [
+     "ekans",
+     "faint"
+    ],
+    [
+     "ekans",
+     "ground_idle"
+    ],
+    [
+     "ekans",
+     "sleep"
+    ],
+    [
+     "ekans",
+     "summary_idle"
+    ]
+   ],
+   "class": "EkansModel",
+   "parts": [
+    "body",
+    "ekans",
+    "head",
+    "tail",
+    "tail2",
+    "tail3",
+    "tail4",
+    "tail5",
+    "tail6"
+   ],
+   "root": "ekans"
+  },
+  "electabuzz": {
+   "animations": [
+    [
+     "electabuzz",
+     "ambient_sleep"
+    ],
+    [
+     "electabuzz",
+     "battle_idle"
+    ],
+    [
+     "electabuzz",
+     "blink"
+    ],
+    [
+     "electabuzz",
+     "cry"
+    ],
+    [
+     "electabuzz",
+     "ground_idle"
+    ],
+    [
+     "electabuzz",
+     "ground_walk"
+    ],
+    [
+     "electabuzz",
+     "sleep"
+    ]
+   ],
+   "class": "ElectabuzzModel",
+   "parts": [
+    "electabuzz",
+    "head"
+   ],
+   "root": "electabuzz"
+  },
+  "electivire": {
+   "animations": [
+    [
+     "electivire",
+     "blink"
+    ],
+    [
+     "electivire",
+     "cry"
+    ],
+    [
+     "electivire",
+     "ground_idle"
+    ]
+   ],
+   "class": "ElectivireModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "electivire",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "electivire"
+  },
+  "electrode": {
+   "animations": [
+    [
+     "electrode",
+     "blink"
+    ],
+    [
+     "electrode",
+     "cry"
+    ],
+    [
+     "electrode",
+     "ground_idle"
+    ],
+    [
+     "electrode",
+     "ground_walk"
+    ]
+   ],
+   "class": "ElectrodeModel",
+   "parts": [
+    "electrode"
+   ],
+   "root": "electrode"
+  },
+  "electrode_hisuian": {
+   "animations": [
+    [
+     "electrode_hisuian",
+     "blink"
+    ],
+    [
+     "electrode_hisuian",
+     "cry"
+    ],
+    [
+     "electrode_hisuian",
+     "ground_idle"
+    ],
+    [
+     "electrode_hisuian",
+     "ground_walk"
+    ]
+   ],
+   "class": "ElectrodeHisuianModel",
+   "parts": [
+    "electrode_hisuian"
+   ],
+   "root": "electrode_hisuian"
+  },
+  "elekid": {
+   "animations": [
+    [
+     "elekid",
+     "blink"
+    ],
+    [
+     "elekid",
+     "cry"
+    ],
+    [
+     "elekid",
+     "ground_idle"
+    ],
+    [
+     "elekid",
+     "ground_walk"
+    ],
+    [
+     "elekid",
+     "sleep"
+    ]
+   ],
+   "class": "ElekidModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "elekid",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "elekid"
+  },
+  "emolga": {
+   "animations": [
+    [
+     "emolga",
+     "air_fly"
+    ],
+    [
+     "emolga",
+     "air_idle"
+    ],
+    [
+     "emolga",
+     "blink"
+    ],
+    [
+     "emolga",
+     "ground_idle"
+    ]
+   ],
+   "class": "EmolgaModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "emolga",
+    "foot_left",
+    "foot_right",
+    "head"
+   ],
+   "root": "emolga"
+  },
+  "exeggcute": {
+   "animations": [
+    [
+     "exeggcute",
+     "blink"
+    ],
+    [
+     "exeggcute",
+     "blink2"
+    ],
+    [
+     "exeggcute",
+     "blink3"
+    ],
+    [
+     "exeggcute",
+     "blink4"
+    ],
+    [
+     "exeggcute",
+     "blink5"
+    ],
+    [
+     "exeggcute",
+     "blink6"
+    ],
+    [
+     "exeggcute",
+     "faint"
+    ],
+    [
+     "exeggcute",
+     "ground_idle"
+    ],
+    [
+     "exeggcute",
+     "ground_walk"
+    ],
+    [
+     "exeggcute",
+     "portrait"
+    ],
+    [
+     "exeggcute",
+     "sleep"
+    ]
+   ],
+   "class": "ExeggcuteModel",
+   "parts": [
+    "exeggcute"
+   ],
+   "root": "exeggcute"
+  },
+  "exeggutor": {
+   "animations": [
+    [
+     "exeggutor",
+     "battle_idle"
+    ],
+    [
+     "exeggutor",
+     "blink"
+    ],
+    [
+     "exeggutor",
+     "blink2"
+    ],
+    [
+     "exeggutor",
+     "blink3"
+    ],
+    [
+     "exeggutor",
+     "ground_idle"
+    ],
+    [
+     "exeggutor",
+     "ground_walk"
+    ],
+    [
+     "exeggutor",
+     "sleep"
+    ]
+   ],
+   "class": "ExeggutorModel",
+   "parts": [
+    "exeggutor",
+    "head",
+    "head2",
+    "head3",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "exeggutor"
+  },
+  "exploud": {
+   "animations": [
+    [
+     "exploud",
+     "idle"
+    ]
+   ],
+   "class": "ExploudModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "exploud",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "exploud"
+  },
+  "farfetchd": {
+   "animations": [
+    [
+     "farfetchd",
+     "air_fly"
+    ],
+    [
+     "farfetchd",
+     "air_idle"
+    ],
+    [
+     "farfetchd",
+     "blink"
+    ],
+    [
+     "farfetchd",
+     "cry"
+    ],
+    [
+     "farfetchd",
+     "ground_idle"
+    ],
+    [
+     "farfetchd",
+     "ground_walk"
+    ],
+    [
+     "farfetchd",
+     "quirk_leakflip_idle"
+    ],
+    [
+     "farfetchd",
+     "quirk_leakflip_walk"
+    ],
+    [
+     "farfetchd",
+     "quirk_wink"
+    ],
+    [
+     "farfetchd",
+     "sleep"
+    ]
+   ],
+   "class": "FarfetchdModel",
+   "parts": [
+    "farfetchd",
+    "leg_left",
+    "leg_right",
+    "neck"
+   ],
+   "root": "farfetchd"
+  },
+  "farfetchd_galarian": {
+   "animations": [
+    [
+     "farfetchd_galar",
+     "blink"
+    ],
+    [
+     "farfetchd_galar",
+     "cry"
+    ],
+    [
+     "farfetchd_galar",
+     "ground_idle"
+    ]
+   ],
+   "class": "FarfetchdGalarianModel",
+   "parts": [
+    "farfetchd",
+    "leg_left",
+    "leg_right",
+    "neck"
+   ],
+   "root": "farfetchd"
+  },
+  "fast_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "fidough": {
+   "animations": [
+    [
+     "fidough",
+     "blink"
+    ],
+    [
+     "fidough",
+     "cry"
+    ],
+    [
+     "fidough",
+     "ground_idle"
+    ],
+    [
+     "fidough",
+     "ground_walk"
+    ],
+    [
+     "fidough",
+     "sleep"
+    ]
+   ],
+   "class": "FidoughModel",
+   "parts": [
+    "fidough",
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right"
+   ],
+   "root": "fidough"
+  },
+  "flaaffy": {
+   "animations": [
+    [
+     "flaaffy",
+     "battle_idle"
+    ],
+    [
+     "flaaffy",
+     "blink"
+    ],
+    [
+     "flaaffy",
+     "cry"
+    ],
+    [
+     "flaaffy",
+     "ground_idle"
+    ],
+    [
+     "flaaffy",
+     "ground_walk"
+    ],
+    [
+     "flaaffy",
+     "sleep"
+    ]
+   ],
+   "class": "FlaaffyModel",
+   "parts": [
+    "flaaffy",
+    "head_back"
+   ],
+   "root": "flaaffy"
+  },
+  "flittle": {
+   "animations": [
+    [
+     "flittle",
+     "air_fly"
+    ],
+    [
+     "flittle",
+     "air_idle"
+    ],
+    [
+     "flittle",
+     "blink"
+    ],
+    [
+     "flittle",
+     "cry"
+    ],
+    [
+     "flittle",
+     "faint"
+    ],
+    [
+     "flittle",
+     "ground_idle"
+    ],
+    [
+     "flittle",
+     "ground_walk"
+    ],
+    [
+     "flittle",
+     "sleep"
+    ]
+   ],
+   "class": "FlittleModel",
+   "parts": [
+    "body",
+    "flittle"
+   ],
+   "root": "flittle"
+  },
+  "floatzel": {
+   "animations": [
+    [
+     "floatzel",
+     "blink"
+    ],
+    [
+     "floatzel",
+     "cry"
+    ],
+    [
+     "floatzel",
+     "ground_idle"
+    ]
+   ],
+   "class": "FloatzelModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "floatzel",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "floatzel"
+  },
+  "friend_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "frillish": {
+   "animations": [
+    [
+     "frillish",
+     "blink"
+    ],
+    [
+     "frillish",
+     "water_idle"
+    ],
+    [
+     "frillish",
+     "water_swim"
+    ]
+   ],
+   "class": "FrillishModel",
+   "parts": [
+    "frillish",
+    "head"
+   ],
+   "root": "frillish"
+  },
+  "froakie": {
+   "animations": [
+    [
+     "froakie",
+     "battle_idle"
+    ],
+    [
+     "froakie",
+     "blink"
+    ],
+    [
+     "froakie",
+     "cry"
+    ],
+    [
+     "froakie",
+     "faint"
+    ],
+    [
+     "froakie",
+     "ground_idle"
+    ],
+    [
+     "froakie",
+     "ground_walk"
+    ],
+    [
+     "froakie",
+     "sleep"
+    ],
+    [
+     "froakie",
+     "water_idle"
+    ],
+    [
+     "froakie",
+     "water_swim"
+    ]
+   ],
+   "class": "FroakieModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "froakie",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "froakie"
+  },
+  "frogadier": {
+   "animations": [
+    [
+     "frogadier",
+     "battle_idle"
+    ],
+    [
+     "frogadier",
+     "blink"
+    ],
+    [
+     "frogadier",
+     "cry"
+    ],
+    [
+     "frogadier",
+     "faint"
+    ],
+    [
+     "frogadier",
+     "ground_idle"
+    ],
+    [
+     "frogadier",
+     "ground_walk"
+    ],
+    [
+     "frogadier",
+     "sleep"
+    ],
+    [
+     "frogadier",
+     "water_idle"
+    ],
+    [
+     "frogadier",
+     "water_swim"
+    ]
+   ],
+   "class": "FrogadierModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "frogadier",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "frogadier"
+  },
+  "fuecoco": {
+   "animations": [
+    [
+     "fuecoco",
+     "battle_idle"
+    ],
+    [
+     "fuecoco",
+     "blink"
+    ],
+    [
+     "fuecoco",
+     "cry"
+    ],
+    [
+     "fuecoco",
+     "ground_idle"
+    ],
+    [
+     "fuecoco",
+     "ground_walk"
+    ],
+    [
+     "fuecoco",
+     "sleep"
+    ]
+   ],
+   "class": "FuecocoModel",
+   "parts": [
+    "fuecoco",
+    "head"
+   ],
+   "root": "fuecoco"
+  },
+  "gallade": {
+   "animations": [
+    [
+     "gallade",
+     "battle_cry"
+    ],
+    [
+     "gallade",
+     "battle_faint"
+    ],
+    [
+     "gallade",
+     "battle_idle"
+    ],
+    [
+     "gallade",
+     "battle_quirk"
+    ],
+    [
+     "gallade",
+     "blink"
+    ],
+    [
+     "gallade",
+     "cry"
+    ],
+    [
+     "gallade",
+     "faint"
+    ],
+    [
+     "gallade",
+     "ground_idle"
+    ],
+    [
+     "gallade",
+     "ground_walk"
+    ],
+    [
+     "gallade",
+     "sleep"
+    ]
+   ],
+   "class": "GalladeModel",
+   "parts": [
+    "gallade",
+    "head"
+   ],
+   "root": "gallade"
+  },
+  "gardevoir": {
+   "animations": [
+    [
+     "gardevoir",
+     "battle_idle"
+    ],
+    [
+     "gardevoir",
+     "blink"
+    ],
+    [
+     "gardevoir",
+     "cry"
+    ],
+    [
+     "gardevoir",
+     "ground_idle"
+    ],
+    [
+     "gardevoir",
+     "ground_walk"
+    ],
+    [
+     "gardevoir",
+     "sleep"
+    ]
+   ],
+   "class": "GardevoirModel",
+   "parts": [
+    "gardevoir",
+    "head"
+   ],
+   "root": "gardevoir"
+  },
+  "gengar": {
+   "animations": [
+    [
+     "gengar",
+     "cry"
+    ],
+    [
+     "gengar",
+     "ground_idle"
+    ]
+   ],
+   "class": "GengarModel",
+   "parts": [
+    "gengar",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "gengar"
+  },
+  "geodude": {
+   "animations": [
+    [
+     "geodude",
+     "blink"
+    ],
+    [
+     "geodude",
+     "cry"
+    ],
+    [
+     "geodude",
+     "ground_idle"
+    ],
+    [
+     "geodude",
+     "ground_walk"
+    ],
+    [
+     "geodude",
+     "sleep"
+    ]
+   ],
+   "class": "GeodudeModel",
+   "parts": [
+    "geodude"
+   ],
+   "root": "geodude"
+  },
+  "gigalith": {
+   "animations": [
+    [
+     "gigalith",
+     "battle_idle"
+    ],
+    [
+     "gigalith",
+     "cry"
+    ],
+    [
+     "gigalith",
+     "faint"
+    ],
+    [
+     "gigalith",
+     "ground_idle"
+    ],
+    [
+     "gigalith",
+     "ground_walk"
+    ],
+    [
+     "gigalith",
+     "sleep"
+    ]
+   ],
+   "class": "GigalithModel",
+   "parts": [
+    "gigalith",
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right"
+   ],
+   "root": "gigalith"
+  },
+  "gimmighoulchest": {
+   "animations": [
+    [
+     "gimmighoul_chest",
+     "battle_cry"
+    ],
+    [
+     "gimmighoul_chest",
+     "battle_idle"
+    ],
+    [
+     "gimmighoul_chest",
+     "blink"
+    ],
+    [
+     "gimmighoul_chest",
+     "cry"
+    ],
+    [
+     "gimmighoul_chest",
+     "ground_idle"
+    ],
+    [
+     "gimmighoul_chest",
+     "ground_walk"
+    ],
+    [
+     "gimmighoul_chest",
+     "idle_quirk"
+    ],
+    [
+     "gimmighoul_chest",
+     "mimic"
+    ],
+    [
+     "gimmighoul_chest",
+     "surprise"
+    ]
+   ],
+   "class": "GimmighoulChestModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "gimmighoul_chest",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "gimmighoul_chest"
+  },
+  "gligar": {
+   "animations": [
+    [
+     "gligar",
+     "battle_idle"
+    ],
+    [
+     "gligar",
+     "blink"
+    ],
+    [
+     "gligar",
+     "cry"
+    ],
+    [
+     "gligar",
+     "ground_idle"
+    ]
+   ],
+   "class": "GligarModel",
+   "parts": [
+    "gligar",
+    "left_upper_leg",
+    "right_upper_leg"
+   ],
+   "root": "gligar"
+  },
+  "glimmet": {
+   "animations": [
+    [
+     "glimmet",
+     "blink"
+    ],
+    [
+     "glimmet",
+     "cry"
+    ],
+    [
+     "glimmet",
+     "faint"
+    ],
+    [
+     "glimmet",
+     "ground_idle"
+    ],
+    [
+     "glimmet",
+     "ground_walk"
+    ],
+    [
+     "glimmet",
+     "sleep"
+    ]
+   ],
+   "class": "GlimmetModel",
+   "parts": [
+    "glimmet"
+   ],
+   "root": "glimmet"
+  },
+  "glimmora": {
+   "animations": [
+    [
+     "glimmora",
+     "battle_idle"
+    ],
+    [
+     "glimmora",
+     "blink"
+    ],
+    [
+     "glimmora",
+     "cry"
+    ],
+    [
+     "glimmora",
+     "faint"
+    ],
+    [
+     "glimmora",
+     "faint2"
+    ],
+    [
+     "glimmora",
+     "ground_idle"
+    ],
+    [
+     "glimmora",
+     "ground_walk"
+    ],
+    [
+     "glimmora",
+     "sleep"
+    ]
+   ],
+   "class": "GlimmoraModel",
+   "parts": [
+    "glimmora"
+   ],
+   "root": "glimmora"
+  },
+  "gliscor": {
+   "animations": [
+    [
+     "gliscor",
+     "blink"
+    ],
+    [
+     "gliscor",
+     "cry"
+    ],
+    [
+     "gliscor",
+     "ground_idle"
+    ]
+   ],
+   "class": "GliscorModel",
+   "parts": [
+    "gliscor",
+    "left_thigh",
+    "right_thigh"
+   ],
+   "root": "gliscor"
+  },
+  "gloom": {
+   "animations": [
+    [
+     "gloom",
+     "cry"
+    ],
+    [
+     "gloom",
+     "faint"
+    ],
+    [
+     "gloom",
+     "ground_idle"
+    ],
+    [
+     "gloom",
+     "ground_walk"
+    ],
+    [
+     "gloom",
+     "sleep"
+    ]
+   ],
+   "class": "GloomModel",
+   "parts": [
+    "gloom"
+   ],
+   "root": "gloom"
+  },
+  "golduck": {
+   "animations": [
+    [
+     "golduck",
+     "blink"
+    ],
+    [
+     "golduck",
+     "cry"
+    ],
+    [
+     "golduck",
+     "ground_idle"
+    ],
+    [
+     "golduck",
+     "ground_walk"
+    ],
+    [
+     "golduck",
+     "sleep"
+    ],
+    [
+     "golduck",
+     "water_idle"
+    ],
+    [
+     "golduck",
+     "water_swim"
+    ]
+   ],
+   "class": "GolduckModel",
+   "parts": [
+    "golduck",
+    "head"
+   ],
+   "root": "golduck"
+  },
+  "golem": {
+   "animations": [
+    [
+     "golem",
+     "blink"
+    ],
+    [
+     "golem",
+     "cry"
+    ],
+    [
+     "golem",
+     "test"
+    ]
+   ],
+   "class": "GolemModel",
+   "parts": [
+    "golem",
+    "head",
+    "left_upper_leg",
+    "right_upper_leg"
+   ],
+   "root": "golem"
+  },
+  "golisopod": {
+   "animations": [
+    [
+     "golisopod",
+     "battle_idle"
+    ],
+    [
+     "golisopod",
+     "blink"
+    ],
+    [
+     "golisopod",
+     "cry"
+    ],
+    [
+     "golisopod",
+     "faint"
+    ],
+    [
+     "golisopod",
+     "ground_idle"
+    ],
+    [
+     "golisopod",
+     "ground_walk"
+    ],
+    [
+     "golisopod",
+     "sleep"
+    ],
+    [
+     "golisopod",
+     "water_idle"
+    ],
+    [
+     "golisopod",
+     "water_swim"
+    ]
+   ],
+   "class": "GolisopodModel",
+   "parts": [
+    "golisopod",
+    "head"
+   ],
+   "root": "golisopod"
+  },
+  "goomy_hisui_bias": {
+   "animations": [
+    [
+     "goomy_hisui_bias",
+     "blink"
+    ],
+    [
+     "goomy_hisui_bias",
+     "cry"
+    ],
+    [
+     "goomy_hisui_bias",
+     "ground_idle"
+    ]
+   ],
+   "class": "GoomyHisuiBiasModel",
+   "parts": [
+    "goomy_hisui_bias"
+   ],
+   "root": "goomy_hisui_bias"
+  },
+  "gorebyss": {
+   "animations": [
+    [
+     "gorebyss",
+     "ground_idle"
+    ],
+    [
+     "gorebyss",
+     "water_idle"
+    ]
+   ],
+   "class": "GorebyssModel",
+   "parts": [
+    "gorebyss",
+    "head"
+   ],
+   "root": "gorebyss"
+  },
+  "gourgeist": {
+   "animations": [
+    [
+     "gourgeist",
+     "air_fly"
+    ],
+    [
+     "gourgeist",
+     "air_idle"
+    ],
+    [
+     "gourgeist",
+     "blink"
+    ],
+    [
+     "gourgeist",
+     "cry"
+    ],
+    [
+     "gourgeist",
+     "ground_idle"
+    ],
+    [
+     "gourgeist",
+     "ground_walk"
+    ],
+    [
+     "gourgeist",
+     "sleep"
+    ]
+   ],
+   "class": "GourgeistModel",
+   "parts": [
+    "gourgeist",
+    "head"
+   ],
+   "root": "gourgeist"
+  },
+  "granbull": {
+   "animations": [
+    [
+     "granbull",
+     "battle_idle"
+    ],
+    [
+     "granbull",
+     "blink"
+    ],
+    [
+     "granbull",
+     "cry"
+    ],
+    [
+     "granbull",
+     "ground_idle"
+    ],
+    [
+     "granbull",
+     "ground_walk"
+    ],
+    [
+     "granbull",
+     "sleep"
+    ]
+   ],
+   "class": "GranbullModel",
+   "parts": [
+    "granbull",
+    "head"
+   ],
+   "root": "granbull"
+  },
+  "great_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "greninja": {
+   "animations": [
+    [
+     "greninja",
+     "battle_idle"
+    ],
+    [
+     "greninja",
+     "blink"
+    ],
+    [
+     "greninja",
+     "cry"
+    ],
+    [
+     "greninja",
+     "faint"
+    ],
+    [
+     "greninja",
+     "ground_idle"
+    ],
+    [
+     "greninja",
+     "ground_walk"
+    ],
+    [
+     "greninja",
+     "sleep"
+    ],
+    [
+     "greninja",
+     "water_idle"
+    ],
+    [
+     "greninja",
+     "water_swim"
+    ]
+   ],
+   "class": "GreninjaModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "greninja",
+    "hand_shuriken_left",
+    "hand_shuriken_right",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "greninja"
+  },
+  "grimmsnarl": {
+   "animations": [
+    [
+     "grimmsnarl",
+     "blink"
+    ],
+    [
+     "grimmsnarl",
+     "cry"
+    ],
+    [
+     "grimmsnarl",
+     "ground_idle"
+    ]
+   ],
+   "class": "GrimmsnarlModel",
+   "parts": [
+    "grimmsnarl",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "grimmsnarl"
+  },
+  "grookey": {
+   "animations": [
+    [
+     "grookey",
+     "battle_idle"
+    ],
+    [
+     "grookey",
+     "blink"
+    ],
+    [
+     "grookey",
+     "cry"
+    ],
+    [
+     "grookey",
+     "ground_idle"
+    ],
+    [
+     "grookey",
+     "ground_walk"
+    ]
+   ],
+   "class": "GrookeyModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "grookey",
+    "hair_stick",
+    "head",
+    "leg_left",
+    "leg_right",
+    "stick"
+   ],
+   "root": "grookey"
+  },
+  "grotle": {
+   "animations": [
+    [
+     "grotle",
+     "battle_idle"
+    ],
+    [
+     "grotle",
+     "blink"
+    ],
+    [
+     "grotle",
+     "cry"
+    ],
+    [
+     "grotle",
+     "faint"
+    ],
+    [
+     "grotle",
+     "ground_idle"
+    ],
+    [
+     "grotle",
+     "ground_walk"
+    ],
+    [
+     "grotle",
+     "quirk"
+    ],
+    [
+     "grotle",
+     "sleep"
+    ]
+   ],
+   "class": "GrotleModel",
+   "parts": [
+    "grotle",
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right"
+   ],
+   "root": "grotle"
+  },
+  "gurdurr": {
+   "animations": [
+    [
+     "gurdurr",
+     "battle_cry"
+    ],
+    [
+     "gurdurr",
+     "battle_idle"
+    ],
+    [
+     "gurdurr",
+     "blink"
+    ],
+    [
+     "gurdurr",
+     "cry"
+    ],
+    [
+     "gurdurr",
+     "faint"
+    ],
+    [
+     "gurdurr",
+     "ground_idle"
+    ],
+    [
+     "gurdurr",
+     "ground_walk"
+    ],
+    [
+     "gurdurr",
+     "quirk_idle"
+    ],
+    [
+     "gurdurr",
+     "sleep"
+    ]
+   ],
+   "class": "GurdurrModel",
+   "parts": [
+    "gurdurr",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "gurdurr"
+  },
+  "hakamo-o": {
+   "animations": [
+    [
+     "hakamo-o",
+     "blink"
+    ],
+    [
+     "hakamo-o",
+     "ground_idle"
+    ]
+   ],
+   "class": "HakamoOModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "hakamo_o",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "hakamo_o"
+  },
+  "hariyama": {
+   "animations": [
+    [
+     "hariyama",
+     "blink"
+    ],
+    [
+     "hariyama",
+     "ground_idle"
+    ]
+   ],
+   "class": "HariyamaModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "hariyama",
+    "head",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "hariyama"
+  },
+  "heal_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "heavy_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "herdier": {
+   "animations": [
+    [
+     "herdier",
+     "blink"
+    ],
+    [
+     "herdier",
+     "cry"
+    ]
+   ],
+   "class": "HerdierModel",
+   "parts": [
+    "head",
+    "herdier",
+    "leg_back_left1",
+    "leg_back_right1",
+    "leg_front_left",
+    "leg_front_right"
+   ],
+   "root": "herdier"
+  },
+  "hippopotas": {
+   "animations": [
+    [
+     "hippopotas",
+     "battle_idle"
+    ],
+    [
+     "hippopotas",
+     "blink"
+    ],
+    [
+     "hippopotas",
+     "cry"
+    ],
+    [
+     "hippopotas",
+     "ground_idle"
+    ],
+    [
+     "hippopotas",
+     "ground_walk"
+    ],
+    [
+     "hippopotas",
+     "quirk_idle"
+    ],
+    [
+     "hippopotas",
+     "sleep"
+    ]
+   ],
+   "class": "HippopotasModel",
+   "parts": [
+    "head",
+    "hippopotas"
+   ],
+   "root": "hippopotas"
+  },
+  "hippowdon": {
+   "animations": [
+    [
+     "hippowdon",
+     "battle_cry"
+    ],
+    [
+     "hippowdon",
+     "battle_idle"
+    ],
+    [
+     "hippowdon",
+     "blink"
+    ],
+    [
+     "hippowdon",
+     "cry"
+    ],
+    [
+     "hippowdon",
+     "ground_idle"
+    ],
+    [
+     "hippowdon",
+     "ground_walk"
+    ],
+    [
+     "hippowdon",
+     "quirk_idle"
+    ],
+    [
+     "hippowdon",
+     "sand_battle_cry"
+    ],
+    [
+     "hippowdon",
+     "sand_battle_idle"
+    ],
+    [
+     "hippowdon",
+     "sand_cry"
+    ],
+    [
+     "hippowdon",
+     "sand_idle"
+    ],
+    [
+     "hippowdon",
+     "sand_sleep"
+    ],
+    [
+     "hippowdon",
+     "sand_swim"
+    ],
+    [
+     "hippowdon",
+     "sleep"
+    ]
+   ],
+   "class": "HippowdonModel",
+   "parts": [
+    "head",
+    "hippowdon",
+    "redsand",
+    "sand"
+   ],
+   "root": "hippowdon"
+  },
+  "hitmonchan": {
+   "animations": [
+    [
+     "hitmonchan",
+     "battle_idle"
+    ],
+    [
+     "hitmonchan",
+     "blink"
+    ],
+    [
+     "hitmonchan",
+     "faint"
+    ],
+    [
+     "hitmonchan",
+     "ground_idle"
+    ],
+    [
+     "hitmonchan",
+     "ground_walk"
+    ],
+    [
+     "hitmonchan",
+     "sleep"
+    ]
+   ],
+   "class": "HitmonchanModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "hitmonchan",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "hitmonchan"
+  },
+  "hitmonlee": {
+   "animations": [
+    [
+     "hitmonlee",
+     "battle_idle"
+    ],
+    [
+     "hitmonlee",
+     "blink"
+    ],
+    [
+     "hitmonlee",
+     "faint"
+    ],
+    [
+     "hitmonlee",
+     "ground_idle"
+    ],
+    [
+     "hitmonlee",
+     "ground_walk"
+    ],
+    [
+     "hitmonlee",
+     "sleep"
+    ]
+   ],
+   "class": "HitmonleeModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "hitmonlee",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "hitmonlee"
+  },
+  "hitmontop": {
+   "animations": [
+    [
+     "hitmontop",
+     "battle_idle"
+    ],
+    [
+     "hitmontop",
+     "blink"
+    ],
+    [
+     "hitmontop",
+     "cry"
+    ],
+    [
+     "hitmontop",
+     "faint"
+    ],
+    [
+     "hitmontop",
+     "ground_idle"
+    ],
+    [
+     "hitmontop",
+     "ground_walk"
+    ],
+    [
+     "hitmontop",
+     "sleep"
+    ]
+   ],
+   "class": "HitmontopModel",
+   "parts": [
+    "head",
+    "hitmontop"
+   ],
+   "root": "hitmontop"
+  },
+  "hoothoot": {
+   "animations": [
+    [
+     "hoothoot",
+     "air_fly"
+    ],
+    [
+     "hoothoot",
+     "air_idle"
+    ],
+    [
+     "hoothoot",
+     "battle_idle"
+    ],
+    [
+     "hoothoot",
+     "blink"
+    ],
+    [
+     "hoothoot",
+     "cry"
+    ],
+    [
+     "hoothoot",
+     "ground_idle"
+    ],
+    [
+     "hoothoot",
+     "ground_walk"
+    ],
+    [
+     "hoothoot",
+     "quirk_foot"
+    ],
+    [
+     "hoothoot",
+     "sleep"
+    ]
+   ],
+   "class": "HoothootModel",
+   "parts": [
+    "hoothoot"
+   ],
+   "root": "hoothoot"
+  },
+  "huntail": {
+   "animations": [
+    [
+     "huntail",
+     "ground_idle"
+    ],
+    [
+     "huntail",
+     "water_idle"
+    ],
+    [
+     "huntail",
+     "water_swim"
+    ]
+   ],
+   "class": "HuntailModel",
+   "parts": [
+    "head",
+    "huntail",
+    "tail",
+    "tail2",
+    "tail3",
+    "tail4",
+    "tail5",
+    "tail6"
+   ],
+   "root": "huntail"
+  },
+  "illumise": {
+   "animations": [
+    [
+     "illumise",
+     "air_fly"
+    ],
+    [
+     "illumise",
+     "air_idle"
+    ],
+    [
+     "illumise",
+     "battle_idle"
+    ],
+    [
+     "illumise",
+     "blink"
+    ],
+    [
+     "illumise",
+     "flicker_quirk"
+    ],
+    [
+     "illumise",
+     "ground_idle"
+    ],
+    [
+     "illumise",
+     "ground_walk"
+    ],
+    [
+     "illumise",
+     "sleep"
+    ]
+   ],
+   "class": "IllumiseModel",
+   "parts": [
+    "head",
+    "illumise",
+    "left_leg",
+    "left_wing",
+    "right_leg",
+    "right_wing"
+   ],
+   "root": "illumise"
+  },
+  "impidimp": {
+   "animations": [
+    [
+     "impidimp",
+     "blink"
+    ],
+    [
+     "impidimp",
+     "cry"
+    ],
+    [
+     "impidimp",
+     "ground_idle"
+    ]
+   ],
+   "class": "ImpidimpModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "impidimp",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "impidimp"
+  },
+  "infernape": {
+   "animations": [
+    [
+     "infernape",
+     "blink"
+    ],
+    [
+     "infernape",
+     "cry"
+    ],
+    [
+     "infernape",
+     "faint"
+    ],
+    [
+     "infernape",
+     "ground_idle"
+    ],
+    [
+     "infernape",
+     "ground_walk"
+    ]
+   ],
+   "class": "InfernapeModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head_ai",
+    "infernape",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "infernape"
+  },
+  "ironleaves": {
+   "animations": [
+    [
+     "ironleaves",
+     "blink"
+    ],
+    [
+     "ironleaves",
+     "ground_idle"
+    ],
+    [
+     "ironleaves",
+     "ground_walk"
+    ],
+    [
+     "ironleaves",
+     "sleep"
+    ]
+   ],
+   "class": "IronleavesModel",
+   "parts": [
+    "head",
+    "ironleaves",
+    "neck_sword_left",
+    "neck_sword_right",
+    "sword_head"
+   ],
+   "root": "ironleaves"
+  },
+  "jangmo-o": {
+   "animations": [
+    [
+     "jangmo-o",
+     "blink"
+    ],
+    [
+     "jangmo-o",
+     "ground_idle"
+    ]
+   ],
+   "class": "JangmoOModel",
+   "parts": [
+    "head",
+    "jangmo_o",
+    "leg_back_left1",
+    "leg_back_right1",
+    "leg_front_left1",
+    "leg_front_right1"
+   ],
+   "root": "jangmo_o"
+  },
+  "jellicent": {
+   "animations": [
+    [
+     "jellicent",
+     "blink"
+    ],
+    [
+     "jellicent",
+     "render"
+    ]
+   ],
+   "class": "JellicentModel",
+   "parts": [
+    "head",
+    "jellicent"
+   ],
+   "root": "jellicent"
+  },
+  "kabuto": {
+   "animations": [
+    [
+     "kabuto",
+     "blink"
+    ],
+    [
+     "kabuto",
+     "cry"
+    ],
+    [
+     "kabuto",
+     "ground_idle"
+    ],
+    [
+     "kabuto",
+     "ground_walk"
+    ]
+   ],
+   "class": "KabutoModel",
+   "parts": [
+    "kabuto"
+   ],
+   "root": "kabuto"
+  },
+  "kabutops": {
+   "animations": [
+    [
+     "kabutops",
+     "battle_idle"
+    ],
+    [
+     "kabutops",
+     "blink"
+    ],
+    [
+     "kabutops",
+     "cry"
+    ],
+    [
+     "kabutops",
+     "ground_idle"
+    ],
+    [
+     "kabutops",
+     "ground_walk"
+    ],
+    [
+     "kabutops",
+     "sleep"
+    ]
+   ],
+   "class": "KabutopsModel",
+   "parts": [
+    "head",
+    "kabutops",
+    "left_upper_leg",
+    "right_upper_leg"
+   ],
+   "root": "kabutops"
+  },
+  "kirlia": {
+   "animations": [
+    [
+     "kirlia",
+     "battle_idle"
+    ],
+    [
+     "kirlia",
+     "blink"
+    ],
+    [
+     "kirlia",
+     "cry"
+    ],
+    [
+     "kirlia",
+     "ground_idle"
+    ],
+    [
+     "kirlia",
+     "ground_walk"
+    ],
+    [
+     "kirlia",
+     "sleep"
+    ]
+   ],
+   "class": "KirliaModel",
+   "parts": [
+    "head",
+    "kirlia"
+   ],
+   "root": "kirlia"
+  },
+  "klang": {
+   "animations": [
+    [
+     "klang",
+     "cry"
+    ],
+    [
+     "klang",
+     "faint"
+    ],
+    [
+     "klang",
+     "ground_idle"
+    ],
+    [
+     "klang",
+     "ground_walk"
+    ],
+    [
+     "klang",
+     "sleep"
+    ]
+   ],
+   "class": "KlangModel",
+   "parts": [
+    "klang"
+   ],
+   "root": "klang"
+  },
+  "kleavor": {
+   "animations": [
+    [
+     "kleavor",
+     "blink"
+    ],
+    [
+     "kleavor",
+     "ground_idle"
+    ]
+   ],
+   "class": "KleavorModel",
+   "parts": [
+    "head",
+    "kleavor",
+    "left_upper_leg",
+    "right_upper_leg"
+   ],
+   "root": "kleavor"
+  },
+  "klefki": {
+   "animations": [
+    [
+     "klefki",
+     "battle_idle"
+    ],
+    [
+     "klefki",
+     "blink"
+    ],
+    [
+     "klefki",
+     "cry"
+    ],
+    [
+     "klefki",
+     "ground_idle"
+    ]
+   ],
+   "class": "KlefkiModel",
+   "parts": [
+    "body",
+    "klefki"
+   ],
+   "root": "klefki"
+  },
+  "klink": {
+   "animations": [
+    [
+     "klink",
+     "cry"
+    ],
+    [
+     "klink",
+     "faint"
+    ],
+    [
+     "klink",
+     "ground_idle"
+    ],
+    [
+     "klink",
+     "ground_walk"
+    ],
+    [
+     "klink",
+     "sleep"
+    ]
+   ],
+   "class": "KlinkModel",
+   "parts": [
+    "klink"
+   ],
+   "root": "klink"
+  },
+  "klinklang": {
+   "animations": [
+    [
+     "klinklang",
+     "cry"
+    ],
+    [
+     "klinklang",
+     "faint"
+    ],
+    [
+     "klinklang",
+     "ground_idle"
+    ],
+    [
+     "klinklang",
+     "ground_walk"
+    ],
+    [
+     "klinklang",
+     "sleep"
+    ]
+   ],
+   "class": "KlinklangModel",
+   "parts": [
+    "klinklang"
+   ],
+   "root": "klinklang"
+  },
+  "koffing": {
+   "animations": [
+    [
+     "koffing",
+     "air_fly"
+    ],
+    [
+     "koffing",
+     "air_idle"
+    ],
+    [
+     "koffing",
+     "blink"
+    ],
+    [
+     "koffing",
+     "cry"
+    ]
+   ],
+   "class": "KoffingModel",
+   "parts": [
+    "koffing"
+   ],
+   "root": "koffing"
+  },
+  "komala": {
+   "animations": [
+    [
+     "komala",
+     "cry"
+    ],
+    [
+     "komala",
+     "ground_idle"
+    ],
+    [
+     "komala",
+     "quirk_doze_off"
+    ]
+   ],
+   "class": "KomalaModel",
+   "parts": [
+    "komala"
+   ],
+   "root": "komala"
+  },
+  "kommo-o": {
+   "animations": [
+    [
+     "kommo-o",
+     "blink"
+    ],
+    [
+     "kommo-o",
+     "cry"
+    ],
+    [
+     "kommo-o",
+     "ground_idle"
+    ]
+   ],
+   "class": "KommoOModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "kommo_o",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "kommo_o"
+  },
+  "krabby": {
+   "animations": [
+    [
+     "krabby",
+     "battle_idle"
+    ],
+    [
+     "krabby",
+     "blink"
+    ],
+    [
+     "krabby",
+     "cry"
+    ],
+    [
+     "krabby",
+     "ground_idle"
+    ],
+    [
+     "krabby",
+     "ground_walk"
+    ],
+    [
+     "krabby",
+     "quirk_bubble"
+    ],
+    [
+     "krabby",
+     "snip_left"
+    ],
+    [
+     "krabby",
+     "snip_right"
+    ]
+   ],
+   "class": "KrabbyModel",
+   "parts": [
+    "krabby"
+   ],
+   "root": "krabby"
+  },
+  "kricketot": {
+   "animations": [
+    [
+     "kricketot",
+     "battle_idle"
+    ],
+    [
+     "kricketot",
+     "blink"
+    ],
+    [
+     "kricketot",
+     "faint"
+    ],
+    [
+     "kricketot",
+     "ground_idle"
+    ],
+    [
+     "kricketot",
+     "ground_walk"
+    ],
+    [
+     "kricketot",
+     "shoulder_left"
+    ],
+    [
+     "kricketot",
+     "shoulder_right"
+    ],
+    [
+     "kricketot",
+     "sleep"
+    ]
+   ],
+   "class": "KricketotModel",
+   "parts": [
+    "foot_left",
+    "foot_right",
+    "head",
+    "kricketot"
+   ],
+   "root": "kricketot"
+  },
+  "kricketune": {
+   "animations": [
+    [
+     "kricketune",
+     "air_fly"
+    ],
+    [
+     "kricketune",
+     "air_idle"
+    ],
+    [
+     "kricketune",
+     "battle_idle"
+    ],
+    [
+     "kricketune",
+     "blink"
+    ],
+    [
+     "kricketune",
+     "faint"
+    ],
+    [
+     "kricketune",
+     "ground_idle"
+    ],
+    [
+     "kricketune",
+     "ground_walk"
+    ],
+    [
+     "kricketune",
+     "sleep"
+    ]
+   ],
+   "class": "KricketuneModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "kricketune",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "kricketune"
+  },
+  "lairon": {
+   "animations": [
+    [
+     "lairon",
+     "blink"
+    ],
+    [
+     "lairon",
+     "cry"
+    ],
+    [
+     "lairon",
+     "ground_idle"
+    ]
+   ],
+   "class": "LaironModel",
+   "parts": [
+    "head",
+    "lairon",
+    "leg_back_left3",
+    "leg_back_right3",
+    "leg_front_left",
+    "leg_front_right"
+   ],
+   "root": "lairon"
+  },
+  "larvitar": {
+   "animations": [
+    [
+     "larvitar",
+     "blink"
+    ],
+    [
+     "larvitar",
+     "cry"
+    ],
+    [
+     "larvitar",
+     "ground_idle"
+    ]
+   ],
+   "class": "LarvitarModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "larvitar",
+    "leg_left",
+    "leg_right"
+   ],
+   "root": "larvitar"
+  },
+  "level_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "lickitung": {
+   "animations": [
+    [
+     "lickitung",
+     "battle_idle"
+    ],
+    [
+     "lickitung",
+     "blink"
+    ],
+    [
+     "lickitung",
+     "ground_idle"
+    ],
+    [
+     "lickitung",
+     "ground_walk"
+    ]
+   ],
+   "class": "LickitungModel",
+   "parts": [
+    "head",
+    "left_leg",
+    "left_upper_arm",
+    "lickitung",
+    "right_leg",
+    "right_upper_arm"
+   ],
+   "root": "lickitung"
+  },
+  "lileep": {
+   "animations": [
+    [
+     "lileep",
+     "blink"
+    ],
+    [
+     "lileep",
+     "cry"
+    ],
+    [
+     "lileep",
+     "ground_idle"
+    ],
+    [
+     "lileep",
+     "ground_walk"
+    ],
+    [
+     "lileep",
+     "sleep"
+    ],
+    [
+     "lileep",
+     "water_idle"
+    ],
+    [
+     "lileep",
+     "water_swim"
+    ]
+   ],
+   "class": "LileepModel",
+   "parts": [
+    "head",
+    "lileep"
+   ],
+   "root": "lileep"
+  },
+  "lilligant": {
+   "animations": [
+    [
+     "lilligant",
+     "blink"
+    ],
+    [
+     "lilligant",
+     "cry"
+    ],
+    [
+     "lilligant",
+     "ground_idle"
+    ]
+   ],
+   "class": "LilligantModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "body_bottom_left",
+    "body_bottom_right",
+    "head",
+    "lilligant"
+   ],
+   "root": "lilligant"
+  },
+  "lilligant_hisuian": {
+   "animations": [
+    [
+     "lilligant_hisuian",
+     "blink"
+    ],
+    [
+     "lilligant_hisuian",
+     "cry"
+    ],
+    [
+     "lilligant_hisuian",
+     "ground_idle"
+    ]
+   ],
+   "class": "LilligantHisuianModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "lilligant_hisuian"
+   ],
+   "root": "lilligant_hisuian"
+  },
+  "lillipup": {
+   "animations": [
+    [
+     "lillipup",
+     "blink"
+    ],
+    [
+     "lillipup",
+     "cry"
+    ]
+   ],
+   "class": "LillipupModel",
+   "parts": [
+    "head",
+    "leg_back_left1",
+    "leg_back_right1",
+    "leg_front_left",
+    "leg_front_right",
+    "lillipup"
+   ],
+   "root": "lillipup"
+  },
+  "linoone": {
+   "animations": [
+    [
+     "linoone",
+     "battle_idle"
+    ],
+    [
+     "linoone",
+     "blink"
+    ],
+    [
+     "linoone",
+     "faint"
+    ],
+    [
+     "linoone",
+     "ground_idle"
+    ],
+    [
+     "linoone",
+     "ground_walk"
+    ],
+    [
+     "linoone",
+     "sleep"
+    ]
+   ],
+   "class": "LinooneModel",
+   "parts": [
+    "head",
+    "linoone"
+   ],
+   "root": "linoone"
+  },
+  "linoone_galarian": {
+   "animations": [
+    [
+     "linoone_galarian",
+     "blink"
+    ],
+    [
+     "linoone_galarian",
+     "ground_idle"
+    ]
+   ],
+   "class": "LinooneGalarianModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "linoone_galarian"
+   ],
+   "root": "linoone_galarian"
+  },
+  "lombre": {
+   "animations": [
+    [
+     "lombre",
+     "blink"
+    ],
+    [
+     "lombre",
+     "cry"
+    ],
+    [
+     "lombre",
+     "faint"
+    ],
+    [
+     "lombre",
+     "ground_idle"
+    ],
+    [
+     "lombre",
+     "ground_walk"
+    ],
+    [
+     "lombre",
+     "sleep"
+    ],
+    [
+     "lombre",
+     "water_idle"
+    ],
+    [
+     "lombre",
+     "water_swim"
+    ]
+   ],
+   "class": "LombreModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "lombre"
+   ],
+   "root": "lombre"
+  },
+  "lopunny": {
+   "animations": [
+    [
+     "lopunny",
+     "blink"
+    ],
+    [
+     "lopunny",
+     "cry"
+    ],
+    [
+     "lopunny",
+     "ground_idle"
+    ]
+   ],
+   "class": "LopunnyModel",
+   "parts": [
+    "head",
+    "leg_left",
+    "leg_right",
+    "lopunny"
+   ],
+   "root": "lopunny"
+  },
+  "lotad": {
+   "animations": [
+    [
+     "lotad",
+     "blink"
+    ],
+    [
+     "lotad",
+     "cry"
+    ],
+    [
+     "lotad",
+     "faint"
+    ],
+    [
+     "lotad",
+     "ground_idle"
+    ],
+    [
+     "lotad",
+     "ground_walk"
+    ],
+    [
+     "lotad",
+     "sleep"
+    ],
+    [
+     "lotad",
+     "water_idle"
+    ],
+    [
+     "lotad",
+     "water_swim"
+    ]
+   ],
+   "class": "LotadModel",
+   "parts": [
+    "leg_left",
+    "leg_left2",
+    "leg_right",
+    "leg_right2",
+    "lotad"
+   ],
+   "root": "lotad"
+  },
+  "loudred": {
+   "animations": [
+    [
+     "loudred",
+     "idle"
+    ]
+   ],
+   "class": "LoudredModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "leg_left",
+    "leg_right",
+    "loudred",
+    "torso"
+   ],
+   "root": "loudred"
+  },
+  "love_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "ludicolo": {
+   "animations": [
+    [
+     "ludicolo",
+     "blink"
+    ],
+    [
+     "ludicolo",
+     "cry"
+    ],
+    [
+     "ludicolo",
+     "faint"
+    ],
+    [
+     "ludicolo",
+     "ground_idle"
+    ],
+    [
+     "ludicolo",
+     "ground_walk"
+    ],
+    [
+     "ludicolo",
+     "sleep"
+    ],
+    [
+     "ludicolo",
+     "water_idle"
+    ],
+    [
+     "ludicolo",
+     "water_swim"
+    ]
+   ],
+   "class": "LudicoloModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "body",
+    "leg_left",
+    "leg_right",
+    "ludicolo"
+   ],
+   "root": "ludicolo"
+  },
+  "lure_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "luxio": {
+   "animations": [
+    [
+     "luxio",
+     "idle"
+    ],
+    [
+     "luxio",
+     "sleep"
+    ]
+   ],
+   "class": "LuxioModel",
+   "parts": [
+    "back_leg_left",
+    "back_leg_right",
+    "front_leg_left",
+    "front_leg_right",
+    "head",
+    "luxio"
+   ],
+   "root": "luxio"
+  },
+  "luxray": {
+   "animations": [
+    [
+     "luxray",
+     "ground_idle"
+    ]
+   ],
+   "class": "LuxrayModel",
+   "parts": [
+    "back_leg_left",
+    "back_leg_right",
+    "front_leg_left",
+    "front_leg_right",
+    "head",
+    "luxray"
+   ],
+   "root": "luxray"
+  },
+  "luxury_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "mabosstiff": {
+   "animations": [
+    [
+     "mabosstiff",
+     "blink"
+    ],
+    [
+     "mabosstiff",
+     "cry"
+    ],
+    [
+     "mabosstiff",
+     "ground_idle"
+    ]
+   ],
+   "class": "MabosstiffModel",
+   "parts": [
+    "head",
+    "leg_back_left1",
+    "leg_back_right1",
+    "leg_front_left1",
+    "leg_front_right1",
+    "mabosstiff"
+   ],
+   "root": "mabosstiff"
+  },
+  "machamp": {
+   "animations": [
+    [
+     "machamp",
+     "blink"
+    ],
+    [
+     "machamp",
+     "cry"
+    ],
+    [
+     "machamp",
+     "ground_idle"
+    ],
+    [
+     "machamp",
+     "ground_walk"
+    ]
+   ],
+   "class": "MachampModel",
+   "parts": [
+    "head",
+    "machamp"
+   ],
+   "root": "machamp"
+  },
+  "machoke": {
+   "animations": [
+    [
+     "machoke",
+     "blink"
+    ],
+    [
+     "machoke",
+     "cry"
+    ],
+    [
+     "machoke",
+     "ground_idle"
+    ],
+    [
+     "machoke",
+     "ground_walk"
+    ]
+   ],
+   "class": "MachokeModel",
+   "parts": [
+    "head",
+    "machoke"
+   ],
+   "root": "machoke"
+  },
+  "machop": {
+   "animations": [
+    [
+     "machop",
+     "blink"
+    ],
+    [
+     "machop",
+     "cry"
+    ],
+    [
+     "machop",
+     "ground_idle"
+    ],
+    [
+     "machop",
+     "ground_walk"
+    ]
+   ],
+   "class": "MachopModel",
+   "parts": [
+    "head",
+    "machop"
+   ],
+   "root": "machop"
+  },
+  "magcargo": {
+   "animations": [
+    [
+     "magcargo",
+     "blink"
+    ],
+    [
+     "magcargo",
+     "ground_idle"
+    ],
+    [
+     "magcargo",
+     "ground_walk"
+    ],
+    [
+     "magcargo",
+     "sleep"
+    ]
+   ],
+   "class": "MagcargoModel",
+   "parts": [
+    "head",
+    "magcargo"
+   ],
+   "root": "magcargo"
+  },
+  "magcargo_shiny": {
+   "animations": [
+    [
+     "magcargo_shiny",
+     "blink"
+    ],
+    [
+     "magcargo_shiny",
+     "ground_idle"
+    ],
+    [
+     "magcargo_shiny",
+     "ground_walk"
+    ],
+    [
+     "magcargo_shiny",
+     "sleep"
+    ]
+   ],
+   "class": "MagcargoShinyModel",
+   "parts": [
+    "head",
+    "magcargo"
+   ],
+   "root": "magcargo"
+  },
+  "makuhita": {
+   "animations": [
+    [
+     "makuhita",
+     "ground_idle"
+    ]
+   ],
+   "class": "MakuhitaModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "foot_left",
+    "foot_right",
+    "head",
+    "makuhita"
+   ],
+   "root": "makuhita"
+  },
+  "mamoswine": {
+   "animations": [
+    [
+     "mamoswine",
+     "blink"
+    ],
+    [
+     "mamoswine",
+     "cry"
+    ],
+    [
+     "mamoswine",
+     "ground_idle"
+    ],
+    [
+     "mamoswine",
+     "ground_walk"
+    ],
+    [
+     "mamoswine",
+     "sleep"
+    ]
+   ],
+   "class": "MamoswineModel",
+   "parts": [
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "mamoswine"
+   ],
+   "root": "mamoswine"
+  },
+  "mankey": {
+   "animations": [
+    [
+     "mankey",
+     "blink"
+    ],
+    [
+     "mankey",
+     "cry"
+    ],
+    [
+     "mankey",
+     "faint"
+    ],
+    [
+     "mankey",
+     "ground_idle"
+    ],
+    [
+     "mankey",
+     "ground_walk"
+    ],
+    [
+     "mankey",
+     "sleep"
+    ]
+   ],
+   "class": "MankeyModel",
+   "parts": [
+    "mankey"
+   ],
+   "root": "mankey"
+  },
+  "mareep": {
+   "animations": [
+    [
+     "mareep",
+     "battle_idle"
+    ],
+    [
+     "mareep",
+     "blink"
+    ],
+    [
+     "mareep",
+     "cry"
+    ],
+    [
+     "mareep",
+     "ground_idle"
+    ],
+    [
+     "mareep",
+     "ground_walk"
+    ],
+    [
+     "mareep",
+     "ground_walk_sheared"
+    ],
+    [
+     "mareep",
+     "sleep"
+    ]
+   ],
+   "class": "MareepModel",
+   "parts": [
+    "head",
+    "mareep",
+    "wool"
+   ],
+   "root": "mareep"
+  },
+  "marowak": {
+   "animations": [
+    [
+     "marowak",
+     "blink"
+    ],
+    [
+     "marowak",
+     "cry"
+    ],
+    [
+     "marowak",
+     "idle"
+    ]
+   ],
+   "class": "MarowakModel",
+   "parts": [
+    "head",
+    "left_leg",
+    "marowak",
+    "right_leg"
+   ],
+   "root": "marowak"
+  },
+  "maschiff": {
+   "animations": [
+    [
+     "maschiff",
+     "blink"
+    ],
+    [
+     "maschiff",
+     "cry"
+    ],
+    [
+     "maschiff",
+     "ground_idle"
+    ]
+   ],
+   "class": "MaschiffModel",
+   "parts": [
+    "head",
+    "leg_back_left1",
+    "leg_back_right1",
+    "leg_front_left1",
+    "leg_front_right1",
+    "maschiff"
+   ],
+   "root": "maschiff"
+  },
+  "masquerain": {
+   "animations": [
+    [
+     "masquerain",
+     "blink"
+    ],
+    [
+     "masquerain",
+     "ground_idle"
+    ],
+    [
+     "masquerain",
+     "ground_walk"
+    ]
+   ],
+   "class": "MasquerainModel",
+   "parts": [
+    "head",
+    "masquerain"
+   ],
+   "root": "masquerain"
+  },
+  "master_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "meganium": {
+   "animations": [
+    [
+     "meganium",
+     "battle_idle"
+    ],
+    [
+     "meganium",
+     "blink"
+    ],
+    [
+     "meganium",
+     "cry"
+    ],
+    [
+     "meganium",
+     "ground_idle"
+    ],
+    [
+     "meganium",
+     "ground_walk"
+    ],
+    [
+     "meganium",
+     "sleep"
+    ]
+   ],
+   "class": "MeganiumModel",
+   "parts": [
+    "head",
+    "meganium"
+   ],
+   "root": "meganium"
+  },
+  "meowth": {
+   "animations": [
+    [
+     "meowth",
+     "blink"
+    ],
+    [
+     "meowth",
+     "cry"
+    ],
+    [
+     "meowth",
+     "ground_idle"
+    ],
+    [
+     "meowth",
+     "sleep"
+    ]
+   ],
+   "class": "MeowthModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "meowth"
+   ],
+   "root": "meowth"
+  },
+  "meowth_alolan": {
+   "animations": [
+    [
+     "meowth_alolan",
+     "blink"
+    ],
+    [
+     "meowth_alolan",
+     "cry"
+    ],
+    [
+     "meowth_alolan",
+     "ground_idle"
+    ],
+    [
+     "meowth_alolan",
+     "sleep"
+    ]
+   ],
+   "class": "MeowthAlolanModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "meowth"
+   ],
+   "root": "meowth"
+  },
+  "meowth_galarian": {
+   "animations": [
+    [
+     "meowth_galarian",
+     "battle_idle"
+    ],
+    [
+     "meowth_galarian",
+     "blink"
+    ],
+    [
+     "meowth_galarian",
+     "cry"
+    ],
+    [
+     "meowth_galarian",
+     "ground_idle"
+    ],
+    [
+     "meowth_galarian",
+     "ground_walk"
+    ],
+    [
+     "meowth_galarian",
+     "sleep"
+    ]
+   ],
+   "class": "MeowthGalarianModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "meowth"
+   ],
+   "root": "meowth"
+  },
+  "metapod": {
+   "animations": [
+    [
+     "metapod",
+     "blink"
+    ],
+    [
+     "metapod",
+     "cry"
+    ],
+    [
+     "metapod",
+     "faint"
+    ],
+    [
+     "metapod",
+     "ground_idle"
+    ],
+    [
+     "metapod",
+     "sleep"
+    ]
+   ],
+   "class": "MetapodModel",
+   "parts": [
+    "metapod"
+   ],
+   "root": "metapod"
+  },
+  "mightyena": {
+   "animations": [
+    [
+     "mightyena",
+     "battle_idle"
+    ],
+    [
+     "mightyena",
+     "blink"
+    ],
+    [
+     "mightyena",
+     "cry"
+    ],
+    [
+     "mightyena",
+     "ground_idle"
+    ],
+    [
+     "mightyena",
+     "ground_walk"
+    ],
+    [
+     "mightyena",
+     "quirk"
+    ],
+    [
+     "mightyena",
+     "sleep"
+    ],
+    [
+     "mightyena",
+     "sleep_quirk"
+    ]
+   ],
+   "class": "MightyenaModel",
+   "parts": [
+    "head",
+    "mightyena"
+   ],
+   "root": "mightyena"
+  },
+  "milcery": {
+   "animations": [
+    [
+     "milcery",
+     "ground_idle"
+    ]
+   ],
+   "class": "MilceryModel",
+   "parts": [
+    "head",
+    "milcery"
+   ],
+   "root": "milcery"
+  },
+  "miltank": {
+   "animations": [
+    [
+     "miltank",
+     "blink"
+    ],
+    [
+     "miltank",
+     "cry"
+    ],
+    [
+     "miltank",
+     "ground_idle"
+    ],
+    [
+     "miltank",
+     "ground_walk"
+    ],
+    [
+     "miltank",
+     "sleep"
+    ]
+   ],
+   "class": "MiltankModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "leg_left",
+    "leg_right",
+    "miltank",
+    "neck"
+   ],
+   "root": "miltank"
+  },
+  "misdreavus": {
+   "animations": [
+    [
+     "misdreavus",
+     "blink"
+    ],
+    [
+     "misdreavus",
+     "cry"
+    ],
+    [
+     "misdreavus",
+     "ground_idle"
+    ],
+    [
+     "misdreavus",
+     "ground_walk"
+    ]
+   ],
+   "class": "MisdreavusModel",
+   "parts": [
+    "head",
+    "misdreavus"
+   ],
+   "root": "misdreavus"
+  },
+  "mismagius": {
+   "animations": [
+    [
+     "mismagius",
+     "blink"
+    ],
+    [
+     "mismagius",
+     "cry"
+    ],
+    [
+     "mismagius",
+     "ground_idle"
+    ]
+   ],
+   "class": "MismagiusModel",
+   "parts": [
+    "head",
+    "mismagius"
+   ],
+   "root": "mismagius"
+  },
+  "monferno": {
+   "animations": [
+    [
+     "monferno",
+     "battle_idle"
+    ],
+    [
+     "monferno",
+     "blink"
+    ],
+    [
+     "monferno",
+     "cry"
+    ],
+    [
+     "monferno",
+     "faint"
+    ],
+    [
+     "monferno",
+     "ground_idle"
+    ],
+    [
+     "monferno",
+     "ground_walk"
+    ]
+   ],
+   "class": "MonfernoModel",
+   "parts": [
+    "head",
+    "leg_left",
+    "leg_right",
+    "monferno"
+   ],
+   "root": "monferno"
+  },
+  "moon_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "morelull": {
+   "animations": [
+    [
+     "morelull",
+     "blink"
+    ],
+    [
+     "morelull",
+     "ground_idle"
+    ]
+   ],
+   "class": "MorelullModel",
+   "parts": [
+    "morelull"
+   ],
+   "root": "morelull"
+  },
+  "morgrem": {
+   "animations": [
+    [
+     "morgrem",
+     "blink"
+    ],
+    [
+     "morgrem",
+     "cry"
+    ],
+    [
+     "morgrem",
+     "ground_idle"
+    ]
+   ],
+   "class": "MorgremModel",
+   "parts": [
+    "head",
+    "leg_left",
+    "leg_right",
+    "morgrem"
+   ],
+   "root": "morgrem"
+  },
+  "mudbray": {
+   "animations": [
+    [
+     "mudbray",
+     "blink"
+    ],
+    [
+     "mudbray",
+     "cry"
+    ],
+    [
+     "mudbray",
+     "ground_idle"
+    ],
+    [
+     "mudbray",
+     "ground_walk"
+    ],
+    [
+     "mudbray",
+     "sleep"
+    ]
+   ],
+   "class": "MudbrayModel",
+   "parts": [
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "mudbray",
+    "neck"
+   ],
+   "root": "mudbray"
+  },
+  "naganadel": {
+   "animations": [
+    [
+     "naganadel",
+     "ground_idle"
+    ]
+   ],
+   "class": "NaganadelModel",
+   "parts": [
+    "head",
+    "naganadel",
+    "wing_left",
+    "wing_right"
+   ],
+   "root": "naganadel"
+  },
+  "natu": {
+   "animations": [
+    [
+     "natu",
+     "blink"
+    ],
+    [
+     "natu",
+     "ground_idle"
+    ],
+    [
+     "natu",
+     "sleep"
+    ]
+   ],
+   "class": "NatuModel",
+   "parts": [
+    "leg_left",
+    "leg_right",
+    "natu",
+    "torso"
+   ],
+   "root": "natu"
+  },
+  "nest_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "net_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "nidoqueen": {
+   "animations": [
+    [
+     "nidoqueen",
+     "blink"
+    ],
+    [
+     "nidoqueen",
+     "cry"
+    ],
+    [
+     "nidoqueen",
+     "ground_idle"
+    ],
+    [
+     "nidoqueen",
+     "spgs_happy_place"
+    ]
+   ],
+   "class": "NidoqueenModel",
+   "parts": [
+    "head",
+    "left_shoulder",
+    "left_upper_leg",
+    "nidoqueen",
+    "right_shoulder",
+    "right_upper_leg"
+   ],
+   "root": "nidoqueen"
+  },
+  "nidorino": {
+   "animations": [
+    [
+     "nidorino",
+     "blink"
+    ],
+    [
+     "nidorino",
+     "cry"
+    ],
+    [
+     "nidorino",
+     "ground_idle"
+    ]
+   ],
+   "class": "NidorinoModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "nidorino"
+   ],
+   "root": "nidorino"
+  },
+  "numel": {
+   "animations": [
+    [
+     "numel",
+     "battle_idle"
+    ],
+    [
+     "numel",
+     "blink"
+    ],
+    [
+     "numel",
+     "ground_idle"
+    ],
+    [
+     "numel",
+     "ground_walk"
+    ],
+    [
+     "numel",
+     "sleep"
+    ]
+   ],
+   "class": "NumelModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "numel"
+   ],
+   "root": "numel"
+  },
+  "obstagoon": {
+   "animations": [
+    [
+     "obstagoon",
+     "battle_idle"
+    ],
+    [
+     "obstagoon",
+     "blink"
+    ],
+    [
+     "obstagoon",
+     "ground_idle"
+    ],
+    [
+     "obstagoon",
+     "ground_walk"
+    ],
+    [
+     "obstagoon",
+     "sleep"
+    ]
+   ],
+   "class": "ObstagoonModel",
+   "parts": [
+    "head",
+    "obstagoon"
+   ],
+   "root": "obstagoon"
+  },
+  "oddish": {
+   "animations": [
+    [
+     "oddish",
+     "blink"
+    ],
+    [
+     "oddish",
+     "cry"
+    ],
+    [
+     "oddish",
+     "faint"
+    ],
+    [
+     "oddish",
+     "ground_idle"
+    ],
+    [
+     "oddish",
+     "ground_walk"
+    ],
+    [
+     "oddish",
+     "sleep"
+    ]
+   ],
+   "class": "OddishModel",
+   "parts": [
+    "oddish"
+   ],
+   "root": "oddish"
+  },
+  "oshawott": {
+   "animations": [
+    [
+     "oshawott",
+     "blink"
+    ],
+    [
+     "oshawott",
+     "cry"
+    ],
+    [
+     "oshawott",
+     "ground_idle"
+    ],
+    [
+     "oshawott",
+     "sleep"
+    ]
+   ],
+   "class": "OshawottModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "oshawott",
+    "scalchop_hand",
+    "scalchop_torso"
+   ],
+   "root": "oshawott"
+  },
+  "oshawott_hisui_bias": {
+   "animations": [
+    [
+     "oshawott_hisui_bias",
+     "blink"
+    ],
+    [
+     "oshawott_hisui_bias",
+     "cry"
+    ],
+    [
+     "oshawott_hisui_bias",
+     "ground_idle"
+    ],
+    [
+     "oshawott_hisui_bias",
+     "sleep"
+    ]
+   ],
+   "class": "OshawottHisuiBiasModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "oshawott_hisui_bias",
+    "scalchop_hand",
+    "scalchop_torso"
+   ],
+   "root": "oshawott_hisui_bias"
+  },
+  "overqwil": {
+   "animations": [
+    [
+     "overqwil",
+     "blink"
+    ],
+    [
+     "overqwil",
+     "cry"
+    ],
+    [
+     "overqwil",
+     "ground_idle"
+    ]
+   ],
+   "class": "OverqwilModel",
+   "parts": [
+    "body",
+    "overqwil",
+    "tail"
+   ],
+   "root": "overqwil"
+  },
+  "paras": {
+   "animations": [
+    [
+     "paras",
+     "blink"
+    ],
+    [
+     "paras",
+     "cry"
+    ],
+    [
+     "paras",
+     "faint"
+    ],
+    [
+     "paras",
+     "ground_idle"
+    ],
+    [
+     "paras",
+     "ground_walk"
+    ],
+    [
+     "paras",
+     "sleep"
+    ]
+   ],
+   "class": "ParasModel",
+   "parts": [
+    "head",
+    "paras"
+   ],
+   "root": "paras"
+  },
+  "park_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "patrat": {
+   "animations": [
+    [
+     "patrat",
+     "blink"
+    ],
+    [
+     "patrat",
+     "cry"
+    ],
+    [
+     "patrat",
+     "ground_idle"
+    ],
+    [
+     "patrat",
+     "ground_walk"
+    ],
+    [
+     "patrat",
+     "sleep"
+    ]
+   ],
+   "class": "PatratModel",
+   "parts": [
+    "head",
+    "patrat"
+   ],
+   "root": "patrat"
+  },
+  "pelipper": {
+   "animations": [
+    [
+     "pelipper",
+     "air_fly"
+    ],
+    [
+     "pelipper",
+     "air_idle"
+    ],
+    [
+     "pelipper",
+     "blink"
+    ],
+    [
+     "pelipper",
+     "ground_idle"
+    ],
+    [
+     "pelipper",
+     "ground_walk"
+    ],
+    [
+     "pelipper",
+     "sleep"
+    ],
+    [
+     "pelipper",
+     "surfacewater_idle"
+    ],
+    [
+     "pelipper",
+     "surfacewater_sleep"
+    ],
+    [
+     "pelipper",
+     "surfacewater_swim"
+    ]
+   ],
+   "class": "PelipperModel",
+   "parts": [
+    "foot_left",
+    "foot_right",
+    "pelipper",
+    "wing_left",
+    "wing_right"
+   ],
+   "root": "pelipper"
+  },
+  "perrserker": {
+   "animations": [
+    [
+     "perrserker",
+     "blink"
+    ],
+    [
+     "perrserker",
+     "ground_idle"
+    ]
+   ],
+   "class": "PerrserkerModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "perrserker"
+   ],
+   "root": "perrserker"
+  },
+  "persian": {
+   "animations": [
+    [
+     "persian",
+     "blink"
+    ],
+    [
+     "persian",
+     "cry"
+    ],
+    [
+     "persian",
+     "ground_idle"
+    ],
+    [
+     "persian",
+     "sleep"
+    ]
+   ],
+   "class": "PersianModel",
+   "parts": [
+    "leg_back_left1",
+    "leg_back_right1",
+    "leg_front_left1",
+    "leg_front_right1",
+    "neck",
+    "persian"
+   ],
+   "root": "persian"
+  },
+  "persian_alolan": {
+   "animations": [
+    [
+     "persian_alolan",
+     "blink"
+    ],
+    [
+     "persian_alolan",
+     "ground_idle"
+    ],
+    [
+     "persian_alolan",
+     "sleep"
+    ]
+   ],
+   "class": "PersianAlolanModel",
+   "parts": [
+    "head",
+    "leg_back_left1",
+    "leg_back_right1",
+    "leg_front_left1",
+    "leg_front_right1",
+    "persian"
+   ],
+   "root": "persian"
+  },
+  "petilil": {
+   "animations": [
+    [
+     "petilil",
+     "battle_idle"
+    ],
+    [
+     "petilil",
+     "blink"
+    ],
+    [
+     "petilil",
+     "cry"
+    ],
+    [
+     "petilil",
+     "faint"
+    ],
+    [
+     "petilil",
+     "ground_idle"
+    ],
+    [
+     "petilil",
+     "ground_walk"
+    ],
+    [
+     "petilil",
+     "idle_quirk"
+    ],
+    [
+     "petilil",
+     "sleep"
+    ]
+   ],
+   "class": "PetililModel",
+   "parts": [
+    "head",
+    "petilil"
+   ],
+   "root": "petilil"
+  },
+  "petilil_hisui_bias": {
+   "animations": [
+    [
+     "petilil",
+     "battle_idle"
+    ],
+    [
+     "petilil",
+     "blink"
+    ],
+    [
+     "petilil",
+     "cry"
+    ],
+    [
+     "petilil",
+     "ground_idle"
+    ],
+    [
+     "petilil",
+     "ground_walk"
+    ],
+    [
+     "petilil",
+     "idle_quirk"
+    ],
+    [
+     "petilil",
+     "sleep"
+    ]
+   ],
+   "class": "PetililHisuiBiasModel",
+   "parts": [
+    "head",
+    "leaf_back_rotation",
+    "leaf_left_rotation",
+    "leaf_right_rotation",
+    "petilil_hisui_bias"
+   ],
+   "root": "petilil_hisui_bias"
+  },
+  "phanpy": {
+   "animations": [
+    [
+     "phanpy",
+     "battle_idle"
+    ],
+    [
+     "phanpy",
+     "blink"
+    ],
+    [
+     "phanpy",
+     "faint"
+    ],
+    [
+     "phanpy",
+     "ground_idle"
+    ],
+    [
+     "phanpy",
+     "ground_walk"
+    ],
+    [
+     "phanpy",
+     "sleep"
+    ]
+   ],
+   "class": "PhanpyModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "phanpy"
+   ],
+   "root": "phanpy"
+  },
+  "phantump": {
+   "animations": [
+    [
+     "phantump",
+     "air_fly"
+    ],
+    [
+     "phantump",
+     "air_idle"
+    ],
+    [
+     "phantump",
+     "battle_faint"
+    ],
+    [
+     "phantump",
+     "battle_idle"
+    ],
+    [
+     "phantump",
+     "blink"
+    ],
+    [
+     "phantump",
+     "cry"
+    ],
+    [
+     "phantump",
+     "faint"
+    ],
+    [
+     "phantump",
+     "ground_idle"
+    ],
+    [
+     "phantump",
+     "ground_walk"
+    ],
+    [
+     "phantump",
+     "sleep"
+    ]
+   ],
+   "class": "PhantumpModel",
+   "parts": [
+    "phantump"
+   ],
+   "root": "phantump"
+  },
+  "pidove": {
+   "animations": [
+    [
+     "pidove",
+     "blink"
+    ],
+    [
+     "pidove",
+     "cry"
+    ],
+    [
+     "pidove",
+     "ground_idle"
+    ]
+   ],
+   "class": "PidoveModel",
+   "parts": [
+    "head_ai",
+    "leg_left",
+    "leg_right",
+    "pidove",
+    "tail",
+    "wing_left",
+    "wing_right"
+   ],
+   "root": "pidove"
+  },
+  "piloswine": {
+   "animations": [
+    [
+     "piloswine",
+     "cry"
+    ],
+    [
+     "piloswine",
+     "ground_idle"
+    ]
+   ],
+   "class": "PiloswineModel",
+   "parts": [
+    "piloswine"
+   ],
+   "root": "piloswine"
+  },
+  "pineco": {
+   "animations": [
+    [
+     "pineco",
+     "blink"
+    ],
+    [
+     "pineco",
+     "faint"
+    ],
+    [
+     "pineco",
+     "ground_idle"
+    ],
+    [
+     "pineco",
+     "ground_walk"
+    ],
+    [
+     "pineco",
+     "sleep"
+    ]
+   ],
+   "class": "PinecoModel",
+   "parts": [
+    "pineco"
+   ],
+   "root": "pineco"
+  },
+  "pinsir": {
+   "animations": [
+    [
+     "pinsir",
+     "battle_idle"
+    ],
+    [
+     "pinsir",
+     "blink"
+    ],
+    [
+     "pinsir",
+     "cry"
+    ],
+    [
+     "pinsir",
+     "ground_idle"
+    ],
+    [
+     "pinsir",
+     "ground_walk"
+    ],
+    [
+     "pinsir",
+     "sleep"
+    ]
+   ],
+   "class": "PinsirModel",
+   "parts": [
+    "pinsir"
+   ],
+   "root": "pinsir"
+  },
+  "piplup": {
+   "animations": [
+    [
+     "piplup",
+     "battle_idle"
+    ],
+    [
+     "piplup",
+     "blink"
+    ],
+    [
+     "piplup",
+     "cry"
+    ],
+    [
+     "piplup",
+     "ground_idle"
+    ],
+    [
+     "piplup",
+     "ground_walk"
+    ],
+    [
+     "piplup",
+     "sleep"
+    ],
+    [
+     "piplup",
+     "water_idle"
+    ],
+    [
+     "piplup",
+     "water_swim"
+    ]
+   ],
+   "class": "PiplupModel",
+   "parts": [
+    "head",
+    "leg_left",
+    "leg_right",
+    "piplup"
+   ],
+   "root": "piplup"
+  },
+  "poipole": {
+   "animations": [
+    [
+     "poipole",
+     "blink"
+    ],
+    [
+     "poipole",
+     "ground_idle"
+    ]
+   ],
+   "class": "PoipoleModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "poipole"
+   ],
+   "root": "poipole"
+  },
+  "poke_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "politoed": {
+   "animations": [
+    [
+     "politoed",
+     "ground_idle"
+    ],
+    [
+     "politoed",
+     "water_idle"
+    ],
+    [
+     "politoed",
+     "water_swim"
+    ]
+   ],
+   "class": "PolitoedModel",
+   "parts": [
+    "head",
+    "leftleg",
+    "politoed",
+    "rightleg"
+   ],
+   "root": "politoed"
+  },
+  "poliwag": {
+   "animations": [
+    [
+     "poliwag",
+     "blink"
+    ],
+    [
+     "poliwag",
+     "cry"
+    ],
+    [
+     "poliwag",
+     "ground_idle"
+    ],
+    [
+     "poliwag",
+     "sleep"
+    ],
+    [
+     "poliwag",
+     "water_idle"
+    ],
+    [
+     "poliwag",
+     "water_swim"
+    ]
+   ],
+   "class": "PoliwagModel",
+   "parts": [
+    "poliwag"
+   ],
+   "root": "poliwag"
+  },
+  "ponyta": {
+   "animations": [
+    [
+     "ponyta",
+     "blink"
+    ],
+    [
+     "ponyta",
+     "cry"
+    ],
+    [
+     "ponyta",
+     "faint"
+    ],
+    [
+     "ponyta",
+     "ground_idle"
+    ],
+    [
+     "ponyta",
+     "ground_walk"
+    ],
+    [
+     "ponyta",
+     "quirk1"
+    ],
+    [
+     "ponyta",
+     "sleep"
+    ]
+   ],
+   "class": "PonytaModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "ponyta"
+   ],
+   "root": "ponyta"
+  },
+  "ponyta_galarian": {
+   "animations": [
+    [
+     "ponyta_galar",
+     "blink"
+    ],
+    [
+     "ponyta_galar",
+     "cry"
+    ],
+    [
+     "ponyta_galar",
+     "faint"
+    ],
+    [
+     "ponyta_galar",
+     "ground_idle"
+    ],
+    [
+     "ponyta_galar",
+     "ground_walk"
+    ],
+    [
+     "ponyta_galar",
+     "quirk"
+    ],
+    [
+     "ponyta_galar",
+     "sleep"
+    ]
+   ],
+   "class": "PonytaGalarianModel",
+   "parts": [
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "neck",
+    "ponyta_galar"
+   ],
+   "root": "ponyta_galar"
+  },
+  "poochyena": {
+   "animations": [
+    [
+     "poochyena",
+     "blink"
+    ],
+    [
+     "poochyena",
+     "cry"
+    ],
+    [
+     "poochyena",
+     "ground_idle"
+    ]
+   ],
+   "class": "PoochyenaModel",
+   "parts": [
+    "head",
+    "leg_left",
+    "leg_right",
+    "poochyena",
+    "shoulder_left",
+    "shoulder_right"
+   ],
+   "root": "poochyena"
+  },
+  "premier_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "primeape": {
+   "animations": [
+    [
+     "primeape",
+     "blink"
+    ],
+    [
+     "primeape",
+     "cry"
+    ],
+    [
+     "primeape",
+     "faint"
+    ],
+    [
+     "primeape",
+     "ground_idle"
+    ],
+    [
+     "primeape",
+     "ground_walk"
+    ],
+    [
+     "primeape",
+     "sleep"
+    ]
+   ],
+   "class": "PrimeapeModel",
+   "parts": [
+    "primeape"
+   ],
+   "root": "primeape"
+  },
+  "psyduck": {
+   "animations": [
+    [
+     "psyduck",
+     "blink"
+    ],
+    [
+     "psyduck",
+     "cry"
+    ],
+    [
+     "psyduck",
+     "faint"
+    ],
+    [
+     "psyduck",
+     "ground_idle"
+    ],
+    [
+     "psyduck",
+     "ground_walk"
+    ],
+    [
+     "psyduck",
+     "sleep"
+    ],
+    [
+     "psyduck",
+     "water_idle"
+    ],
+    [
+     "psyduck",
+     "water_swim"
+    ]
+   ],
+   "class": "PsyduckModel",
+   "parts": [
+    "head",
+    "psyduck"
+   ],
+   "root": "psyduck"
+  },
+  "pumpkaboo": {
+   "animations": [
+    [
+     "pumpkaboo",
+     "battle_idle"
+    ],
+    [
+     "pumpkaboo",
+     "blink"
+    ],
+    [
+     "pumpkaboo",
+     "cry"
+    ],
+    [
+     "pumpkaboo",
+     "ground_idle"
+    ],
+    [
+     "pumpkaboo",
+     "ground_walk"
+    ],
+    [
+     "pumpkaboo",
+     "quirk_idle"
+    ],
+    [
+     "pumpkaboo",
+     "sleep"
+    ]
+   ],
+   "class": "PumpkabooModel",
+   "parts": [
+    "head",
+    "pumpkaboo"
+   ],
+   "root": "pumpkaboo"
+  },
+  "pupitar": {
+   "animations": [
+    [
+     "pupitar",
+     "blink"
+    ],
+    [
+     "pupitar",
+     "cry"
+    ]
+   ],
+   "class": "PupitarModel",
+   "parts": [
+    "pupitar"
+   ],
+   "root": "pupitar"
+  },
+  "pyukumuku": {
+   "animations": [],
+   "class": "PyukumukuModel",
+   "parts": [
+    "pyukumuku"
+   ],
+   "root": "pyukumuku"
+  },
+  "quagsire": {
+   "animations": [
+    [
+     "quagsire",
+     "blink"
+    ],
+    [
+     "quagsire",
+     "cry"
+    ],
+    [
+     "quagsire",
+     "ground_idle"
+    ]
+   ],
+   "class": "QuagsireModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "quagsire"
+   ],
+   "root": "quagsire"
+  },
+  "quaquaval": {
+   "animations": [
+    [
+     "quaquaval",
+     "battle_idle"
+    ],
+    [
+     "quaquaval",
+     "blink"
+    ],
+    [
+     "quaquaval",
+     "cry"
+    ],
+    [
+     "quaquaval",
+     "ground_idle"
+    ],
+    [
+     "quaquaval",
+     "ground_idle2"
+    ],
+    [
+     "quaquaval",
+     "ground_walk"
+    ],
+    [
+     "quaquaval",
+     "sleep"
+    ],
+    [
+     "quaquaval",
+     "water_idle"
+    ],
+    [
+     "quaquaval",
+     "water_swim"
+    ]
+   ],
+   "class": "QuaquavalModel",
+   "parts": [
+    "head",
+    "leg_left",
+    "leg_right",
+    "quaquaval",
+    "water_feathers"
+   ],
+   "root": "quaquaval"
+  },
+  "quaxwell": {
+   "animations": [
+    [
+     "quaxwell",
+     "battle_idle"
+    ],
+    [
+     "quaxwell",
+     "blink"
+    ],
+    [
+     "quaxwell",
+     "cry"
+    ],
+    [
+     "quaxwell",
+     "faint"
+    ],
+    [
+     "quaxwell",
+     "ground_idle"
+    ],
+    [
+     "quaxwell",
+     "ground_walk"
+    ],
+    [
+     "quaxwell",
+     "sleep"
+    ],
+    [
+     "quaxwell",
+     "water_idle"
+    ]
+   ],
+   "class": "QuaxwellModel",
+   "parts": [
+    "head",
+    "quaxwell"
+   ],
+   "root": "quaxwell"
+  },
+  "quick_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "quilava": {
+   "animations": [
+    [
+     "quilava",
+     "battle_cry"
+    ],
+    [
+     "quilava",
+     "battle_idle"
+    ],
+    [
+     "quilava",
+     "blink"
+    ],
+    [
+     "quilava",
+     "cry"
+    ],
+    [
+     "quilava",
+     "fire_idle"
+    ],
+    [
+     "quilava",
+     "ground_idle"
+    ],
+    [
+     "quilava",
+     "ground_walk"
+    ],
+    [
+     "quilava",
+     "sleep"
+    ]
+   ],
+   "class": "QuilavaModel",
+   "parts": [
+    "head",
+    "quilava"
+   ],
+   "root": "quilava"
+  },
+  "quilava_hisui_bias": {
+   "animations": [
+    [
+     "quilava_hisui_bias",
+     "battle_cry"
+    ],
+    [
+     "quilava_hisui_bias",
+     "battle_idle"
+    ],
+    [
+     "quilava_hisui_bias",
+     "blink"
+    ],
+    [
+     "quilava_hisui_bias",
+     "cry"
+    ],
+    [
+     "quilava_hisui_bias",
+     "fire_idle"
+    ],
+    [
+     "quilava_hisui_bias",
+     "ground_idle"
+    ],
+    [
+     "quilava_hisui_bias",
+     "ground_walk"
+    ],
+    [
+     "quilava_hisui_bias",
+     "sleep"
+    ]
+   ],
+   "class": "QuilavaHisuiBiasModel",
+   "parts": [
+    "head",
+    "quilava_hisui_bias"
+   ],
+   "root": "quilava_hisui_bias"
+  },
+  "quilladin": {
+   "animations": [
+    [
+     "quilladin",
+     "blink"
+    ],
+    [
+     "quilladin",
+     "cry"
+    ],
+    [
+     "quilladin",
+     "ground_idle"
+    ],
+    [
+     "quilladin",
+     "ground_walk"
+    ],
+    [
+     "quilladin",
+     "sleep"
+    ]
+   ],
+   "class": "QuilladinModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "leg_left",
+    "leg_right",
+    "quilladin",
+    "torso"
+   ],
+   "root": "quilladin"
+  },
+  "qwilfish": {
+   "animations": [
+    [
+     "qwilfish",
+     "blink"
+    ],
+    [
+     "qwilfish",
+     "cry"
+    ],
+    [
+     "qwilfish",
+     "ground_idle"
+    ]
+   ],
+   "class": "QwilfishModel",
+   "parts": [
+    "body",
+    "qwilfish",
+    "tail"
+   ],
+   "root": "qwilfish"
+  },
+  "qwilfish_hisuian": {
+   "animations": [
+    [
+     "qwilfish_hisuian",
+     "blink"
+    ],
+    [
+     "qwilfish_hisuian",
+     "cry"
+    ],
+    [
+     "qwilfish_hisuian",
+     "ground_idle"
+    ]
+   ],
+   "class": "QwilfishHisuianModel",
+   "parts": [
+    "body",
+    "qwilfish_hisuian",
+    "tail"
+   ],
+   "root": "qwilfish_hisuian"
+  },
+  "ralts": {
+   "animations": [
+    [
+     "ralts",
+     "battle_idle"
+    ],
+    [
+     "ralts",
+     "blink"
+    ],
+    [
+     "ralts",
+     "cry"
+    ],
+    [
+     "ralts",
+     "ground_idle"
+    ],
+    [
+     "ralts",
+     "ground_walk"
+    ],
+    [
+     "ralts",
+     "quirk_battle_idle"
+    ],
+    [
+     "ralts",
+     "quirk_idle"
+    ],
+    [
+     "ralts",
+     "shoulder_left"
+    ],
+    [
+     "ralts",
+     "shoulder_right"
+    ],
+    [
+     "ralts",
+     "sleep"
+    ]
+   ],
+   "class": "RaltsModel",
+   "parts": [
+    "head",
+    "ralts"
+   ],
+   "root": "ralts"
+  },
+  "rapidash": {
+   "animations": [
+    [
+     "rapidash",
+     "battle_faint"
+    ],
+    [
+     "rapidash",
+     "blink"
+    ],
+    [
+     "rapidash",
+     "cry"
+    ],
+    [
+     "rapidash",
+     "faint"
+    ],
+    [
+     "rapidash",
+     "ground_idle"
+    ],
+    [
+     "rapidash",
+     "ground_walk"
+    ],
+    [
+     "rapidash",
+     "sleep"
+    ]
+   ],
+   "class": "RapidashModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "rapidash"
+   ],
+   "root": "rapidash"
+  },
+  "rapidash_galarian": {
+   "animations": [
+    [
+     "rapidash_galar",
+     "battle_idle"
+    ],
+    [
+     "rapidash_galar",
+     "blink"
+    ],
+    [
+     "rapidash_galar",
+     "cry"
+    ],
+    [
+     "rapidash_galar",
+     "ground_idle"
+    ],
+    [
+     "rapidash_galar",
+     "ground_walk"
+    ],
+    [
+     "rapidash_galar",
+     "hair"
+    ]
+   ],
+   "class": "RapidashGalarianModel",
+   "parts": [
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "neck",
+    "rapidash_galar"
+   ],
+   "root": "rapidash_galar"
+  },
+  "raticate": {
+   "animations": [
+    [
+     "raticate",
+     "blink"
+    ],
+    [
+     "raticate",
+     "cry"
+    ],
+    [
+     "raticate",
+     "faint"
+    ],
+    [
+     "raticate",
+     "ground_idle"
+    ],
+    [
+     "raticate",
+     "ground_walk"
+    ],
+    [
+     "raticate",
+     "sleep"
+    ]
+   ],
+   "class": "RaticateModel",
+   "parts": [
+    "head",
+    "raticate"
+   ],
+   "root": "raticate"
+  },
+  "raticate_alolan": {
+   "animations": [
+    [
+     "raticate_alolan",
+     "blink"
+    ],
+    [
+     "raticate_alolan",
+     "cry"
+    ],
+    [
+     "raticate_alolan",
+     "faint"
+    ],
+    [
+     "raticate_alolan",
+     "ground_idle"
+    ],
+    [
+     "raticate_alolan",
+     "ground_walk"
+    ],
+    [
+     "raticate_alolan",
+     "sleep"
+    ]
+   ],
+   "class": "RaticateAlolanModel",
+   "parts": [
+    "head",
+    "raticate_alolan"
+   ],
+   "root": "raticate_alolan"
+  },
+  "repeat_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "rillaboom": {
+   "animations": [
+    [
+     "rillaboom",
+     "battle_idle"
+    ],
+    [
+     "rillaboom",
+     "blink"
+    ],
+    [
+     "rillaboom",
+     "cry"
+    ],
+    [
+     "rillaboom",
+     "ground_idle"
+    ],
+    [
+     "rillaboom",
+     "ground_walk"
+    ]
+   ],
+   "class": "RillaboomModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "drum",
+    "head",
+    "leg_left",
+    "leg_right",
+    "rillaboom",
+    "stick_left",
+    "stick_right"
+   ],
+   "root": "rillaboom"
+  },
+  "roggenrola": {
+   "animations": [
+    [
+     "roggenrola",
+     "battle_idle"
+    ],
+    [
+     "roggenrola",
+     "cry"
+    ],
+    [
+     "roggenrola",
+     "faint"
+    ],
+    [
+     "roggenrola",
+     "ground_idle"
+    ],
+    [
+     "roggenrola",
+     "ground_walk"
+    ],
+    [
+     "roggenrola",
+     "quirk_twitch"
+    ],
+    [
+     "roggenrola",
+     "shoulder_left"
+    ],
+    [
+     "roggenrola",
+     "shoulder_right"
+    ],
+    [
+     "roggenrola",
+     "sleep"
+    ]
+   ],
+   "class": "RoggenrolaModel",
+   "parts": [
+    "feet_left",
+    "feet_right",
+    "roggenrola"
+   ],
+   "root": "roggenrola"
+  },
+  "roseate_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "roselia": {
+   "animations": [
+    [
+     "roselia",
+     "battle_idle"
+    ],
+    [
+     "roselia",
+     "blink"
+    ],
+    [
+     "roselia",
+     "cry"
+    ],
+    [
+     "roselia",
+     "ground_idle"
+    ],
+    [
+     "roselia",
+     "ground_walk"
+    ],
+    [
+     "roselia",
+     "quirk_idle"
+    ],
+    [
+     "roselia",
+     "sleep"
+    ]
+   ],
+   "class": "RoseliaModel",
+   "parts": [
+    "head",
+    "roselia"
+   ],
+   "root": "roselia"
+  },
+  "roserade": {
+   "animations": [
+    [
+     "roserade",
+     "battle_cry"
+    ],
+    [
+     "roserade",
+     "battle_idle"
+    ],
+    [
+     "roserade",
+     "blink"
+    ],
+    [
+     "roserade",
+     "cry"
+    ],
+    [
+     "roserade",
+     "ground_idle"
+    ],
+    [
+     "roserade",
+     "ground_walk"
+    ],
+    [
+     "roserade",
+     "quirk_idle"
+    ],
+    [
+     "roserade",
+     "sleep"
+    ]
+   ],
+   "class": "RoseradeModel",
+   "parts": [
+    "head",
+    "roserade"
+   ],
+   "root": "roserade"
+  },
+  "rowlet": {
+   "animations": [
+    [
+     "rowlet",
+     "blink"
+    ],
+    [
+     "rowlet",
+     "cry"
+    ],
+    [
+     "rowlet",
+     "flying_idle"
+    ],
+    [
+     "rowlet",
+     "ground_idle"
+    ]
+   ],
+   "class": "RowletModel",
+   "parts": [
+    "foot_left",
+    "foot_right",
+    "rowlet",
+    "wing_open_left_main",
+    "wing_open_right_main",
+    "wings_folded",
+    "wings_open"
+   ],
+   "root": "rowlet"
+  },
+  "rowlet_hisui_bias": {
+   "animations": [
+    [
+     "rowlet_hisui_bias",
+     "blink"
+    ],
+    [
+     "rowlet_hisui_bias",
+     "cry"
+    ],
+    [
+     "rowlet_hisui_bias",
+     "flying_idle"
+    ],
+    [
+     "rowlet_hisui_bias",
+     "ground_idle"
+    ]
+   ],
+   "class": "RowletHisuiBiasModel",
+   "parts": [
+    "foot_left",
+    "foot_right",
+    "rowlet_hisui_bias",
+    "wing_open_left_main",
+    "wing_open_right_main",
+    "wings_folded",
+    "wings_open"
+   ],
+   "root": "rowlet_hisui_bias"
+  },
+  "safari_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "salandit": {
+   "animations": [
+    [
+     "salandit",
+     "blink"
+    ],
+    [
+     "salandit",
+     "ground_idle"
+    ]
+   ],
+   "class": "SalanditModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "salandit"
+   ],
+   "root": "salandit"
+  },
+  "salazzle": {
+   "animations": [
+    [
+     "salazzle",
+     "battle_idle"
+    ],
+    [
+     "salazzle",
+     "blink"
+    ],
+    [
+     "salazzle",
+     "ground_idle"
+    ],
+    [
+     "salazzle",
+     "ground_walk"
+    ]
+   ],
+   "class": "SalazzleModel",
+   "parts": [
+    "head",
+    "leg_left",
+    "leg_right",
+    "salazzle"
+   ],
+   "root": "salazzle"
+  },
+  "samurott": {
+   "animations": [
+    [
+     "samurott",
+     "battle_pose"
+    ],
+    [
+     "samurott",
+     "blink"
+    ],
+    [
+     "samurott",
+     "cry"
+    ],
+    [
+     "samurott",
+     "ground_idle"
+    ]
+   ],
+   "class": "SamurottModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "samurott",
+    "seamitar_hand_left",
+    "seamitar_hand_right"
+   ],
+   "root": "samurott"
+  },
+  "samurott_hisuian": {
+   "animations": [
+    [
+     "samurott_hisuian",
+     "battle_pose"
+    ],
+    [
+     "samurott_hisuian",
+     "blink"
+    ],
+    [
+     "samurott_hisuian",
+     "cry"
+    ],
+    [
+     "samurott_hisuian",
+     "ground_idle"
+    ]
+   ],
+   "class": "SamurottHisuianModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "samurott_hisui",
+    "seamitar_hand_left",
+    "seamitar_hand_right"
+   ],
+   "root": "samurott_hisui"
+  },
+  "sandslash": {
+   "animations": [
+    [
+     "sandslash",
+     "blink"
+    ],
+    [
+     "sandslash",
+     "cry"
+    ],
+    [
+     "sandslash",
+     "ground_idle"
+    ],
+    [
+     "sandslash",
+     "ground_walk"
+    ],
+    [
+     "sandslash",
+     "sleep"
+    ]
+   ],
+   "class": "SandslashModel",
+   "parts": [
+    "head",
+    "sandslash"
+   ],
+   "root": "sandslash"
+  },
+  "sawsbuck": {
+   "animations": [],
+   "class": "SawsbuckModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "sawsbuck"
+   ],
+   "root": "sawsbuck"
+  },
+  "scatterbug": {
+   "animations": [
+    [
+     "scatterbug",
+     "blink"
+    ],
+    [
+     "scatterbug",
+     "cry"
+    ],
+    [
+     "scatterbug",
+     "faint"
+    ],
+    [
+     "scatterbug",
+     "ground_idle"
+    ],
+    [
+     "scatterbug",
+     "ground_walk"
+    ],
+    [
+     "scatterbug",
+     "quirk"
+    ],
+    [
+     "scatterbug",
+     "sleep"
+    ]
+   ],
+   "class": "ScatterbugModel",
+   "parts": [
+    "head",
+    "scatterbug"
+   ],
+   "root": "scatterbug"
+  },
+  "sentret": {
+   "animations": [
+    [
+     "sentret",
+     "blink"
+    ],
+    [
+     "sentret",
+     "cry"
+    ],
+    [
+     "sentret",
+     "ground_idle"
+    ]
+   ],
+   "class": "SentretModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "foot_left",
+    "foot_right",
+    "sentret"
+   ],
+   "root": "sentret"
+  },
+  "serperior": {
+   "animations": [
+    [
+     "serperior",
+     "blink"
+    ],
+    [
+     "serperior",
+     "cry"
+    ],
+    [
+     "serperior",
+     "ground_idle"
+    ],
+    [
+     "serperior",
+     "ground_walk"
+    ],
+    [
+     "serperior",
+     "sleep"
+    ]
+   ],
+   "class": "SerperiorModel",
+   "parts": [
+    "head_ai",
+    "serperior"
+   ],
+   "root": "serperior"
+  },
+  "servine": {
+   "animations": [
+    [
+     "servine",
+     "blink"
+    ],
+    [
+     "servine",
+     "cry"
+    ],
+    [
+     "servine",
+     "ground_idle"
+    ],
+    [
+     "servine",
+     "ground_walk"
+    ],
+    [
+     "servine",
+     "sleep"
+    ]
+   ],
+   "class": "ServineModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head_ai",
+    "leg_left",
+    "leg_right",
+    "servine"
+   ],
+   "root": "servine"
+  },
+  "shieldon": {
+   "animations": [
+    [
+     "shieldon",
+     "battle_idle"
+    ],
+    [
+     "shieldon",
+     "blink"
+    ],
+    [
+     "shieldon",
+     "cry"
+    ],
+    [
+     "shieldon",
+     "faint"
+    ],
+    [
+     "shieldon",
+     "glance_quirk"
+    ],
+    [
+     "shieldon",
+     "graze_quirk"
+    ],
+    [
+     "shieldon",
+     "ground_idle"
+    ],
+    [
+     "shieldon",
+     "ground_walk"
+    ],
+    [
+     "shieldon",
+     "sleep"
+    ]
+   ],
+   "class": "ShieldonModel",
+   "parts": [
+    "head",
+    "shieldon"
+   ],
+   "root": "shieldon"
+  },
+  "shiinotic": {
+   "animations": [
+    [
+     "shiinotic",
+     "blink"
+    ],
+    [
+     "shiinotic",
+     "ground_idle"
+    ]
+   ],
+   "class": "ShiinoticModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "foot_left",
+    "foot_right",
+    "head",
+    "shiinotic"
+   ],
+   "root": "shiinotic"
+  },
+  "shinx": {
+   "animations": [
+    [
+     "shinx",
+     "ground_idle"
+    ]
+   ],
+   "class": "ShinxModel",
+   "parts": [
+    "back_leg_left",
+    "back_leg_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "shinx"
+   ],
+   "root": "shinx"
+  },
+  "shroomish": {
+   "animations": [
+    [
+     "shroomish",
+     "battle_idle"
+    ],
+    [
+     "shroomish",
+     "blink"
+    ],
+    [
+     "shroomish",
+     "cry"
+    ],
+    [
+     "shroomish",
+     "faint"
+    ],
+    [
+     "shroomish",
+     "ground_idle"
+    ],
+    [
+     "shroomish",
+     "ground_walk"
+    ],
+    [
+     "shroomish",
+     "sleep"
+    ]
+   ],
+   "class": "ShroomishModel",
+   "parts": [
+    "foot_left",
+    "foot_right",
+    "shroomish",
+    "torso"
+   ],
+   "root": "shroomish"
+  },
+  "shuckle": {
+   "animations": [
+    [
+     "ditto",
+     "blink"
+    ],
+    [
+     "shuckle",
+     "faint"
+    ],
+    [
+     "shuckle",
+     "ground_idle"
+    ],
+    [
+     "shuckle",
+     "ground_walk"
+    ],
+    [
+     "shuckle",
+     "sleep"
+    ]
+   ],
+   "class": "ShuckleModel",
+   "parts": [
+    "head",
+    "shuckle"
+   ],
+   "root": "shuckle"
+  },
+  "sirfetchd": {
+   "animations": [
+    [
+     "sirfetchd",
+     "blink"
+    ],
+    [
+     "sirfetchd",
+     "cry"
+    ],
+    [
+     "sirfetchd",
+     "ground_idle"
+    ],
+    [
+     "sirfetchd",
+     "quirk"
+    ]
+   ],
+   "class": "SirfetchdModel",
+   "parts": [
+    "head",
+    "leg_left",
+    "leg_right",
+    "sirfetchd"
+   ],
+   "root": "sirfetchd"
+  },
+  "sizzlipede": {
+   "animations": [
+    [
+     "sizzlipede",
+     "battle_idle"
+    ],
+    [
+     "sizzlipede",
+     "blink"
+    ],
+    [
+     "sizzlipede",
+     "cry"
+    ],
+    [
+     "sizzlipede",
+     "ground_idle"
+    ],
+    [
+     "sizzlipede",
+     "ground_walk"
+    ],
+    [
+     "sizzlipede",
+     "shoulder_left"
+    ],
+    [
+     "sizzlipede",
+     "shoulder_right"
+    ],
+    [
+     "sizzlipede",
+     "sleep"
+    ]
+   ],
+   "class": "SizzlipedeModel",
+   "parts": [
+    "head",
+    "sizzlipede"
+   ],
+   "root": "sizzlipede"
+  },
+  "skeledirge": {
+   "animations": [
+    [
+     "skeledirge",
+     "battle_idle"
+    ],
+    [
+     "skeledirge",
+     "blink"
+    ],
+    [
+     "skeledirge",
+     "cry"
+    ],
+    [
+     "skeledirge",
+     "ground_idle"
+    ],
+    [
+     "skeledirge",
+     "ground_walk"
+    ],
+    [
+     "skeledirge",
+     "sleep"
+    ]
+   ],
+   "class": "SkeledirgeModel",
+   "parts": [
+    "skeledirge"
+   ],
+   "root": "skeledirge"
+  },
+  "skrelp": {
+   "animations": [
+    [
+     "skrelp",
+     "blink"
+    ],
+    [
+     "skrelp",
+     "cry"
+    ],
+    [
+     "skrelp",
+     "water_idle"
+    ]
+   ],
+   "class": "SkrelpModel",
+   "parts": [
+    "head",
+    "skrelp"
+   ],
+   "root": "skrelp"
+  },
+  "slate_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "slugma": {
+   "animations": [
+    [
+     "slugma",
+     "blink"
+    ],
+    [
+     "slugma",
+     "ground_idle"
+    ],
+    [
+     "slugma",
+     "ground_walk"
+    ],
+    [
+     "slugma",
+     "sleep"
+    ]
+   ],
+   "class": "SlugmaModel",
+   "parts": [
+    "head",
+    "slugma"
+   ],
+   "root": "slugma"
+  },
+  "slugma_shiny": {
+   "animations": [
+    [
+     "slugma_shiny",
+     "blink"
+    ],
+    [
+     "slugma_shiny",
+     "ground_idle"
+    ],
+    [
+     "slugma_shiny",
+     "ground_walk"
+    ],
+    [
+     "slugma_shiny",
+     "sleep"
+    ]
+   ],
+   "class": "SlugmaShinyModel",
+   "parts": [
+    "head",
+    "slugma_shiny"
+   ],
+   "root": "slugma_shiny"
+  },
+  "snivy": {
+   "animations": [
+    [
+     "snivy",
+     "blink"
+    ],
+    [
+     "snivy",
+     "cry"
+    ],
+    [
+     "snivy",
+     "ground_idle"
+    ],
+    [
+     "snivy",
+     "ground_walk"
+    ],
+    [
+     "snivy",
+     "sleep"
+    ]
+   ],
+   "class": "SnivyModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head_ai",
+    "leg_left",
+    "leg_right",
+    "snivy"
+   ],
+   "root": "snivy"
+  },
+  "snubbull": {
+   "animations": [
+    [
+     "snubbull",
+     "battle_idle"
+    ],
+    [
+     "snubbull",
+     "cry"
+    ],
+    [
+     "snubbull",
+     "ground_idle"
+    ],
+    [
+     "snubbull",
+     "ground_walk"
+    ],
+    [
+     "snubbull",
+     "sleep"
+    ]
+   ],
+   "class": "SnubbullModel",
+   "parts": [
+    "head",
+    "left_arm",
+    "left_foot",
+    "right_arm",
+    "right_foot",
+    "snubbull"
+   ],
+   "root": "snubbull"
+  },
+  "spewpa": {
+   "animations": [
+    [
+     "spewpa",
+     "blink"
+    ],
+    [
+     "spewpa",
+     "cry"
+    ],
+    [
+     "spewpa",
+     "faint"
+    ],
+    [
+     "spewpa",
+     "ground_idle"
+    ],
+    [
+     "spewpa",
+     "ground_walk"
+    ],
+    [
+     "spewpa",
+     "quirk_fluff"
+    ],
+    [
+     "spewpa",
+     "sleep"
+    ]
+   ],
+   "class": "SpewpaModel",
+   "parts": [
+    "head",
+    "spewpa"
+   ],
+   "root": "spewpa"
+  },
+  "spiritomb": {
+   "animations": [
+    [
+     "spiritomb",
+     "ground_idle"
+    ]
+   ],
+   "class": "SpiritombModel",
+   "parts": [
+    "spiritomb"
+   ],
+   "root": "spiritomb"
+  },
+  "sport_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "squawkabilly": {
+   "animations": [
+    [
+     "squawkabilly",
+     "blink"
+    ],
+    [
+     "squawkabilly",
+     "cry"
+    ],
+    [
+     "squawkabilly",
+     "ground_idle"
+    ]
+   ],
+   "class": "SquawkabillyModel",
+   "parts": [
+    "head",
+    "leg_left",
+    "leg_right",
+    "squawkabilly",
+    "tail",
+    "wing_left",
+    "wing_right"
+   ],
+   "root": "squawkabilly"
+  },
+  "squirtle": {
+   "animations": [
+    [
+     "squirtle",
+     "battle_idle"
+    ],
+    [
+     "squirtle",
+     "blink"
+    ],
+    [
+     "squirtle",
+     "ground_idle"
+    ],
+    [
+     "squirtle",
+     "ground_walk"
+    ],
+    [
+     "squirtle",
+     "quirk_ground_idle"
+    ],
+    [
+     "squirtle",
+     "quirk_water"
+    ],
+    [
+     "squirtle",
+     "shoulder_left"
+    ],
+    [
+     "squirtle",
+     "shoulder_right"
+    ],
+    [
+     "squirtle",
+     "sleep"
+    ],
+    [
+     "squirtle",
+     "surfacewater_idle"
+    ],
+    [
+     "squirtle",
+     "surfacewater_swim"
+    ],
+    [
+     "squirtle",
+     "water_idle"
+    ],
+    [
+     "squirtle",
+     "water_swim"
+    ]
+   ],
+   "class": "SquirtleModel",
+   "parts": [
+    "head_ai",
+    "squirtle"
+   ],
+   "root": "squirtle"
+  },
+  "stantler": {
+   "animations": [
+    [
+     "stantler",
+     "blink"
+    ],
+    [
+     "stantler",
+     "cry"
+    ],
+    [
+     "stantler",
+     "ground_idle"
+    ],
+    [
+     "stantler",
+     "ground_walk"
+    ],
+    [
+     "stantler",
+     "sleep"
+    ]
+   ],
+   "class": "StantlerModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "stantler"
+   ],
+   "root": "stantler"
+  },
+  "steenee": {
+   "animations": [
+    [
+     "steenee",
+     "blink"
+    ],
+    [
+     "steenee",
+     "ground_idle"
+    ]
+   ],
+   "class": "SteeneeModel",
+   "parts": [
+    "arm_left1",
+    "arm_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "steenee"
+   ],
+   "root": "steenee"
+  },
+  "stoutland": {
+   "animations": [
+    [
+     "stoutland",
+     "blink"
+    ],
+    [
+     "stoutland",
+     "cry"
+    ],
+    [
+     "stoutland",
+     "ground_idle"
+    ]
+   ],
+   "class": "StoutlandModel",
+   "parts": [
+    "head",
+    "leg_back_left1",
+    "leg_back_right1",
+    "leg_front_left",
+    "leg_front_right",
+    "stoutland"
+   ],
+   "root": "stoutland"
+  },
+  "strange_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "stufful": {
+   "animations": [
+    [
+     "stufful",
+     "battle_idle"
+    ],
+    [
+     "stufful",
+     "blink"
+    ],
+    [
+     "stufful",
+     "cry"
+    ],
+    [
+     "stufful",
+     "faint"
+    ],
+    [
+     "stufful",
+     "ground_idle"
+    ],
+    [
+     "stufful",
+     "ground_walk"
+    ],
+    [
+     "stufful",
+     "sleep"
+    ]
+   ],
+   "class": "StuffulModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "stufful"
+   ],
+   "root": "stufful"
+  },
+  "sudowoodo": {
+   "animations": [
+    [
+     "sudowoodo",
+     "blink"
+    ],
+    [
+     "sudowoodo",
+     "ground_idle"
+    ]
+   ],
+   "class": "SudowoodoModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "sudowoodo"
+   ],
+   "root": "sudowoodo"
+  },
+  "surskit": {
+   "animations": [
+    [
+     "surskit",
+     "blink"
+    ],
+    [
+     "surskit",
+     "ground_idle"
+    ],
+    [
+     "surskit",
+     "ground_walk"
+    ]
+   ],
+   "class": "SurskitModel",
+   "parts": [
+    "head",
+    "surskit"
+   ],
+   "root": "surskit"
+  },
+  "swinub": {
+   "animations": [
+    [
+     "swinub",
+     "cry"
+    ],
+    [
+     "swinub",
+     "ground_idle"
+    ]
+   ],
+   "class": "SwinubModel",
+   "parts": [
+    "swinub"
+   ],
+   "root": "swinub"
+  },
+  "swoobat": {
+   "animations": [
+    [
+     "swoobat",
+     "air_fly"
+    ],
+    [
+     "swoobat",
+     "air_idle"
+    ],
+    [
+     "swoobat",
+     "cry"
+    ],
+    [
+     "swoobat",
+     "ground_idle"
+    ]
+   ],
+   "class": "SwoobatModel",
+   "parts": [
+    "head",
+    "left_wing",
+    "right_wing",
+    "swoobat"
+   ],
+   "root": "swoobat"
+  },
+  "tandemaus": {
+   "animations": [
+    [
+     "tandemaus",
+     "blink1"
+    ],
+    [
+     "tandemaus",
+     "blink2"
+    ],
+    [
+     "tandemaus",
+     "cry"
+    ],
+    [
+     "tandemaus",
+     "faint"
+    ],
+    [
+     "tandemaus",
+     "ground_idle"
+    ],
+    [
+     "tandemaus",
+     "ground_walk"
+    ]
+   ],
+   "class": "TandemausModel",
+   "parts": [
+    "head",
+    "head2",
+    "tandemaus"
+   ],
+   "root": "tandemaus"
+  },
+  "tangela": {
+   "animations": [
+    [
+     "tangela",
+     "cry"
+    ]
+   ],
+   "class": "TangelaModel",
+   "parts": [
+    "leftfoot",
+    "rightfoot",
+    "tangela"
+   ],
+   "root": "tangela"
+  },
+  "tangrowth": {
+   "animations": [
+    [
+     "tangrowth",
+     "blink"
+    ],
+    [
+     "tangrowth",
+     "cry"
+    ],
+    [
+     "tangrowth",
+     "ground_idle"
+    ]
+   ],
+   "class": "TangrowthModel",
+   "parts": [
+    "tangrowth"
+   ],
+   "root": "tangrowth"
+  },
+  "thwackey": {
+   "animations": [
+    [
+     "thwackey",
+     "blink"
+    ],
+    [
+     "thwackey",
+     "cry"
+    ],
+    [
+     "thwackey",
+     "ground_idle"
+    ],
+    [
+     "thwackey",
+     "ground_walk"
+    ]
+   ],
+   "class": "ThwackeyModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "hair_stick_left",
+    "hair_stick_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "stick_left",
+    "stick_right",
+    "thwackey"
+   ],
+   "root": "thwackey"
+  },
+  "timburr": {
+   "animations": [
+    [
+     "timburr",
+     "battle_idle"
+    ],
+    [
+     "timburr",
+     "blink"
+    ],
+    [
+     "timburr",
+     "cry"
+    ],
+    [
+     "timburr",
+     "faint"
+    ],
+    [
+     "timburr",
+     "ground_idle"
+    ],
+    [
+     "timburr",
+     "ground_walk"
+    ],
+    [
+     "timburr",
+     "idle_quirk"
+    ],
+    [
+     "timburr",
+     "sleep"
+    ]
+   ],
+   "class": "TimburrModel",
+   "parts": [
+    "head",
+    "leg_left",
+    "leg_right",
+    "timburr"
+   ],
+   "root": "timburr"
+  },
+  "timer_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "tirtouga": {
+   "animations": [
+    [
+     "tirtouga",
+     "blink"
+    ],
+    [
+     "tirtouga",
+     "cry"
+    ],
+    [
+     "tirtouga",
+     "ground_idle"
+    ],
+    [
+     "tirtouga",
+     "ground_walk"
+    ],
+    [
+     "tirtouga",
+     "sleep"
+    ],
+    [
+     "tirtouga",
+     "water_idle"
+    ],
+    [
+     "tirtouga",
+     "water_sleep"
+    ],
+    [
+     "tirtouga",
+     "water_swim"
+    ]
+   ],
+   "class": "TirtougaModel",
+   "parts": [
+    "head",
+    "tirtouga"
+   ],
+   "root": "tirtouga"
+  },
+  "torterra": {
+   "animations": [
+    [
+     "torterra",
+     "blink"
+    ],
+    [
+     "torterra",
+     "cry"
+    ],
+    [
+     "torterra",
+     "faint"
+    ],
+    [
+     "torterra",
+     "ground_idle"
+    ],
+    [
+     "torterra",
+     "ground_walk"
+    ],
+    [
+     "torterra",
+     "sleep"
+    ]
+   ],
+   "class": "TorterraModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "torterra"
+   ],
+   "root": "torterra"
+  },
+  "torterra_cherry": {
+   "animations": [
+    [
+     "torterra_cherry",
+     "blink"
+    ],
+    [
+     "torterra_cherry",
+     "cry"
+    ],
+    [
+     "torterra_cherry",
+     "faint"
+    ],
+    [
+     "torterra_cherry",
+     "ground_idle"
+    ],
+    [
+     "torterra_cherry",
+     "ground_walk"
+    ],
+    [
+     "torterra_cherry",
+     "sleep"
+    ]
+   ],
+   "class": "TorterraCherryModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "torterra"
+   ],
+   "root": "torterra"
+  },
+  "totodile": {
+   "animations": [
+    [
+     "totodile",
+     "battle_idle"
+    ],
+    [
+     "totodile",
+     "bitey_quirk"
+    ],
+    [
+     "totodile",
+     "blink"
+    ],
+    [
+     "totodile",
+     "cry"
+    ],
+    [
+     "totodile",
+     "faint"
+    ],
+    [
+     "totodile",
+     "ground_idle"
+    ],
+    [
+     "totodile",
+     "ground_walk"
+    ],
+    [
+     "totodile",
+     "shoulder_left"
+    ],
+    [
+     "totodile",
+     "shoulder_right"
+    ],
+    [
+     "totodile",
+     "sleep"
+    ],
+    [
+     "totodile",
+     "sleep_quirk"
+    ],
+    [
+     "totodile",
+     "surfacewater_idle"
+    ],
+    [
+     "totodile",
+     "surfacewater_swim"
+    ],
+    [
+     "totodile",
+     "water_idle"
+    ],
+    [
+     "totodile",
+     "water_sleep"
+    ],
+    [
+     "totodile",
+     "water_swim"
+    ]
+   ],
+   "class": "TotodileModel",
+   "parts": [
+    "head",
+    "leg_left",
+    "leg_right",
+    "totodile"
+   ],
+   "root": "totodile"
+  },
+  "tranquill": {
+   "animations": [
+    [
+     "tranquill",
+     "blink"
+    ],
+    [
+     "tranquill",
+     "cry"
+    ],
+    [
+     "tranquill",
+     "ground_idle"
+    ]
+   ],
+   "class": "TranquillModel",
+   "parts": [
+    "head_ai",
+    "leg_left",
+    "leg_right",
+    "tail",
+    "tranquill",
+    "wing_left",
+    "wing_right"
+   ],
+   "root": "tranquill"
+  },
+  "trapinch": {
+   "animations": [
+    [
+     "trapinch",
+     "blink"
+    ],
+    [
+     "trapinch",
+     "cry"
+    ],
+    [
+     "trapinch",
+     "ground_idle"
+    ]
+   ],
+   "class": "TrapinchModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "trapinch"
+   ],
+   "root": "trapinch"
+  },
+  "tsareena": {
+   "animations": [
+    [
+     "tsareena",
+     "blink"
+    ],
+    [
+     "tsareena",
+     "ground_idle"
+    ]
+   ],
+   "class": "TsareenaModel",
+   "parts": [
+    "head",
+    "leg_left",
+    "leg_right",
+    "tsareena"
+   ],
+   "root": "tsareena"
+  },
+  "turtwig": {
+   "animations": [
+    [
+     "turtwig",
+     "blink"
+    ],
+    [
+     "turtwig",
+     "cry"
+    ],
+    [
+     "turtwig",
+     "faint"
+    ],
+    [
+     "turtwig",
+     "ground_idle"
+    ],
+    [
+     "turtwig",
+     "ground_walk"
+    ],
+    [
+     "turtwig",
+     "shoulder_left"
+    ],
+    [
+     "turtwig",
+     "shoulder_right"
+    ],
+    [
+     "turtwig",
+     "sleep"
+    ]
+   ],
+   "class": "TurtwigModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "turtwig"
+   ],
+   "root": "turtwig"
+  },
+  "typhlosion": {
+   "animations": [
+    [
+     "typhlosion",
+     "battle_cry"
+    ],
+    [
+     "typhlosion",
+     "battle_idle"
+    ],
+    [
+     "typhlosion",
+     "blink"
+    ],
+    [
+     "typhlosion",
+     "cry"
+    ],
+    [
+     "typhlosion",
+     "ground_idle"
+    ],
+    [
+     "typhlosion",
+     "ground_walk"
+    ],
+    [
+     "typhlosion",
+     "sleep"
+    ]
+   ],
+   "class": "TyphlosionModel",
+   "parts": [
+    "head",
+    "typhlosion"
+   ],
+   "root": "typhlosion"
+  },
+  "typhlosion_hisuian": {
+   "animations": [
+    [
+     "typhlosion_hisuian",
+     "battle_cry"
+    ],
+    [
+     "typhlosion_hisuian",
+     "battle_idle"
+    ],
+    [
+     "typhlosion_hisuian",
+     "blink"
+    ],
+    [
+     "typhlosion_hisuian",
+     "cry"
+    ],
+    [
+     "typhlosion_hisuian",
+     "ground_idle"
+    ],
+    [
+     "typhlosion_hisuian",
+     "ground_walk"
+    ],
+    [
+     "typhlosion_hisuian",
+     "sleep"
+    ]
+   ],
+   "class": "TyphlosionHisuianModel",
+   "parts": [
+    "fire_main",
+    "fire_orb_left1",
+    "fire_orb_middle1",
+    "fire_orb_right1",
+    "head",
+    "typhlosion"
+   ],
+   "root": "typhlosion"
+  },
+  "tyrunt": {
+   "animations": [
+    [
+     "tyrunt",
+     "battle_idle"
+    ],
+    [
+     "tyrunt",
+     "blink"
+    ],
+    [
+     "tyrunt",
+     "cry"
+    ],
+    [
+     "tyrunt",
+     "ground_idle"
+    ],
+    [
+     "tyrunt",
+     "ground_walk"
+    ],
+    [
+     "tyrunt",
+     "sleep"
+    ]
+   ],
+   "class": "TyruntModel",
+   "parts": [
+    "head",
+    "tyrunt"
+   ],
+   "root": "tyrunt"
+  },
+  "ultra_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "unfezant": {
+   "animations": [
+    [
+     "unfezant",
+     "air_idle"
+    ],
+    [
+     "unfezant",
+     "blink"
+    ],
+    [
+     "unfezant",
+     "cry"
+    ],
+    [
+     "unfezant",
+     "ground_idle"
+    ]
+   ],
+   "class": "UnfezantModel",
+   "parts": [
+    "closed_left",
+    "closed_right",
+    "head_ai",
+    "leg_left",
+    "leg_right",
+    "open_left",
+    "open_right",
+    "unfezant",
+    "wing_left",
+    "wing_right"
+   ],
+   "root": "unfezant"
+  },
+  "venomoth": {
+   "animations": [
+    [
+     "venomoth",
+     "air_fly"
+    ],
+    [
+     "venomoth",
+     "air_idle"
+    ],
+    [
+     "venomoth",
+     "battle_idle"
+    ],
+    [
+     "venomoth",
+     "blink"
+    ],
+    [
+     "venomoth",
+     "cry"
+    ],
+    [
+     "venomoth",
+     "ground_idle"
+    ],
+    [
+     "venomoth",
+     "ground_walk"
+    ],
+    [
+     "venomoth",
+     "quirk1"
+    ],
+    [
+     "venomoth",
+     "quirk2"
+    ],
+    [
+     "venomoth",
+     "quirk_sleep"
+    ],
+    [
+     "venomoth",
+     "sleep"
+    ]
+   ],
+   "class": "VenomothModel",
+   "parts": [
+    "head",
+    "left_wings",
+    "right_wings",
+    "venomoth"
+   ],
+   "root": "venomoth"
+  },
+  "venonat": {
+   "animations": [
+    [
+     "venonat",
+     "battle_idle"
+    ],
+    [
+     "venonat",
+     "blink"
+    ],
+    [
+     "venonat",
+     "cry"
+    ],
+    [
+     "venonat",
+     "ground_idle"
+    ],
+    [
+     "venonat",
+     "ground_walk"
+    ],
+    [
+     "venonat",
+     "quirk1"
+    ],
+    [
+     "venonat",
+     "quirk2"
+    ],
+    [
+     "venonat",
+     "sleep"
+    ]
+   ],
+   "class": "VenonatModel",
+   "parts": [
+    "venonat"
+   ],
+   "root": "venonat"
+  },
+  "verdant_ball": {
+   "animations": [
+    [
+     "poke_ball",
+     "open"
+    ],
+    [
+     "poke_ball",
+     "open_idle"
+    ],
+    [
+     "poke_ball",
+     "shut"
+    ],
+    [
+     "poke_ball",
+     "shut_idle"
+    ],
+    [
+     "poke_ball",
+     "throw"
+    ]
+   ],
+   "class": "PokeBallModel",
+   "parts": [
+    "bottom",
+    "lid",
+    "poke_ball"
+   ],
+   "root": "poke_ball"
+  },
+  "vespiquen": {
+   "animations": [
+    [
+     "vespiquen",
+     "air_fly"
+    ],
+    [
+     "vespiquen",
+     "air_idle"
+    ],
+    [
+     "vespiquen",
+     "blink"
+    ],
+    [
+     "vespiquen",
+     "faint"
+    ],
+    [
+     "vespiquen",
+     "ground_idle"
+    ],
+    [
+     "vespiquen",
+     "sleep"
+    ],
+    [
+     "vespiquen",
+     "sleep_flap"
+    ]
+   ],
+   "class": "VespiquenModel",
+   "parts": [
+    "vespiquen"
+   ],
+   "root": "vespiquen"
+  },
+  "vibrava": {
+   "animations": [
+    [
+     "vibrava",
+     "blink"
+    ],
+    [
+     "vibrava",
+     "cry"
+    ],
+    [
+     "vibrava",
+     "ground_idle"
+    ]
+   ],
+   "class": "VibravaModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "vibrava",
+    "wing_back_left",
+    "wing_back_right",
+    "wing_front_left",
+    "wing_front_right"
+   ],
+   "root": "vibrava"
+  },
+  "vileplume": {
+   "animations": [
+    [
+     "vileplume",
+     "blink"
+    ],
+    [
+     "vileplume",
+     "cry"
+    ],
+    [
+     "vileplume",
+     "faint"
+    ],
+    [
+     "vileplume",
+     "ground_walk"
+    ],
+    [
+     "vileplume",
+     "idle"
+    ],
+    [
+     "vileplume",
+     "sleep"
+    ]
+   ],
+   "class": "VileplumeModel",
+   "parts": [
+    "vileplume"
+   ],
+   "root": "vileplume"
+  },
+  "vivillon": {
+   "animations": [
+    [
+     "vivillon",
+     "air_fly"
+    ],
+    [
+     "vivillon",
+     "air_idle"
+    ],
+    [
+     "vivillon",
+     "blink"
+    ],
+    [
+     "vivillon",
+     "cry"
+    ],
+    [
+     "vivillon",
+     "sleep"
+    ]
+   ],
+   "class": "VivillonModel",
+   "parts": [
+    "head",
+    "vivillon",
+    "wing_left",
+    "wing_right"
+   ],
+   "root": "vivillon"
+  },
+  "volbeat": {
+   "animations": [
+    [
+     "illumise",
+     "blink"
+    ],
+    [
+     "illumise",
+     "flicker_quirk"
+    ],
+    [
+     "volbeat",
+     "air_fly"
+    ],
+    [
+     "volbeat",
+     "air_idle"
+    ],
+    [
+     "volbeat",
+     "battle_idle"
+    ],
+    [
+     "volbeat",
+     "ground_idle"
+    ],
+    [
+     "volbeat",
+     "ground_walk"
+    ],
+    [
+     "volbeat",
+     "sleep"
+    ]
+   ],
+   "class": "VolbeatModel",
+   "parts": [
+    "head",
+    "left_leg",
+    "left_wing",
+    "right_leg",
+    "right_wing",
+    "volbeat"
+   ],
+   "root": "volbeat"
+  },
+  "voltorb": {
+   "animations": [
+    [
+     "voltorb",
+     "blink"
+    ],
+    [
+     "voltorb",
+     "cry"
+    ],
+    [
+     "voltorb",
+     "ground_idle"
+    ],
+    [
+     "voltorb",
+     "ground_walk"
+    ]
+   ],
+   "class": "VoltorbModel",
+   "parts": [
+    "voltorb"
+   ],
+   "root": "voltorb"
+  },
+  "voltorb_hisuian": {
+   "animations": [
+    [
+     "voltorb_hisuian",
+     "blink"
+    ],
+    [
+     "voltorb_hisuian",
+     "cry"
+    ],
+    [
+     "voltorb_hisuian",
+     "ground_idle"
+    ],
+    [
+     "voltorb_hisuian",
+     "ground_walk"
+    ]
+   ],
+   "class": "VoltorbHisuianModel",
+   "parts": [
+    "voltorb_hisuian"
+   ],
+   "root": "voltorb_hisuian"
+  },
+  "walkingwake": {
+   "animations": [
+    [
+     "walkingwake",
+     "blink"
+    ],
+    [
+     "walkingwake",
+     "faint"
+    ],
+    [
+     "walkingwake",
+     "ground_idle"
+    ],
+    [
+     "walkingwake",
+     "ground_walk"
+    ],
+    [
+     "walkingwake",
+     "sleep"
+    ]
+   ],
+   "class": "WalkingwakeModel",
+   "parts": [
+    "hair",
+    "head",
+    "leg_left",
+    "leg_right",
+    "walkingwake"
+   ],
+   "root": "walkingwake"
+  },
+  "wartortle": {
+   "animations": [
+    [
+     "wartortle",
+     "battle_idle"
+    ],
+    [
+     "wartortle",
+     "blink"
+    ],
+    [
+     "wartortle",
+     "ground_idle"
+    ],
+    [
+     "wartortle",
+     "ground_walk"
+    ],
+    [
+     "wartortle",
+     "quirk_idle"
+    ],
+    [
+     "wartortle",
+     "sleep"
+    ],
+    [
+     "wartortle",
+     "surfacewater_idle"
+    ],
+    [
+     "wartortle",
+     "surfacewater_swim"
+    ],
+    [
+     "wartortle",
+     "water_idle"
+    ],
+    [
+     "wartortle",
+     "water_swim"
+    ]
+   ],
+   "class": "WartortleModel",
+   "parts": [
+    "head_ai",
+    "wartortle"
+   ],
+   "root": "wartortle"
+  },
+  "watchog": {
+   "animations": [
+    [
+     "watchog",
+     "blink"
+    ],
+    [
+     "watchog",
+     "cry"
+    ],
+    [
+     "watchog",
+     "ground_idle"
+    ],
+    [
+     "watchog",
+     "ground_walk"
+    ],
+    [
+     "watchog",
+     "sleep"
+    ]
+   ],
+   "class": "WatchogModel",
+   "parts": [
+    "head",
+    "watchog"
+   ],
+   "root": "watchog"
+  },
+  "weedle": {
+   "animations": [
+    [
+     "weedle",
+     "blink"
+    ],
+    [
+     "weedle",
+     "cry"
+    ],
+    [
+     "weedle",
+     "faint"
+    ],
+    [
+     "weedle",
+     "ground_idle"
+    ],
+    [
+     "weedle",
+     "ground_idle2"
+    ],
+    [
+     "weedle",
+     "ground_walk"
+    ],
+    [
+     "weedle",
+     "sleep"
+    ]
+   ],
+   "class": "WeedleModel",
+   "parts": [
+    "head",
+    "weedle"
+   ],
+   "root": "weedle"
+  },
+  "whiscash": {
+   "animations": [
+    [
+     "whiscash",
+     "cry"
+    ],
+    [
+     "whiscash",
+     "water_idle"
+    ]
+   ],
+   "class": "WhiscashModel",
+   "parts": [
+    "whiscash"
+   ],
+   "root": "whiscash"
+  },
+  "whismur": {
+   "animations": [
+    [
+     "whismur",
+     "ground_idle"
+    ]
+   ],
+   "class": "WhismurModel",
+   "parts": [
+    "foot_left",
+    "foot_right",
+    "torso",
+    "whismur"
+   ],
+   "root": "whismur"
+  },
+  "wimpod": {
+   "animations": [
+    [
+     "wimpod",
+     "blink"
+    ],
+    [
+     "wimpod",
+     "cry"
+    ],
+    [
+     "wimpod",
+     "faint"
+    ],
+    [
+     "wimpod",
+     "ground_idle"
+    ],
+    [
+     "wimpod",
+     "ground_walk"
+    ],
+    [
+     "wimpod",
+     "sleep"
+    ],
+    [
+     "wimpod",
+     "twitch_quirk_left"
+    ],
+    [
+     "wimpod",
+     "twitch_quirk_right"
+    ],
+    [
+     "wimpod",
+     "water_idle"
+    ],
+    [
+     "wimpod",
+     "water_swim"
+    ]
+   ],
+   "class": "WimpodModel",
+   "parts": [
+    "head",
+    "leg_left",
+    "leg_right",
+    "wimpod"
+   ],
+   "root": "wimpod"
+  },
+  "wingull": {
+   "animations": [
+    [
+     "pelipper",
+     "air_fly"
+    ],
+    [
+     "pelipper",
+     "air_idle"
+    ],
+    [
+     "wingull",
+     "blink"
+    ],
+    [
+     "wingull",
+     "ground_idle"
+    ],
+    [
+     "wingull",
+     "ground_walk"
+    ],
+    [
+     "wingull",
+     "sleep"
+    ],
+    [
+     "wingull",
+     "surfacewater_idle"
+    ],
+    [
+     "wingull",
+     "surfacewater_sleep"
+    ],
+    [
+     "wingull",
+     "surfacewater_swim"
+    ]
+   ],
+   "class": "WingullModel",
+   "parts": [
+    "foot_left",
+    "foot_right",
+    "wing_left",
+    "wing_right",
+    "wingull"
+   ],
+   "root": "wingull"
+  },
+  "wishiwashi_schooling": {
+   "animations": [
+    [
+     "wishiwashi_school",
+     "water_idle"
+    ],
+    [
+     "wishiwashi_school",
+     "water_sleep"
+    ],
+    [
+     "wishiwashi_school",
+     "water_swim"
+    ]
+   ],
+   "class": "WishiwashiSchoolingModel",
+   "parts": [
+    "wishiwashi_school"
+   ],
+   "root": "wishiwashi_school"
+  },
+  "wishiwashi_solo": {
+   "animations": [
+    [
+     "wishiwashi_solo",
+     "blink"
+    ],
+    [
+     "wishiwashi_solo",
+     "ground_idle"
+    ],
+    [
+     "wishiwashi_solo",
+     "ground_walk"
+    ],
+    [
+     "wishiwashi_solo",
+     "water_idle"
+    ],
+    [
+     "wishiwashi_solo",
+     "water_sleep"
+    ],
+    [
+     "wishiwashi_solo",
+     "water_swim"
+    ]
+   ],
+   "class": "WishiwashiSoloModel",
+   "parts": [
+    "wishiwashi_solo"
+   ],
+   "root": "wishiwashi_solo"
+  },
+  "woobat": {
+   "animations": [
+    [
+     "woobat",
+     "air_fly"
+    ],
+    [
+     "woobat",
+     "air_idle"
+    ],
+    [
+     "woobat",
+     "cry"
+    ]
+   ],
+   "class": "WoobatModel",
+   "parts": [
+    "left_wing",
+    "right_wing",
+    "woobat"
+   ],
+   "root": "woobat"
+  },
+  "wooloo": {
+   "animations": [
+    [
+     "wooloo",
+     "blink"
+    ],
+    [
+     "wooloo",
+     "cry"
+    ],
+    [
+     "wooloo",
+     "ground_idle"
+    ],
+    [
+     "wooloo",
+     "ground_walk"
+    ]
+   ],
+   "class": "WoolooModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "wool_shearable",
+    "wooloo"
+   ],
+   "root": "wooloo"
+  },
+  "wooper": {
+   "animations": [
+    [
+     "wooper",
+     "blink"
+    ],
+    [
+     "wooper",
+     "cry"
+    ],
+    [
+     "wooper",
+     "faint"
+    ],
+    [
+     "wooper",
+     "ground_idle"
+    ],
+    [
+     "wooper",
+     "ground_walk"
+    ],
+    [
+     "wooper",
+     "sleep"
+    ],
+    [
+     "wooper",
+     "water_idle"
+    ],
+    [
+     "wooper",
+     "water_swim"
+    ]
+   ],
+   "class": "WooperModel",
+   "parts": [
+    "head",
+    "wooper"
+   ],
+   "root": "wooper"
+  },
+  "wooper_paldean": {
+   "animations": [
+    [
+     "wooper_paldean",
+     "blink"
+    ],
+    [
+     "wooper_paldean",
+     "cry"
+    ],
+    [
+     "wooper_paldean",
+     "faint"
+    ],
+    [
+     "wooper_paldean",
+     "ground_idle"
+    ],
+    [
+     "wooper_paldean",
+     "ground_walk"
+    ],
+    [
+     "wooper_paldean",
+     "sleep"
+    ],
+    [
+     "wooper_paldean",
+     "water_idle"
+    ],
+    [
+     "wooper_paldean",
+     "water_swim"
+    ]
+   ],
+   "class": "WooperPaldeanModel",
+   "parts": [
+    "head",
+    "wooper"
+   ],
+   "root": "wooper"
+  },
+  "xatu": {
+   "animations": [
+    [
+     "xatu",
+     "air_idle"
+    ],
+    [
+     "xatu",
+     "blink"
+    ],
+    [
+     "xatu",
+     "ground_idle"
+    ],
+    [
+     "xatu",
+     "sleep"
+    ]
+   ],
+   "class": "XatuModel",
+   "parts": [
+    "head",
+    "wing_open_left",
+    "wing_open_right",
+    "xatu"
+   ],
+   "root": "xatu"
+  },
+  "xerneas": {
+   "animations": [
+    [
+     "xerneas",
+     "ground_idle"
+    ],
+    [
+     "xerneas",
+     "ground_walk"
+    ]
+   ],
+   "class": "XerneasModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "xerneas"
+   ],
+   "root": "xerneas"
+  },
+  "yamper": {
+   "animations": [
+    [
+     "yamper",
+     "blink"
+    ],
+    [
+     "yamper",
+     "cry"
+    ],
+    [
+     "yamper",
+     "ground_idle"
+    ]
+   ],
+   "class": "YamperModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "yamper"
+   ],
+   "root": "yamper"
+  },
+  "yanma": {
+   "animations": [
+    [
+     "yanma",
+     "cry"
+    ],
+    [
+     "yanma",
+     "ground_idle"
+    ]
+   ],
+   "class": "YanmaModel",
+   "parts": [
+    "head",
+    "wing_left1",
+    "wing_left2",
+    "wing_right1",
+    "wing_right2",
+    "yanma"
+   ],
+   "root": "yanma"
+  },
+  "yanmega": {
+   "animations": [
+    [
+     "yanmega",
+     "air_idle"
+    ],
+    [
+     "yanmega",
+     "cry"
+    ],
+    [
+     "yanmega",
+     "ground_idle"
+    ]
+   ],
+   "class": "YanmegaModel",
+   "parts": [
+    "head",
+    "wing_left1",
+    "wing_left2",
+    "wing_right1",
+    "wing_right2",
+    "yanmega"
+   ],
+   "root": "yanmega"
+  },
+  "zigzagoon": {
+   "animations": [
+    [
+     "zigzagoon",
+     "battle_idle"
+    ],
+    [
+     "zigzagoon",
+     "blink"
+    ],
+    [
+     "zigzagoon",
+     "faint"
+    ],
+    [
+     "zigzagoon",
+     "ground_idle"
+    ],
+    [
+     "zigzagoon",
+     "ground_walk"
+    ],
+    [
+     "zigzagoon",
+     "shoulder_left"
+    ],
+    [
+     "zigzagoon",
+     "shoulder_right"
+    ],
+    [
+     "zigzagoon",
+     "sleep"
+    ]
+   ],
+   "class": "ZigzagoonModel",
+   "parts": [
+    "head",
+    "zigzagoon"
+   ],
+   "root": "zigzagoon"
+  },
+  "zigzagoon_galarian": {
+   "animations": [
+    [
+     "zigzagoon",
+     "shoulder_left"
+    ],
+    [
+     "zigzagoon",
+     "shoulder_right"
+    ],
+    [
+     "zigzagoon_galarian",
+     "blink"
+    ],
+    [
+     "zigzagoon_galarian",
+     "ground_idle"
+    ]
+   ],
+   "class": "ZigzagoonGalarianModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "zigzagoon_galarian"
+   ],
+   "root": "zigzagoon_galarian"
+  },
+  "zoroark": {
+   "animations": [
+    [
+     "zoroark",
+     "cry"
+    ],
+    [
+     "zoroark",
+     "ground_idle"
+    ],
+    [
+     "zoroark",
+     "ground_walk"
+    ]
+   ],
+   "class": "ZoroarkModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "zoroark"
+   ],
+   "root": "zoroark"
+  },
+  "zoroark_hisuian": {
+   "animations": [
+    [
+     "zoroark_hisuian",
+     "cry"
+    ],
+    [
+     "zoroark_hisuian",
+     "ground_idle"
+    ],
+    [
+     "zoroark_hisuian",
+     "ground_walk"
+    ],
+    [
+     "zoroark_hisuian",
+     "hair_setup"
+    ],
+    [
+     "zoroark_hisuian",
+     "portrait"
+    ]
+   ],
+   "class": "ZoroarkHisuianModel",
+   "parts": [
+    "arm_left",
+    "arm_right",
+    "head",
+    "leg_left",
+    "leg_right",
+    "zoroark"
+   ],
+   "root": "zoroark"
+  },
+  "zorua": {
+   "animations": [
+    [
+     "zorua",
+     "blink"
+    ],
+    [
+     "zorua",
+     "cry"
+    ],
+    [
+     "zorua",
+     "ground_idle"
+    ]
+   ],
+   "class": "ZoruaModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "zorua"
+   ],
+   "root": "zorua"
+  },
+  "zorua_hisuian": {
+   "animations": [
+    [
+     "zorua_hisuian",
+     "blink"
+    ],
+    [
+     "zorua_hisuian",
+     "cry"
+    ],
+    [
+     "zorua_hisuian",
+     "ground_idle"
+    ]
+   ],
+   "class": "ZoruaHisuianModel",
+   "parts": [
+    "head",
+    "leg_back_left",
+    "leg_back_right",
+    "leg_front_left",
+    "leg_front_right",
+    "zorua"
+   ],
+   "root": "zorua"
+  }
+ }
+}
