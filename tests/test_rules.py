@@ -138,12 +138,23 @@ class RuleTest(unittest.TestCase):
     def test_c001_root_bone_itself_is_not_a_part(self) -> None:
         """A JSON poser registers the root only as `__root`, never by its own
         name (JsonModelAdapter.kt:31) - a real source of surprise crashes."""
+        pack = {
+            fx.a("cobblemon", "bedrock/pokemon/posers/0001_nully/nully.json"): fx.poser(
+                {"standing": fx.pose(["STAND"], transformed=["nully"])}
+            )
+        }
+        result = self.run_lint(fx.minimal_jar(), pack)
+        self.assertIn("PL-C001", self.rules(result))
+
+    def test_a_fault_the_pack_did_not_cause_is_not_reported(self) -> None:
+        """The jar's own poser naming a bone the jar's own model lacks is
+        Cobblemon's business, not a pack operator's."""
         jar = fx.minimal_jar()
         jar[fx.a("cobblemon", "bedrock/pokemon/posers/0001_nully/nully.json")] = fx.poser(
             {"standing": fx.pose(["STAND"], transformed=["nully"])}
         )
         result = self.run_lint(jar, {"pack.mcmeta": "{}"})
-        self.assertIn("PL-C001", self.rules(result))
+        self.assertNotIn("PL-C001", self.rules(result))
 
     def test_c002_builtin_root_bone_missing(self) -> None:
         """Tonight's zoroark crash: the pack geo kept the 1.7.3 root-bone name,

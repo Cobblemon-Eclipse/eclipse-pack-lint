@@ -148,6 +148,12 @@ def cmd_validate(args: argparse.Namespace) -> int:
         with open(args.fix_manifest, "w", encoding="utf-8") as fh:
             json.dump(manifest, fh, indent=2)
         print(f"wrote {args.fix_manifest} ({len(manifest['delete'])} deletions proposed)")
+        if "RESIDUE" in severities:
+            print(
+                "  NOTE: residue deletions are suggestions, not a safe bulk apply.\n"
+                "  Deleting our copy restores the jar's, which may not satisfy a poser or\n"
+                "  resolver we still ship. Apply in slices and re-lint after each one."
+            )
 
     counts = result.counts()
     if result.blocking:
@@ -182,9 +188,14 @@ def cmd_fix(args: argparse.Namespace) -> int:
     print(f"  replaced {len(outcome['replaced'])}")
     print(f"  added    {len(outcome['added'])}")
     if outcome["delete_not_found"]:
-        print(f"  NOT FOUND (manifest lists, pack does not contain):")
+        print("  NOT FOUND (manifest lists, pack does not contain):")
         for path in outcome["delete_not_found"]:
             print(f"    {path}")
+    print(
+        "\nRe-lint the result before shipping it - a deletion can restore a jar asset\n"
+        "that does not satisfy a poser or resolver the pack still carries:\n"
+        f"  python -m packlint validate --jar <cobblemon.jar> --pack {outcome['out']}"
+    )
     return 0
 
 

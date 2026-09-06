@@ -156,17 +156,19 @@ class Validator:
         cached = self._jar_geo_cache[key]
         return cached if isinstance(cached, GeoModel) else None
 
-    def vanilla_also_broken(
-        self, species: str, poser: str, model_key: str, bone: str
-    ) -> bool:
-        """True when this exact fault exists in the jar with no pack involved.
+    def vanilla_pair(self, species: str, poser: str, model_key: str) -> bool:
+        """True when the pack contributed nothing to this pairing.
 
-        All three of these must hold, or the pack is implicated and we report:
-        the jar alone produces the same (species, poser, model) pairing; the
-        winning poser file is the jar's; and the winning model file is the
-        jar's. If the pack supplied either side, the pairing is ours to answer
-        for even when the jar's own geo happens to lack the bone - that is the
-        rapidash case.
+        All three must hold: the jar alone produces the same
+        (species, poser, model) triple, the winning poser file is the jar's, and
+        the winning model file is the jar's. If the pack supplied any side, the
+        pairing is ours to answer for even when the jar's own geo happens to
+        lack the bone - that is the rapidash case, where the pack's resolver is
+        what points RapidashModel at the jar's rapidash_galar.geo.
+
+        Bone findings on a fully-vanilla pairing are not actionable by a pack
+        operator (and are more likely to be our Kotlin extraction being wrong
+        than a real Cobblemon bug), so they are suppressed.
         """
         if (species, poser, model_key) not in self.jar_pairs:
             return False
@@ -175,6 +177,14 @@ class Validator:
             return False
         model_asset = self.repo.models.get(model_key)
         if model_asset is not None and model_asset.entry.from_pack:
+            return False
+        return True
+
+    def vanilla_also_broken(
+        self, species: str, poser: str, model_key: str, bone: str
+    ) -> bool:
+        """`vanilla_pair`, and the jar's own geo really is missing the bone."""
+        if not self.vanilla_pair(species, poser, model_key):
             return False
         jar_geo = self.jar_geo_for_key(model_key)
         if jar_geo is None:
@@ -587,7 +597,14 @@ class Validator:
         where = f"{species} [poser cobblemon:{poser_name} + model {model_key}]"
 
         poser_key = f"cobblemon:{poser_name}"
-        if root:
+        # Bone checks only make sense when the pack is implicated in the
+        # pairing. The animation checks below run either way: an animation group
+        # can be shadowed away even on a pairing the pack never touched, which
+        # is exactly the V36 Gliscor and tonight's Decidueye.
+        vanilla = self.vanilla_pair(species, poser_key, model_key)
+        if vanilla:
+            parts = geo.all_bones()
+        elif root:
             parts = geo.builtin_parts(root)
             if parts is None:
                 if self.vanilla_also_broken(species, poser_key, model_key, root):
@@ -622,15 +639,8 @@ class Validator:
         else:
             parts = geo.all_bones()
 
-        for bone in sorted(spec.get("parts") or []):
+        for bone in sorted([] if vanilla else (spec.get("parts") or [])):
             if bone in parts:
-                continue
-            if self.vanilla_also_broken(species, poser_key, model_key, bone):
-                self.suppress(
-                    F.BUILTIN_PART_MISSING,
-                    f"{where} bone `{bone}`",
-                    "the jar alone produces this same pairing and lacks the bone too",
-                )
                 continue
             self.emit(
                 F.BUILTIN_PART_MISSING,
@@ -700,6 +710,11 @@ class Validator:
         declared_root = body.get("rootBone") if isinstance(body.get("rootBone"), str) else None
         root = geo.json_poser_root(stem, declared_root)
         where = f"{species} [poser {poser_key} + model {model_key}]"
+        # A pairing the pack did not touch is Cobblemon's own business; a pack
+        # operator cannot act on it and it is more likely our extraction being
+        # wrong than a real Cobblemon bug.
+        if self.vanilla_pair(species, poser_key, model_key):
+            return
 
         if root is None:
             self.emit(

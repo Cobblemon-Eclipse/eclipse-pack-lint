@@ -125,6 +125,14 @@ python -m packlint fix --pack resource_pack.zip --manifest fix.json --out cleane
 python -m packlint validate --jar <cobblemon.jar> --pack cleaned.zip
 ```
 
+> **A residue manifest is a suggestion list, not a safe bulk apply.** Deleting
+> our copy of an asset restores the jar's copy, and the jar's copy may not
+> satisfy a poser or resolver we still ship. Applying all 599 residue deletions
+> to V38e at once took it from 5 crashes to 18. Delete in slices, re-lint after
+> each slice, and keep only the slices that lower the crash count. The
+> `PL-W005` (junk), `PL-W006` (`data/`) and `PL-W009` (inert - the file never
+> loads at all) deletions are the ones that are safe wholesale.
+
 Lint the *unsquashed* pack. PackSquash rewrites JSON, and a squashed pack is
 harder to map back to a source include.
 
