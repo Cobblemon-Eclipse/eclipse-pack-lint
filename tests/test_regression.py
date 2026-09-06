@@ -26,6 +26,21 @@ from packlint.sources import ROLE_JAR, ROLE_PACK, EffectiveView, ZipSource  # no
 
 JAR = os.environ.get("PACKLINT_JAR")
 PACK = os.environ.get("PACKLINT_PACK")
+#: Optional: the two earlier packs from the same night. Each one was live for a
+#: different crash report, so linting them proves the tool reproduces a crash it
+#: was not written against.
+PACK_V38C = os.environ.get("PACKLINT_PACK_V38C")
+PACK_ORIGINAL = os.environ.get("PACKLINT_PACK_ORIGINAL")
+
+
+def _lint(jar: str, pack: str) -> validate.Result:
+    view = EffectiveView([ZipSource(jar, ROLE_JAR), ZipSource(pack, ROLE_PACK)])
+    try:
+        return validate.validate(
+            view, ownership.load(None), builtin_table=builtin.load_builtin("1.8.0")
+        )
+    finally:
+        view.close()
 
 #: Findings that MUST appear when V38d is linted against the 1.8.0 jar.
 #: Each is (rule, a substring that must appear in the finding's message).
@@ -57,15 +72,7 @@ EXPECTED = [
 class V38dRegressionTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        view = EffectiveView([ZipSource(JAR, ROLE_JAR), ZipSource(PACK, ROLE_PACK)])
-        try:
-            cls.result = validate.validate(
-                view,
-                ownership.load(None),
-                builtin_table=builtin.load_builtin("1.8.0"),
-            )
-        finally:
-            view.close()
+        cls.result = _lint(JAR, PACK)
 
     def test_every_known_fault_is_reported(self) -> None:
         for rule, needle in EXPECTED:
@@ -89,6 +96,61 @@ class V38dRegressionTest(unittest.TestCase):
         self.assertGreater(stats["resolvers"], 1000)
         self.assertGreater(stats["animation_groups"], 1000)
         self.assertGreater(stats["builtin_posers"], 300)
+
+
+@unittest.skipUnless(
+    JAR and PACK_V38C and os.path.isfile(JAR or "") and os.path.isfile(PACK_V38C or ""),
+    "set PACKLINT_PACK_V38C to run the V38c regression",
+)
+class V38cRegressionTest(unittest.TestCase):
+    """V38c was live for crash-2026-09-05_21.15.07.
+
+    `java.util.NoSuchElementException: Can't find part zoroark` from
+    ZoroarkHisuianModel's constructor: the pack's gilded_zoroark_hisuian.geo
+    still carried the 1.7.3-era root bone name `zoroark_hisuian`, and 1.8's
+    Kotlin model asks for `zoroark`.
+    """
+
+    def test_zoroark_root_bone_crash_is_reported(self) -> None:
+        result = _lint(JAR, PACK_V38C)
+        hits = [
+            f
+            for f in result.findings
+            if f.rule == "PL-C002"
+            and f.detail.get("missing_bone") == "zoroark"
+            and "zoroark_hisuian" in f.detail.get("model", "")
+        ]
+        self.assertTrue(hits, "the V38c zoroark root-bone crash was not reported")
+
+
+@unittest.skipUnless(
+    JAR
+    and PACK_ORIGINAL
+    and os.path.isfile(JAR or "")
+    and os.path.isfile(PACK_ORIGINAL or ""),
+    "set PACKLINT_PACK_ORIGINAL to run the first-pack regression",
+)
+class OriginalPackRegressionTest(unittest.TestCase):
+    """The first 1.8 pack was live for crash-2026-09-05_20.25.27 / 20.30.56.
+
+    `UninitializedPropertyAccessException: lateinit property repository has not
+    been initialized` - the cascade of a dangling `cobblemon:bulbasaur.geo`
+    reference (1.8 gender-split bulbasaur into bulbasaur_male/female.geo), which
+    aborts registerVariations for every species after it.
+    """
+
+    def test_dangling_bulbasaur_model_is_fatal_and_cascades(self) -> None:
+        result = _lint(JAR, PACK_ORIGINAL)
+        fatal = [
+            f
+            for f in result.findings
+            if f.rule == "PL-F001" and f.detail.get("model") == "cobblemon:bulbasaur.geo"
+        ]
+        self.assertTrue(fatal, "the dangling bulbasaur.geo reference was not reported")
+        self.assertTrue(
+            [f for f in result.findings if f.rule == "PL-C007"],
+            "the uninitialised-repository cascade was not reported",
+        )
 
 
 if __name__ == "__main__":
